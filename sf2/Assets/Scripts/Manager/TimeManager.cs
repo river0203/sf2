@@ -17,14 +17,14 @@ namespace PIC
         {
             CurrentTime = (int)MaxTime;
         }
+
         private void Update()
         {
             MaxTime -= Time.deltaTime;
             CurrentTime = (int)MaxTime;
             first_time = CurrentTime / 10;
             last_time = CurrentTime % 10;
-            Debug.Log(first_time);
-            Debug.Log(last_time);
+            Debug.Log($"{first_time}{last_time}");
         }    
     }
 }
