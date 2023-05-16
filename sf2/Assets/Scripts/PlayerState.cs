@@ -8,21 +8,17 @@ public class PlayerState
     public Action<bool> HpType;
     [SerializeField]
     float hp  = 100.0f;
+    
 
-    private void Update() 
-    {
-        player_hp();    
-    }
-
-    private void player_hp()
+    void player_hp(bool hp_check)
     {
         if(hp == 0.0f)
         {
-            HpType = false;
+            hp_check = false;
         }
         else if(hp != 0.0f)
         {
-            HpType = true;
+            hp_check = true;
         }
     }
 

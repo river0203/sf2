@@ -6,7 +6,7 @@ using System;
 public class InputManager
 {
     public Action<bool> ButtonType_check;
-    bool a;
+    //bool a;
     
     //key 입력을 bool 값으로 확인
     //확인된 정보를 다른 UI, character로 제공

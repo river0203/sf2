@@ -6,11 +6,13 @@ using UnityEngine.SceneManagement;
 
 public class TimeManager : MonoBehaviour
 {
+    public static bool TimeType = true; //?
     [SerializeField]
-    public float MaxTime = 60;
+    float MaxTime = 60;
     int first_time = 0;
     int last_time = 0;
     int CurrentTime = 0;
+    
     
     private void Start()
     {
@@ -24,9 +26,21 @@ public class TimeManager : MonoBehaviour
         last_time = CurrentTime % 10;
         Debug.Log(first_time);
         Debug.Log(last_time);
+
+        check_timeOut();
+    }    
+
+    void check_timeOut() //시간이 초과 되거나 시작 되지 않았을 때 false로 설정하여 움직임 차단
+    {
         if(CurrentTime > MaxTime)
         {
-            
+            TimeType = false;
+            Debug.Log($"{TimeType}");
         }
-    }    
+        else if(CurrentTime == 0)
+        {
+            TimeType = false;
+            Debug.Log($"{TimeType}");
+        }
+    }
 }
