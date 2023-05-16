@@ -8,6 +8,11 @@ public class Blinking: MonoBehaviour
 
     void Update()
     {
+        Blink();
+    }
+    
+    void Blink()
+    {
         if(time < 0.5f)
         {
             GetComponent<SpriteRenderer>().color=new Color(1,1,1,1-time);
@@ -21,6 +26,5 @@ public class Blinking: MonoBehaviour
             }
         }
         time+=Time.deltaTime;
-        
     }
 }
