@@ -37,7 +37,7 @@ public class PlayerControll : MonoBehaviour
         // if bool 값을 time에서 불러옴
         if (TimeManager.TimeType == false)
         {
-            maxSpeed = 0.0f;
+            maxSpeed = 0.0f; //다음 라운드에서는 true로 전환되어 움직일 수 있는 코드 필요
             Debug.Log("player stop");
         }
 
