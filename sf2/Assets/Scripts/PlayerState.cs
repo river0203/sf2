@@ -3,32 +3,27 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-public class PlayerHP 
+public class PlayerState
 {
-    public Action<bool> HpState;
+    public Action<bool> HpType;
     [SerializeField]
     float hp  = 100.0f;
 
+    private void Update() 
+    {
+        player_hp();    
+    }
+
     private void player_hp()
     {
-        if(player_hp == 0.0f)
+        if(hp == 0.0f)
         {
             HpType = false;
         }
-        else if(player_hp != 0.0f)
+        else if(hp != 0.0f)
         {
             HpType = true;
         }
     }
-
-    private void Start() 
-    {
-        HpState += HpType;
-    }
-    private void Update() 
-    {
-        
-    }
-
 
 }

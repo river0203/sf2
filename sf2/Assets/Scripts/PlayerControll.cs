@@ -3,20 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-// 좌표를 통한 캐릭터 이동
-// 조건이 되었을 때 행동 차단 시간, HP
-public class PlayerMovement : MonoBehaviour 
+//player에 필요한 요소 관리, 통로 같은 역할
+public class PlayerControll : MonoBehaviour
 {
     [SerializeField]
     float maxSpeed = 5f;
     float moveX, moveY;
-    
+    bool checkHp;
+
     private void Update() 
     {
-        player_move();
-        player_Nmove();
-    }
+        PlayerMovement.player_move();
+        PlayerMovement.player_Nmove();
 
+        if(HpType.Invoke(false))
+            return;
+    }
     private void player_move()
     {
         moveX = Input.GetAxis("Horizontal") * maxSpeed * Time.deltaTime;
@@ -34,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
             Debug.Log("player stop");
         }
 
-        else if(/*hp == 0*/)
+        else if(/*HpState == true*/)
         {
             maxSpeed = 0.0f;
             Debug.Log("player stop");

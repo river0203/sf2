@@ -3,24 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-public class InputManager : MonoBehaviour
+public class InputManager
 {
-    public Action PressButtonCheck;
+    public Action<bool> ButtonType_check;
+    bool a;
     //key 입력을 bool 값으로 확인
     //확인된 정보를 다른 UI, character로 제공
-    
     static void PressButton(bool ButtonKey) //Action 구현
     {
         if(Input.anyKeyDown)
         {
-            Debug.Log("user press anykey");
             ButtonKey = true;
+            Debug.Log("user press anykey");
         }
     }
 
-    private void Awake() 
+    private void Update() 
     {
-        PressButtonCheck += PressButton;
+        ButtonType_check.Invoke(true);
     }
-
 }
