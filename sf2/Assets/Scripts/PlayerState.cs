@@ -5,20 +5,23 @@ using System;
 
 public class PlayerState
 {
-    public Action<bool> HpType;
-    [SerializeField]
-    float hp  = 100.0f;
-    
+    static public bool HpType;
+    static float hp  = 100.0f;
 
-    void player_hp(bool hp_check)
+    private void Update() 
+    {
+        player_hp();
+    }
+    
+    public static void player_hp()
     {
         if(hp == 0.0f)
         {
-            hp_check = false;
+            HpType = false;
         }
         else if(hp != 0.0f)
         {
-            hp_check = true;
+            HpType = true;
         }
     }
 

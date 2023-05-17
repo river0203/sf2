@@ -6,15 +6,10 @@ using System;
 //player에 필요한 요소 관리, 통로 같은 역할
 public class PlayerControll : MonoBehaviour
 {
-    public PlayerState hp_state;
     [SerializeField]
     float maxSpeed = 5f;
     float moveX, moveY;
 
-    private void Start() 
-    {
-        hp_state.HpType += false; //?
-    }
 
     private void Update() 
     {
@@ -41,7 +36,7 @@ public class PlayerControll : MonoBehaviour
             Debug.Log("player stop");
         }
 
-        else if(/*HpState == true*/)
+        else if(PlayerState.player_hp())
         {
             maxSpeed = 0.0f;
             Debug.Log("player stop");
