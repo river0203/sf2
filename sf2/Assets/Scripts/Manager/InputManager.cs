@@ -18,6 +18,10 @@ public class InputManager
             Debug.Log("user press anykey");
         }
     }
+    private void Awake() 
+    {
+        ButtonType_check += PressButton;
+    }
 
     private void Update() 
     {

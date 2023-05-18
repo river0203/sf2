@@ -5,7 +5,7 @@ using System;
 
 public class PlayerState
 {
-    static public bool HpType;
+    public static bool HpType;
     static float hp  = 100.0f;
 
     private void Update() 

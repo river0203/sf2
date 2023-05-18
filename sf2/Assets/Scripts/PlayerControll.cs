@@ -36,7 +36,7 @@ public class PlayerControll : MonoBehaviour
             Debug.Log("player stop");
         }
 
-        else if(PlayerState.player_hp())
+        else if(PlayerState.player_hp() /*== false*/)
         {
             maxSpeed = 0.0f;
             Debug.Log("player stop");
