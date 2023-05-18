@@ -6,15 +6,19 @@ using System;
 //player에 필요한 요소 관리, 통로 같은 역할
 public class PlayerControll : MonoBehaviour
 {
+    public float offensePower {get; private set;}
+    public static PlayerControll Instance;
     [SerializeField]
     float maxSpeed = 5f;
     float moveX, moveY;
+    
 
 
     private void Update() 
     {
         player_move();
         player_Nmove();
+        player_attack();
 
         //if(HpType.Invoke(false))
             //return;
@@ -40,6 +44,14 @@ public class PlayerControll : MonoBehaviour
         {
             maxSpeed = 0.0f;
             Debug.Log("player stop");
+        }
+    }
+
+    private void player_attack()
+    {
+        if(Input.GetAxisRaw(/*"attackCommand"*/))
+        {
+            // 특수 공격, 일반 공격 구분, 공격력 결정 
         }
     }
 
