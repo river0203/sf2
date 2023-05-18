@@ -23,7 +23,7 @@ public class InputManager
         ButtonType_check += PressButton;
     }
 
-    private void Update() 
+    private void Update() //FirstScene에 bool 값을 전달 하는가?
     {
         ButtonType_check.Invoke(true);
     }
