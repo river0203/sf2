@@ -7,44 +7,38 @@ using System;
 public class PlayerState
 {
     public static bool HpType;
-    public static float hp = 100; //읽기 전용
+    public static float i_hp = 100; //읽기 전용
+    public float stunPower {get; private set;}
 
     private void Update() 
     {
-        player_hp();
+        player_hp(HpType);
         player_hit();
     }
     
-    public static void player_hp()
+    public static bool player_hp(bool B_Hp)
     {
-        if(hp == 0.0f)
+        if(i_hp == 0.0f)
         {
-            HpType = false;
+            B_Hp = false;
         }
-        else if(hp != 0.0f)
+        else if(i_hp != 0.0f)
         {
-            HpType = true;
+            B_Hp = true;
         }
+
+        return B_Hp;
     }
 
     void player_stun()
     {
-
-    }
-
-    void player_guard()
-    {
-        if(Input.GetKey(KeyCode.A))
-        {
-            //애니메이션 불러오기
-
-        }
+        
     }
 
     private void player_hit()
     {
         // hitbox에 애니메이션 감지시 
-        hp -= PlayerControll.Instance.offensePower;
+        i_hp -= PlayerControll.Instance.get_offensePower;
     }
 
 }
