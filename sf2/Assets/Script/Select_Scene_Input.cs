@@ -7,7 +7,7 @@ public class Select_Scene_Input : MonoBehaviour
 {
     void Start()
     {
-        Invoke("ChangeScene", 5f); //5초 뒤에 ChangeScene 함수를 호출함.
+        Invoke("ChangeScene", 3f); //3초 뒤에 ChangeScene 함수를 호출함.
     }
 
     void ChangeScene()
