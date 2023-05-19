@@ -20,7 +20,6 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
@@ -43,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -64,7 +63,6 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -129,7 +127,6145 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 209
+        width: 323
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa3b097937ec4de4a3a61b4c2762fa9
+      internalID: -1593687406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_1
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 202
+        width: 110
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55885426dec348b9837ad4d7932bdc8
+      internalID: 2105209499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_8
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da423dcd6e41b42af86f367a1d5944cb
+      internalID: -1102103763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_9
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 185
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6a1819633b045f797e867b743e702b
+      internalID: -2098672898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_10
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 185
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00fd7078b8c547fb94ea2a8ff5b817f
+      internalID: 2057869098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_11
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 185
+        width: 45
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1f9aeaa28ab4748a9a513aa5f28b80
+      internalID: 1003169510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_12
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 185
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a559f8d1d2c79466484569e76abcdcfa
+      internalID: 847940717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_13
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 185
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49122da7b0ecf485187b604a3ed1c95c
+      internalID: 96735673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_14
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 185
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f9c249cce9b474ab465508980fd8ab
+      internalID: 1935687648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 178
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86df63816056f4d87ba641526dd36117
+      internalID: 1094249499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_16
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 178
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91dfc7778efb34dc9a0df931867f71d0
+      internalID: -1533341048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_17
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 178
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca23c911df094e2689d5d1fcce97a85
+      internalID: 1701482670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 178
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e122638686e274b6da16bb0963722d1b
+      internalID: -1490583351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_19
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 178
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e566939cc0f43b8aae5bb47a407440
+      internalID: 77128975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 178
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ba261a21b73497a82816d9fdae778d
+      internalID: 438182819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_21
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 178
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7ab93bf2f414e7d853246045c2b722
+      internalID: 151140946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 178
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a666ca35eff61495cb34f4840d9ba1d8
+      internalID: -1071052608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_23
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 178
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c375eacb0eb344212b5bf19508d5b2b5
+      internalID: -1522407306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_24
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 178
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185690c0d352945f99bf2f030f739437
+      internalID: -505801307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_25
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 178
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767ea506ce5f64b71a2f6537995be733
+      internalID: 1789617243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_26
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 178
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59b1340c7b654baab7c3603de9ecca7
+      internalID: 637645775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_27
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 178
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72867dccc58e49f5870ebedbac2cd96
+      internalID: 1033019567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_28
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 178
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cca578ec61164251ab13a78c7ab1d9b
+      internalID: -245371224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_29
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 178
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5d8c8c3fcf74cceb819303a491a0f5
+      internalID: -237573318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_30
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 178
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec244d605239049988367e5bd45d068a
+      internalID: -1817306114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_31
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 175
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c36775004fb2418491b1579c9bad865
+      internalID: 1320211558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_32
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 175
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de435c0ad331842178d3d8e4d9b66bbe
+      internalID: 1602057562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_33
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 175
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2e8708ca70c467ba68126e760001cd
+      internalID: 580053849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_34
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 175
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464be16ef67ad446f87026aaf48f98c3
+      internalID: -882311361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_35
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 175
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0f7860b19c24571b8ed44d0a1ef771
+      internalID: 523915850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_36
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 175
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7b8cb8b061147358d4105031a61abc
+      internalID: 910142607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_37
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 169
+        width: 44
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc09a90cacfbc470abd2964e500c7d44
+      internalID: -1446709434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_38
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 169
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e93e189346b433b8b4416cf9be97f8
+      internalID: 898113210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_39
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 169
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9105891e83a245d58092eed758d9fe4
+      internalID: 414287298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_40
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 169
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafe3759f3fa34a39b931ef95f54cb2b
+      internalID: -47749901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 159
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de9ba101983340bba76020f2647198a
+      internalID: 2038481831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_44
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 159
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8178817b0e857470ba88e2d900ebb9c9
+      internalID: -551794505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_45
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 159
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332443d42bfd346e3809355a3e5fcfc1
+      internalID: -1675602663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_46
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 159
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22b25986025046729101be79745d7fa
+      internalID: 314575780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_47
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 159
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62aaf1ac7a8434f1ab1bc3946c583b91
+      internalID: -688139259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_48
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 159
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a774efc8f04a54804b7132e9c50f0d7d
+      internalID: 1402711701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_49
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 159
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece2aa51fbd9c4d48b75da27b6c46156
+      internalID: -2013106110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_50
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 159
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aefe1a250cfc48cdaca5560d16bd279
+      internalID: -1940580526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_51
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 159
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dddb3922936f48cbb128d6d67116bb8
+      internalID: -1513277353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_52
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 159
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26c1380aa2e846e7ac68793f2e78a93
+      internalID: -430277716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_53
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 159
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49869d91c655e4fc0944b988f4ae6ff0
+      internalID: 1050537271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_54
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 159
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfb1cfe4c693413cbef7676eaae959d
+      internalID: 2068931678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_55
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 159
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a04c8166f09b4c9f9b2f28c24a93818
+      internalID: 1063384101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_56
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 159
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809d2a8632c674c0c9b69b697c1e8477
+      internalID: 56775920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_57
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 159
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f469e705731b8478dacfe2976dfeffe5
+      internalID: 1650494371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_58
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 159
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5047096ecca487da98a6fb3482def9
+      internalID: -501950933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_59
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 159
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232deecd87770492282d70ddd662c290
+      internalID: 147566917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_60
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 159
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bb234cdf9704a3f8d13c0c4159e7a7
+      internalID: -764121530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_61
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 159
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce74b5ead8ac4ead807254ab78bdbcc
+      internalID: -1615422496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_62
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 159
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68deee2576b08457c925566697ca6bde
+      internalID: -1066673396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_63
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 159
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d6a4c2d96524f21a1f8f2d7f743c16
+      internalID: -1964231903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_64
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 159
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211acbe792ae649e3a8d5608b79fa0fb
+      internalID: 209348239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_65
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 159
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2681f76f5a94f33841d8f9f9a82e46
+      internalID: -1579378531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_66
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 159
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9158d4057a744a58b1bcc088d8b533
+      internalID: -829080402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_67
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 159
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebacfb8547fb4e94b5f132d07bb97c4
+      internalID: -1970258399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_68
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 159
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a987f76f25948e8a43592117283a2d
+      internalID: -311946363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_69
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 153
+        width: 52
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6685c530a74b6400396820e30629e380
+      internalID: -145380085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_70
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 153
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd968058ede474709a0e7becbd1a2ae3
+      internalID: 1962012380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_71
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 153
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07410e080bffd498aba2f568c92f08c9
+      internalID: -351289618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_72
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 153
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ab50963eaae49ceb99f1df9dca77ca
+      internalID: -1801950845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_73
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 143
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0a7eb55a107468cb3832478a2336c7
+      internalID: -1929812342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_74
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 143
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4226f542e7b47f6b52de975049ba5c
+      internalID: -1976172621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_75
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 143
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e47aabf3dac04258afb11df142223e1
+      internalID: 1251205208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_76
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 143
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a009eca09e1144e7bb8a393ef7cb2d9
+      internalID: 1494032495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_77
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 143
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806d848d26039451baa64653b519bf90
+      internalID: -227598386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_78
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 143
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4bb3360a77e546989135fb95a77a802
+      internalID: 107052476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_79
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 143
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629fc1fd0e5e242e2927dc79444cf563
+      internalID: 612822160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_80
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 143
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9ce8a96565243a799ecf66841f057d
+      internalID: 1729572461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_81
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 143
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b82e3394610843e99ca7e1123a0d552
+      internalID: 413564221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_82
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 143
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d119dd72a1b7479ca60ac2283cf72dd
+      internalID: -467759924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_83
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 143
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aaa9ba6ba72949b1a65ac900da517c8
+      internalID: 994700631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_84
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 143
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da291dd2704a4b7193af2cde5bbf561
+      internalID: 1337442900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_85
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 143
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495ddd7990f7e4ea1b06622fad9cabd9
+      internalID: 254575074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_86
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 143
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea131549e91e64960bc7e077ae750f43
+      internalID: -1239873326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_87
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 143
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba6bce9c0175439288063441af5c2fd
+      internalID: -552822160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_88
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 143
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482d5b54d440c467297aa3235253c689
+      internalID: 210812910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_89
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 143
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea7d2ecd61944ece890ef354fe09673
+      internalID: -864608957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_90
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 143
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcdec70adeb34b38b6c68a75bec4602
+      internalID: -1547452898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_91
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 143
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77820f6de682c4576b6c6907e7354e61
+      internalID: 1908744277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_92
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 143
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1243e37ec801743ac8474c995ebf346f
+      internalID: -56989496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_93
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 143
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606f749a4bc0a471ab352f785a4ca568
+      internalID: -1476715059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_94
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 143
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe0233b31d784530a54bac300a35d6e
+      internalID: -165909329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_95
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 143
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b6b916a7e2b42569582baab7540e2a
+      internalID: 2032658715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_96
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 143
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564333b5a13ec4c02b7ff6453e4f8455
+      internalID: 27164298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_97
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 143
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab529a0aa9e5f4469b02d3951f5598b3
+      internalID: -2082581300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_98
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 143
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b726b00f6661b4d3c9945484bea05b41
+      internalID: 1142375214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_99
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 143
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e8546912dde48f5bd729de45037b23
+      internalID: 869068930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_100
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 143
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b2f244d573245e887cb894e496a38e
+      internalID: 439321737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_101
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 143
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f265a3023ce42feb7bd89e07411cc4
+      internalID: 1297249908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_102
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 143
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea78c1e625b944028186093247dd202
+      internalID: -1504638444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_103
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 137
+        width: 108
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95955d48e45444febac93763d50616f
+      internalID: -344667633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_107
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 125
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbb673fda0be4c489cd0366c3e74f6b
+      internalID: 2002733160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_108
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 125
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8623010c42b0c40fd9935cde42520ca9
+      internalID: -1983256631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_109
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 125
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed74d6aaeac24951b318d5702107a99
+      internalID: -226423024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_110
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 125
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ec7a29962284362a80578059cf798e
+      internalID: -1738555440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_111
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 130
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa986489dde64143bb693ef7931263b
+      internalID: -616104139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_112
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 125
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f84297cd1a754d9e8479d91e51ddd4c
+      internalID: -1352954787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_113
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 125
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae36a714ca9b46db8e83a79386f8627
+      internalID: 242579856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_114
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 125
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8c2f77784a5464da7de6dc599f6f65
+      internalID: 1158377087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_115
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 125
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1450441abc9974a99b67c69cdf449380
+      internalID: -1242643722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_116
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 125
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ce5c7729bd74cf69023624346d0f06
+      internalID: -497676861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_117
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 127
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b003cff52c1954a1d90dbe076cebaabe
+      internalID: 551801378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_118
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 125
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde52688c8633419a8823e70afbf6494
+      internalID: -1157912744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_119
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 88
+        width: 128
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ee6c34151d44823b499f64515d712d
+      internalID: 3988642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_120
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 122
+        width: 126
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c61f884a1f194ade970784e1b805174
+      internalID: 201289448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_123
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 113
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7e6581750a0453d835b691659e404e
+      internalID: -1252980409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_124
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 113
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec7997c066de4b519a6f6121828c29b
+      internalID: 2103126455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_125
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 113
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66e67d5b7d9442baafb36c15aa5f306
+      internalID: 2126119576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_126
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 113
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989ea7d886b15460284502c7e9db2693
+      internalID: -53770975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_127
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 113
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b975029453d3f4ccd8c68e61f29921f9
+      internalID: -1720712820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_128
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 113
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5ce5110c6d54547836b20a53f1926c
+      internalID: -1903416646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_129
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 113
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b106440b02f74d56a06343f38858fc5
+      internalID: -1099993273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_130
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 113
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7171a4906e12846458b403c6a8c3c82f
+      internalID: -988334474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_131
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 113
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103bc822ec3db4903bc351e1476c6d66
+      internalID: 2025538096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_132
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 113
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4fcc23304754ce1b0397df0f7511f8
+      internalID: 480288771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_133
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 119
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f31552dd7904dadbe845edc56222d4
+      internalID: 530831471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_134
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 119
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e3ba41f86d84df1a41c4f066f3166a
+      internalID: 1934299635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_135
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 113
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5911e2b30f246d29e0937144e44672
+      internalID: 193345948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_136
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 113
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf237928ba984be79d371ea82a0e4e8
+      internalID: -454870151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_137
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 113
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6bc125173564910bc6390328887545
+      internalID: -1754449298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_138
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 114
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f982194d65d24c6ea4c985f41f1b5d2
+      internalID: 909046853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_139
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 112
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b7110b99d55497b9cf44f359df6c5f
+      internalID: 1612065621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_140
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 101
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fff08d863af4e6fbdf92d0f5f5685b
+      internalID: -602586760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_141
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 101
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55d8daaf1c2c492e94ab01da22adca5
+      internalID: -91706726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_142
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 101
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d93b11c425204209916828089d6bbd3
+      internalID: 700706601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_143
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 101
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f0892fc426a401b8481e249e1c29fc
+      internalID: -441060591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_144
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 101
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbdde178e53949a8af2be3236330ce0
+      internalID: 2009763514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_145
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 101
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85bc3b3ee7d64eceb9a69621571ef95
+      internalID: 2105446502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_146
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 101
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c33a605cc8646569de75c1069445a3
+      internalID: 1777144636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_147
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 101
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7863176d358484c40af099b294d6601c
+      internalID: 581161825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_148
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 101
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6da61381db549669fe3955ec0048cb
+      internalID: -548241442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_149
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 101
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46307cb2e4a6d4951a742c4b531d72f6
+      internalID: -1255292382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_150
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 101
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119b80b62c75643858fd64a707afcc39
+      internalID: 351024494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_151
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 101
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa16f340fbca4764a3c0480ca5860ad
+      internalID: -1209073764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_152
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 101
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222349fe2a21d4722b38ec9bd43b845b
+      internalID: -432512177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_153
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 101
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3027d0b4dbc0494d8b5a6dab4f3f8f7
+      internalID: -1887854790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_154
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 101
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2616fd531c99e4ea4a8ee7d9a7f4ff36
+      internalID: 817631461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_155
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 101
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf0dbaf4570b41f7aab598a10c90d0d
+      internalID: 640368418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_156
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 98
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc24267ac684434590f2d781111fcd4
+      internalID: -474009523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_157
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 98
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9acd06817a76b472bae390f964d7dfc0
+      internalID: 1734731243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_158
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 98
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084ad005fec624141bbbc57f2695f280
+      internalID: 1764976136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_159
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 98
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9fcc1cf64abe43cf922422cc9b94c88
+      internalID: -471304369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_160
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 97
+        width: 42
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab6e5cc8ea474218b1b792d7bc1eb27
+      internalID: -1907275289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_161
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 97
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294802324af5b41448a6f6786da24416
+      internalID: 141514652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_162
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 89
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fddf384fd694514898f2f7ccce7b3f
+      internalID: -12177066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_163
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 89
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bec327abfd094c07b41d34c66484eb0
+      internalID: -1243452675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_164
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 89
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30ddb683cff14d00846ac2e32c41159
+      internalID: -916676722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_165
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 89
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6000d044b9af6480d8f3c6deb0bbe4cb
+      internalID: -1985847257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_166
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 89
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a568b199a0b0456b82971a18bbef7f1
+      internalID: -786309272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_167
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 89
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8144904b67a047989ab19549f926b8e
+      internalID: 1257224590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_168
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 89
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bbdb194044149ecb97922eb308ea0a
+      internalID: 661847738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_169
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 89
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6463018f012af4b26bf8ecc47be631ae
+      internalID: 1561285703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_170
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 89
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33876bd14d3c84e6d95b9c019ac303dc
+      internalID: 544535067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_171
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 78
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283be2645f4334eda8791aa93ca86b78
+      internalID: 1478642646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_172
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 89
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2e2cc40947246d29c7cc3522c102ab
+      internalID: 730534511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_173
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 89
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf986fce8d0fd4f949e9ca0daa6149e8
+      internalID: 1627707898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_174
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 66
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28cd18e008a8d4fa4a87a62bd15ebdbc
+      internalID: -676404893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_175
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 89
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55ec7bb7ef954d44af122795d89cc92
+      internalID: 434979744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_176
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 89
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901422105937f4679b769bd86dc2248a
+      internalID: -1529860909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_177
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 88
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0261d9816d9c84df7b7ea090613ecad5
+      internalID: -1435624669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_178
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 88
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea37fa04f77b46fcbfaeaaf6378bd0e
+      internalID: -689717006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_179
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 88
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbebfc28e3404aa0a035779a8637018
+      internalID: -1636458856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_180
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 88
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2eb9e7b1fde4d7a88987b3f3b69609
+      internalID: 956987756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_181
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 88
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32fecc19b71b42e5b31ed2f7de250af
+      internalID: -393979608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_182
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 88
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f473400ef15447d78edc72393db2583
+      internalID: -1677612290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_183
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 88
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df664a982e454f90960223ae46c0f60
+      internalID: -1580609077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_184
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 88
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032a263866f4b440eb54e9ce7236ecc6
+      internalID: 1789951751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_185
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 82
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2e69332c0584fb29c91c58ce5168cc
+      internalID: 145430374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_186
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 82
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d26a1f2e62b4c308aecc581a1aeed2
+      internalID: -1459096985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_187
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 82
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f912e64c085469fbd6a6ba3ad37c68
+      internalID: 1125651490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_188
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 82
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ec89b7854094dedad65c8928e55bb7
+      internalID: -400208886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_189
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 84
+        width: 59
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb78d318a35d48908a0a03477877e69
+      internalID: 574358771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_190
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 81
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2848fad901f664709bec85ea1215abd7
+      internalID: 818579166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_191
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 78
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0567c85f1f1324bd2bd6f0527eb32b97
+      internalID: 165583540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_192
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 78
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a052c3b8cf61b4461b0c531ac18f4900
+      internalID: -382815625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_193
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 78
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d85da2ff0614152b93b6d55365119b
+      internalID: 1729196789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_194
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 78
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5d044a29f474524a16c97c30c96c5c
+      internalID: 995038199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_195
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 78
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ae375a2420d49baae49ef5ef11ebce
+      internalID: -1229239738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_196
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 78
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24a66e1d3c5b4a0581e2a9abdf9c086
+      internalID: -1039045512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_197
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 77
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa5452de01944f0396823721cd8c5bd
+      internalID: -329519878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_198
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 78
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e822e40979814daaa6b077ed5ffd589
+      internalID: -1674435558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_199
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 77
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a18636d1aed406f89d7aeccc28707b
+      internalID: -1719191298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_200
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 78
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2d2bc2c4269444eac999a01809e7f2
+      internalID: -1165473823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_201
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 78
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0746a116fad442baffcd786cf2fbc5
+      internalID: -1358312066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_202
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 78
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc73f7827f830440087f2bff660f1913
+      internalID: -1243238370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_203
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 78
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773b86f57a6254f17b77f62c78384c7f
+      internalID: 301002248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_204
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 66
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebf5fad30faa4eae96637e8838eb1f4
+      internalID: -489092355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_205
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 65
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9013538715e1b4168be818527acf5ad7
+      internalID: -762808997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_206
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 66
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6a2f61110b74f9185a4759f85172c0
+      internalID: 765522868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_207
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 66
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b630f09c9d794be4809a9932079944a
+      internalID: 1577449761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_208
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 66
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd1d7bfb72fb40958c61cedf8c1427f
+      internalID: 2264926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_209
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 66
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38226393b34b040dea01a8a5eb0e5c29
+      internalID: -320281500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_210
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 66
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17abc1574b5aa448dae16a680a6802d2
+      internalID: -1585485224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_211
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 66
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f608a5ba726949398f6abbb9a3e8df4
+      internalID: -1081404531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_212
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 66
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1138f7d59ba473fbd268ea1948e956
+      internalID: -1662655094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_213
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 65
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0688d3f50493b40769948dca1d211441
+      internalID: -948365073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_214
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 66
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd13679abe18468dad7e8a02c636b49
+      internalID: -1958335407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_215
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 65
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886f3c3e2cfb34f94b1f4b8ea3fa3438
+      internalID: 1982256804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_216
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 65
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404096aaab5fa435082d69ac1097ab6c
+      internalID: 726088255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_217
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 67
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48fd09a74e854848ba033745842f15d
+      internalID: -186321319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_218
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 70
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b3889d094404d1695c303567efb823
+      internalID: 29412323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_219
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 70
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14519846467a442379914cf71c58f96e
+      internalID: -103097509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_220
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 70
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1fcc46898c342debcb3a9b1123c3f2
+      internalID: -1835178484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_221
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 70
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6885b28d9c28a415bbb0733687667518
+      internalID: 1819570840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_222
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 70
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22731bc4d20f944e095c84f6e690c841
+      internalID: 916414609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_223
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 70
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b719b6037d37e4ac7bf152ef8fd39732
+      internalID: -2105625461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_224
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 70
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca2b2aca65d14d36b7f94676aaf3e77
+      internalID: -1927992234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_225
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 70
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283f87910031f4764a94f7dc48751ffc
+      internalID: -210418310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_226
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 70
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc814ba9939642e9a5dd25f3e9122ad
+      internalID: 1344549658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_227
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 38
+        width: 63
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbb2cd7085394e6f9ef2658b3faeca5
+      internalID: -550358142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_228
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 37
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d78f829808147f2b7e1faede1133ea
+      internalID: -1183125911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_229
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 37
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a470517b9afd412f9f9d1f8e7d472b2
+      internalID: -526116211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_230
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 37
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68de31335eaa44451ba966da95ed5f0f
+      internalID: 1718588127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_231
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 37
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566c23f7e9d8942c2922523cc8bf9ab0
+      internalID: -1033706847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_232
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 37
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54dde473ef9b8416eb56c30b82574bcc
+      internalID: 506322881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_233
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 37
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca6ea5a7edde4a8781454f10c950c90
+      internalID: 1430350095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_234
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 37
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2033f3afb7c2d49f590d5ebddf4292cb
+      internalID: -93253531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_235
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 37
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d8637790f6d4acbbcdd1acaf67a3b6
+      internalID: -79673777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_236
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 37
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c69121ded914016b02fde690a19829
+      internalID: 1968920614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_237
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 37
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b4070a975ff4a0ca2359e36f8854e2
+      internalID: -1167189923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_238
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 35
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4bdb7abdec974b1ead2efa3981b91ba
+      internalID: -1112796448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_239
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 35
+        width: 61
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7919edd3aa19e4603ad1d45e2e5cde5b
+      internalID: 697780532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_240
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 46
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e1c0b6f05e5486bb90c50293f6bc7f
+      internalID: -1617350524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_241
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 43
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5f6c795bf4c4883a6b59c440b45b44
+      internalID: -1248349952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_242
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 43
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5315d0a8db246ffa545991b271e622
+      internalID: 242509623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_243
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 46
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d798216d7944411683f51d24343100d
+      internalID: -157822138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_244
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 46
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c78c9cba75d64fad8a970f229446699
+      internalID: 714947698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_245
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 46
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c658fd450b85c46f28cb2e3c66a680a5
+      internalID: 562938400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_246
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 43
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def2ae14001ba46e0a47291fe634f44c
+      internalID: -197923265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_247
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 18
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77f74dc9e1e54047a8ca35cdfbecbb4
+      internalID: 1635392805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_248
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 18
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c696c1f94c0447c5b8eca6005f287a2
+      internalID: 149176198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_249
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 18
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c7b6d099dce4e2ba45cae90d2049cd
+      internalID: 1057939294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_250
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 18
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8faf2d8a4364e89899e2611c85252d
+      internalID: -1425177121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_251
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 18
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04ebcf339781492b898776ccd34e469
+      internalID: 1354242663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_252
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 18
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642ba6074b0cd43c282413e93d540051
+      internalID: 215137123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_253
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 18
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977ac2a9d42794480aa64cc9466f35a4
+      internalID: -907515860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_254
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 18
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6200aa5188a4c1c99c5678e90ad14c
+      internalID: 1252966319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_255
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 18
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aab48da502e542bfa4c8975a04bad0c
+      internalID: 1530488187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_256
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 18
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d81ecd0bde7f4f529fd242fb33167f8
+      internalID: 335431895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_257
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 21
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087a1ca294a2b4c60bdfbdbd4bf9bc7a
+      internalID: -1217152651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_258
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 21
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff562e9a3affa49c78014f682f93b778
+      internalID: 1678491993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_259
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 21
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741afd9f4f8bd4b4c86716d72b2a249d
+      internalID: -1748014767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_260
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 21
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be7c52bc305f4d8e83371ac92f8a510
+      internalID: 787070568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_261
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 21
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9aa568ee3b9d40f0aad7bb2a96e2e32
+      internalID: 62659126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_262
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 27
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2556ab395b3c6462b9de3411b0be1869
+      internalID: 1450653539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_263
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 27
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2deeae075e54aa9a8eb1a5a91f0dc0
+      internalID: -2074544004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_264
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 27
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8434bdded540346fa82e37033fa99229
+      internalID: 1272988492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_265
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 27
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5da9d7362284846bbd28afc7e9ae77
+      internalID: 312888252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_266
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 27
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998cfc86337bb4273a407f98a55a00f2
+      internalID: -1602399901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_267
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 27
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16cbf5840e44b41b297f92fca05333dd
+      internalID: 1561787253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_268
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 27
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033344bfff1dc4d4e9114f4fe182f0fc
+      internalID: -1896180697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_269
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 21
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef95af2484ad4a1f97730ce69a18cd0
+      internalID: 1251974707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_270
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 21
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c007d8d9e46b4482bbdf45aa26cd5970
+      internalID: 293732927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_271
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 21
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b371515e152c443285b821489da6077
+      internalID: 1973542261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_272
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 21
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4af342429324ef4b9c55d9b390dafa
+      internalID: 1160787418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_273
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 21
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0607d5ee3474042a2c4e24d9706cd8
+      internalID: 1864058417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_274
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 21
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c294b37511eb4a78bb97ba17d398781
+      internalID: 626533996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_275
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 19
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f89686288bd343b79a072c02577abef
+      internalID: -1305919941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_276
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 21
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03fec1b77459495e8f44f6d1a1f5ab1
+      internalID: 1512992588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_277
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 20
+        width: 73
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9b9a19e38f2474dba2ddd26f2b835e
+      internalID: -14613708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_278
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 12
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0b2ea63e4474c858f1220f4bfbb271
+      internalID: -217170729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_279
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 12
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c2e0261fbcf4f1886332283d332784
+      internalID: 424920785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_280
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 12
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65fd2559d0313479fb4fc182707fea42
+      internalID: 1752988783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_281
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 12
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b339557e9544d458c156db8a6cb662
+      internalID: 1230946345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_282
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 12
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ddf4683635b4fca86454e38b9a52ba
+      internalID: 1208613820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_283
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 12
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635e3bc1243f146deb8853934e393386
+      internalID: -586934738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_284
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 12
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7a0cd6a5e7b44c3b8dd5101cd60c73
+      internalID: 1074974722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_285
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 12
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ad7b0b5e6c9476ea5da42477cf99db
+      internalID: -1067017627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_286
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 12
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a44013129ec2435bbd285673c11a78e
+      internalID: 1393220779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_287
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 12
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07f4224b59be47baa7c781a55339314
+      internalID: -1949828545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_288
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 12
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d42fcd9956fc4f1197cd1a027f40b9c
+      internalID: 627640486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_3
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 195
+        width: 144
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f2067a4054b4f82b7619a2c2cbc85f
+      internalID: -1783486986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_4
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 195
+        width: 144
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278e4b5829ad04c40a30c7bbec3dd28f
+      internalID: 1291208758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts &
+        Health Bars_2
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 195
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c2a3367a3444992a63a411b6c99c52
+      internalID: 1620267660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -140,9 +6276,299 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_0: -1593687406
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_1: 2105209499
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_10: 2057869098
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_100: 439321737
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_101: 1297249908
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_102: -1504638444
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_103: -344667633
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_104: 1154021843
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_105: 493137498
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_106: 670108486
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_107: 2002733160
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_108: -1983256631
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_109: -226423024
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_11: 1003169510
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_110: -1738555440
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_111: -616104139
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_112: -1352954787
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_113: 242579856
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_114: 1158377087
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_115: -1242643722
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_116: -497676861
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_117: 551801378
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_118: -1157912744
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_119: 3988642
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_12: 847940717
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_120: 201289448
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_121: -1268711078
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_122: 1408342051
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_123: -1252980409
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_124: 2103126455
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_125: 2126119576
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_126: -53770975
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_127: -1720712820
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_128: -1903416646
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_129: -1099993273
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_13: 96735673
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_130: -988334474
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_131: 2025538096
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_132: 480288771
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_133: 530831471
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_134: 1934299635
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_135: 193345948
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_136: -454870151
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_137: -1754449298
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_138: 909046853
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_139: 1612065621
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_14: 1935687648
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_140: -602586760
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_141: -91706726
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_142: 700706601
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_143: -441060591
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_144: 2009763514
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_145: 2105446502
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_146: 1777144636
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_147: 581161825
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_148: -548241442
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_149: -1255292382
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_15: 1094249499
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_150: 351024494
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_151: -1209073764
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_152: -432512177
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_153: -1887854790
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_154: 817631461
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_155: 640368418
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_156: -474009523
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_157: 1734731243
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_158: 1764976136
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_159: -471304369
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_16: -1533341048
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_160: -1907275289
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_161: 141514652
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_162: -12177066
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_163: -1243452675
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_164: -916676722
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_165: -1985847257
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_166: -786309272
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_167: 1257224590
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_168: 661847738
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_169: 1561285703
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_17: 1701482670
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_170: 544535067
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_171: 1478642646
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_172: 730534511
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_173: 1627707898
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_174: -676404893
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_175: 434979744
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_176: -1529860909
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_177: -1435624669
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_178: -689717006
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_179: -1636458856
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_18: -1490583351
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_180: 956987756
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_181: -393979608
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_182: -1677612290
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_183: -1580609077
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_184: 1789951751
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_185: 145430374
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_186: -1459096985
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_187: 1125651490
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_188: -400208886
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_189: 574358771
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_19: 77128975
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_190: 818579166
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_191: 165583540
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_192: -382815625
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_193: 1729196789
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_194: 995038199
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_195: -1229239738
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_196: -1039045512
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_197: -329519878
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_198: -1674435558
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_199: -1719191298
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_2: 1620267660
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_20: 438182819
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_200: -1165473823
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_201: -1358312066
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_202: -1243238370
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_203: 301002248
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_204: -489092355
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_205: -762808997
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_206: 765522868
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_207: 1577449761
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_208: 2264926
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_209: -320281500
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_21: 151140946
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_210: -1585485224
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_211: -1081404531
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_212: -1662655094
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_213: -948365073
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_214: -1958335407
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_215: 1982256804
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_216: 726088255
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_217: -186321319
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_218: 29412323
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_219: -103097509
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_22: -1071052608
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_220: -1835178484
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_221: 1819570840
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_222: 916414609
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_223: -2105625461
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_224: -1927992234
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_225: -210418310
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_226: 1344549658
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_227: -550358142
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_228: -1183125911
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_229: -526116211
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_23: -1522407306
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_230: 1718588127
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_231: -1033706847
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_232: 506322881
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_233: 1430350095
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_234: -93253531
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_235: -79673777
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_236: 1968920614
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_237: -1167189923
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_238: -1112796448
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_239: 697780532
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_24: -505801307
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_240: -1617350524
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_241: -1248349952
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_242: 242509623
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_243: -157822138
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_244: 714947698
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_245: 562938400
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_246: -197923265
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_247: 1635392805
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_248: 149176198
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_249: 1057939294
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_25: 1789617243
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_250: -1425177121
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_251: 1354242663
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_252: 215137123
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_253: -907515860
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_254: 1252966319
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_255: 1530488187
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_256: 335431895
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_257: -1217152651
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_258: 1678491993
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_259: -1748014767
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_26: 637645775
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_260: 787070568
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_261: 62659126
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_262: 1450653539
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_263: -2074544004
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_264: 1272988492
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_265: 312888252
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_266: -1602399901
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_267: 1561787253
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_268: -1896180697
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_269: 1251974707
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_27: 1033019567
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_270: 293732927
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_271: 1973542261
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_272: 1160787418
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_273: 1864058417
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_274: 626533996
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_275: -1305919941
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_276: 1512992588
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_277: -14613708
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_278: -217170729
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_279: 424920785
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_28: -245371224
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_280: 1752988783
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_281: 1230946345
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_282: 1208613820
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_283: -586934738
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_284: 1074974722
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_285: -1067017627
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_286: 1393220779
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_287: -1949828545
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_288: 627640486
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_29: -237573318
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_3: -1783486986
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_30: -1817306114
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_31: 1320211558
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_32: 1602057562
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_33: 580053849
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_34: -882311361
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_35: 523915850
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_36: 910142607
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_37: -1446709434
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_38: 898113210
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_39: 414287298
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_4: 1291208758
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_40: -47749901
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_41: 2038481831
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_42: 277765799
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_43: 879435718
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_44: -551794505
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_45: -1675602663
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_46: 314575780
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_47: -688139259
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_48: 1402711701
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_49: -2013106110
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_5: -977660388
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_50: -1940580526
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_51: -1513277353
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_52: -430277716
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_53: 1050537271
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_54: 2068931678
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_55: 1063384101
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_56: 56775920
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_57: 1650494371
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_58: -501950933
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_59: 147566917
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_6: -1988255159
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_60: -764121530
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_61: -1615422496
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_62: -1066673396
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_63: -1964231903
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_64: 209348239
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_65: -1579378531
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_66: -829080402
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_67: -1970258399
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_68: -311946363
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_69: -145380085
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_7: -1854084170
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_70: 1962012380
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_71: -351289618
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_72: -1801950845
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_73: -1929812342
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_74: -1976172621
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_75: 1251205208
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_76: 1494032495
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_77: -227598386
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_78: 107052476
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_79: 612822160
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_8: -1102103763
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_80: 1729572461
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_81: 413564221
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_82: -467759924
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_83: 994700631
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_84: 1337442900
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_85: 254575074
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_86: -1239873326
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_87: -552822160
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_88: 210812910
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_89: -864608957
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_9: -2098672898
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_90: -1547452898
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_91: 1908744277
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_92: -56989496
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_93: -1476715059
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_94: -165909329
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_95: 2032658715
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_96: 27164298
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_97: -2082581300
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_98: 1142375214
+      Arcade - Street Fighter 2 Super Street Fighter 2 - Game Text Fonts & Health Bars_99: 869068930
   spritePackingTag: 
   pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

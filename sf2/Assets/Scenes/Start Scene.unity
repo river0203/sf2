@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 256383532}
   - component: {fileID: 256383531}
   - component: {fileID: 256383530}
+  - component: {fileID: 256383533}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -191,6 +192,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &256383533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256383529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f0da6cbfcf8ec48a5c1e3d987dcdc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1343172048
 GameObject:
   m_ObjectHideFlags: 0
@@ -387,7 +400,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1883332363}
   - component: {fileID: 1883332362}
-  - component: {fileID: 1883332364}
   - component: {fileID: 1883332365}
   m_Layer: 5
   m_Name: Press
@@ -437,12 +449,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 240845263, guid: b0fe53e9c6cae4acc9f349a17ec6e301, type: 3}
+  m_Sprite: {fileID: 2105209499, guid: 9406836cdc32b73449947c8e025b7c0b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.1, y: 0.14}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -463,18 +475,6 @@ Transform:
   m_Father: {fileID: 1343172052}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1883332364
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1883332361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ea0667e0b6c1433d92445e31ee2f701, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1883332365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -484,7 +484,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1883332361}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ac5b0e4e002e41dbbad80d9f7e449e7, type: 3}
+  m_Script: {fileID: 11500000, guid: e18413f5abb1451449644c711dd6d3bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1887337789
@@ -545,7 +545,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 846e6b719a137494a8eedf7b7d9a31a9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b2f6c84456ba0c4abafa323e00e3649, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
