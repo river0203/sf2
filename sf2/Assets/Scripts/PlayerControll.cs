@@ -61,10 +61,7 @@ public class PlayerControll : MonoBehaviour
             //애니메이션 불러오기
             offensePower = 0;
         }
-        else
-        {
-            offensePower = 1;
-        }
+        
     }
 
 }
