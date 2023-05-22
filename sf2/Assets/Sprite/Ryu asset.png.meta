@@ -1,0 +1,4655 @@
+fileFormatVersion: 2
+guid: a9f1f16649dad49a6ad46bdda875f756
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ryu asset_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 866
+        width: 34
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43e7cce40b464abe9df9e3ada551df4
+      internalID: 884533123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 866
+        width: 35
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6345572f4824fd7a262f93ac151687
+      internalID: -1792174294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 866
+        width: 34
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ac2124ef2ff480b834717c7abdc278
+      internalID: 775787229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 866
+        width: 34
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037ce4238a5e9479890e3a243857148e
+      internalID: 100409187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 866
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56695cc2c36a14743be246c4a12d6578
+      internalID: 832644184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 865
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8c15ebc5ab14b21b5c106d25ef26a4
+      internalID: 1932263429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_6
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 866
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de1f793788e74f6cb6ea61ee05fabef
+      internalID: -826480917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_7
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 866
+        width: 32
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd8712583d534683a5b1095e43c223a
+      internalID: -433184081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_8
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 865
+        width: 31
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8442ea680b9429a9fbcffd9588de12
+      internalID: 835075470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_9
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 866
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a1e160d16434bfbbfd0e457a577ff4
+      internalID: 1682218205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_10
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 863
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4d8c27840f149cfb08b01c03f57902
+      internalID: -1433513590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_11
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 867
+        width: 29
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec614e3b4109f46759d9950feccd5a88
+      internalID: 1884649965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_12
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 876
+        width: 31
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab3832ff1acc416d99c44a16311c517
+      internalID: 1764533187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_13
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 867
+        width: 29
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a179fcc844dc4bdb928150963538dcd
+      internalID: -426078976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_14
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 863
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e64070a4ab543b1bcbf3a13d3a8a1d
+      internalID: -219610404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_15
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 866
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b55dd1c40ec94342b133bda58c70ecf
+      internalID: -1713173137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_16
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 866
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1ecf330920b49fbbe504b1f1fa87b8
+      internalID: -1930797463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_17
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 863
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111df1ef456f245429c837c43af58f68
+      internalID: -1682497000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_18
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 885
+        width: 61
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d122da82647494710bb2dd522b8b34b8
+      internalID: -1456338539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_19
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 871
+        width: 31
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a06afe5604d042ef8f2ab597be90bec
+      internalID: -1909048494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_20
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 887
+        width: 72
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540edeb4fb9a3498fadfb6018d87f1f4
+      internalID: -422134227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_21
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 863
+        width: 43
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d0a5e6c8a004c548d7694c214d8362
+      internalID: -516431124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_22
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 863
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554687bae95a94d21abdbfe5b40d7a0d
+      internalID: -1539385359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_23
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 866
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e838f5c47ed52415287c07f193c4b829
+      internalID: -868117590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_24
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 866
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0777070366b864cf089ea8a6457430d8
+      internalID: 1248585618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_25
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 866
+        width: 37
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ceeff8c1e4ee4c82bbb69f6354a411f
+      internalID: 1293197343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_26
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 865
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c5bc648ad6e45c9b7fd7cf86a50719
+      internalID: 1973444240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_27
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 750
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6624e9ffa0d4434aa390f5d733a51fb
+      internalID: 8475075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_28
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 750
+        width: 53
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06012c8d667545a296445046ef92fce
+      internalID: 466835474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_29
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 750
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809877f9dbaff49d98d758d12392f760
+      internalID: 1782127562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_30
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 750
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2013b62c6b8b94d4b96e2a40a47a155e
+      internalID: -1663084751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_31
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 751
+        width: 44
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a51fefb983744ce79c839286f266f51
+      internalID: -1058433775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_32
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 751
+        width: 62
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460949cdd508d42939291f567d3df940
+      internalID: 1262393529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_33
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 751
+        width: 44
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc12af9f8c514214968caf6ac92f5c8
+      internalID: 1795323487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_34
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 750
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a800e0fd46b15421eb31c23c15e6ac96
+      internalID: -1786704639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_35
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 750
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a04c16bc94a4aa0b21e9f9760601d9
+      internalID: 225399192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_36
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 750
+        width: 40
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d0ddc23c049477e8fca154623a5b27
+      internalID: -1930711433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_37
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 750
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc348376e4444ad290a454606c9034d
+      internalID: 624188423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_38
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 750
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd4c592ce2e4497586a000f2630ce47
+      internalID: -802372212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_39
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 751
+        width: 44
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ccbc1e837fb4be9a1797e31f74443e
+      internalID: -495294056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_40
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 751
+        width: 52
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2812a19cdeda54cab8be6bf74808862b
+      internalID: 267684996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_41
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 751
+        width: 37
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35688bdf540e4adcabc1c52b82dd709
+      internalID: -258212197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_42
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 751
+        width: 52
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe08d9a0bb66469fbaccdec8e4afbe0
+      internalID: -1772842973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_43
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 751
+        width: 44
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c14f63efd1d4ff6a517531bdd360e2
+      internalID: 872889678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_44
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 750
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9895245df047e4ff98a02345c0f9ec83
+      internalID: -1086184717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_45
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 751
+        width: 35
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366043529ef0540f8b820dfc9e87f3d7
+      internalID: -36396609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_46
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 751
+        width: 52
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97883344d3d6e4b63b7706f6039c43e6
+      internalID: 749921855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_47
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 751
+        width: 48
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3de2b2cebcc456f8416120ecde796c
+      internalID: 1881826357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_48
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 751
+        width: 52
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94bef56b487e46f78905579a7b697d5
+      internalID: -739706231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_49
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 750
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abaf17a7e793a47fa84958f22ab300e3
+      internalID: 1871087804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_50
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 621
+        width: 39
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af72608207bd34376a71564c80d8aa09
+      internalID: -10477756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_51
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 621
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e29657911f04fcab8d82813d478e9f
+      internalID: 979625406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_52
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 621
+        width: 39
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f94a2de91524888b92a87e1534aa04
+      internalID: -1046826463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_53
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 619
+        width: 35
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b463def7884a45368a5e652f050cd19
+      internalID: -558058941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_54
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 619
+        width: 55
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f2b3a3918b9455da9ed5e2dac45617
+      internalID: 457133439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_55
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 619
+        width: 69
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58549c1025cc64e319095a452f556f44
+      internalID: 458816860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_56
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 619
+        width: 58
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a227c3f280d46417da2b24130065b445
+      internalID: 1432150211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_57
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 619
+        width: 38
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3a300a1b283435987c445a766eb44e
+      internalID: -2053661419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_58
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 619
+        width: 29
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658705173850a43e7a3760c6f9390fa7
+      internalID: -1388211175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_59
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 619
+        width: 48
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f87d86a4454f47dfb2a218064da20f3
+      internalID: 1151218353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_60
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 619
+        width: 29
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25301db9fd644c1ebf568e8ec30d5a9
+      internalID: -136329422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_61
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 619
+        width: 47
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f501b2397f42401d9f625c28c62d1bf
+      internalID: -1488755271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_62
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 619
+        width: 37
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38381fc878904e8eb2b69492384a879
+      internalID: -1081857750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_63
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 619
+        width: 31
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620b39eb8514547ddaca6acf8b8f3445
+      internalID: 1199389775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_64
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 619
+        width: 37
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d821083742cc54abe8cedcb7e64d44da
+      internalID: -1457142251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_65
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 619
+        width: 47
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bff7441df2f14dcba8a058ab8c34434
+      internalID: 1674263517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_66
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 619
+        width: 29
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45fe501ff64142bca27c0f2b8242739
+      internalID: -1236764230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_67
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 619
+        width: 55
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45102ffb595a9450c9de3cf91ccd887c
+      internalID: -1273295924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_68
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 619
+        width: 30
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92458010086834e21a6c866af12b9522
+      internalID: 494499695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_69
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 619
+        width: 55
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb273f161267a4ed882c65801acea05b
+      internalID: 676211803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_70
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 619
+        width: 29
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c810035facfb74b9d869e09772006149
+      internalID: -811659632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_71
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 491
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83643860b107b4a08a63e4aaa566894f
+      internalID: -1467640999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_72
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 490
+        width: 55
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e681a788317ba4ef2a24944fc4b7a954
+      internalID: -328834485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_73
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 491
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6314eef3e5492476aa1ac7b9a45ba300
+      internalID: -1579365880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_74
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 491
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b987a8eabe8104eabad658c9a731b084
+      internalID: -303379271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_75
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 491
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df3b8b2268e541569175b57be7a2307
+      internalID: 1533758060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_76
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 491
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffba5c5be4ea04c2cbda1e9a3289d1d2
+      internalID: -1315331006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_77
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 491
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2d3601caba1432fa6794aeec31dce8
+      internalID: 1120121490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_78
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 491
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7acaacec9350449b6b5123d55c6b8725
+      internalID: 351959993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_79
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 491
+        width: 42
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6115315878848f2b39d50af6645a83
+      internalID: -559394457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_80
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 491
+        width: 33
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c175d4c520e04dd689c22b82d78ffa8
+      internalID: -1357223412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_81
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 491
+        width: 42
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb41f5f64365345d6a36b2a63febfc8e
+      internalID: -1993496022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_82
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 491
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07073b6996ad54ac888c968833c0cf80
+      internalID: 811898650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_83
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 489
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8568a6396abfb4aea866f6f7323f5717
+      internalID: -1449450369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_84
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 488
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10aa673b9dafe409e89d9c43aacc1143
+      internalID: 1148400616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_85
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 489
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9d8909539314109b96a35065117c93
+      internalID: 2003090060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_86
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 489
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7257a7dd2f9a455c85037047dd730cb
+      internalID: 842518905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_87
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 491
+        width: 82
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f28db698e5d042c8baec3ba9ac74f87
+      internalID: -1491852944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_88
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 489
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ab458563a184240b8844bfc3989034
+      internalID: 292974930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_89
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 491
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f012eea19a43456c8d5dccd0afffc7f
+      internalID: -1029930355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_90
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 491
+        width: 69
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faafea7db1a614a84bf162633c17d329
+      internalID: 784988543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_91
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 491
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395093953572a4a5dbf547e601fd7360
+      internalID: 1273119813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_92
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 491
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1caf56a6d10944f1db904be873342a57
+      internalID: -1914877058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_93
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 491
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a8a3bd8a9214e238fcfdd5faf84413
+      internalID: -687545293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_94
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 348
+        width: 40
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85681643d4f3a4081b2aed25646bffdb
+      internalID: -352276026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_95
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 355
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1522307778c4ce0ace0791cee40ecd
+      internalID: -2104683817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_96
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 348
+        width: 31
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74cf41ae7c764dffa3f4b011ec99168
+      internalID: -1317902410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_97
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 348
+        width: 45
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b6be644632c4dd59b6c56d01552324
+      internalID: -1461858147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_98
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 355
+        width: 31
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39369da730d9a41bca04e32a586277e2
+      internalID: -668823123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_99
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 348
+        width: 32
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0048d42e2864883ba0caf64eca7b72
+      internalID: -838916384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_100
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 348
+        width: 53
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d233532b2900416bb8a92e6f72727a8
+      internalID: -636336285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_101
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 348
+        width: 34
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0dd15830dd44739848fa57dc3914e6
+      internalID: 667556568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_102
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 348
+        width: 31
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f2172e1ee5146cebc5a2df89b405dc
+      internalID: 1760123080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_103
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 355
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c40e19c798d496bb778a5b07b6ae9e
+      internalID: 614957729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_104
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 348
+        width: 37
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3a6d8251e25442686de4dc0e3061bf
+      internalID: 24888462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_105
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 354
+        width: 63
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7a445be90274387863c69599dab1f2
+      internalID: -1296037860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_106
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 348
+        width: 37
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35507669cd37407da6292b10e9cf1c2
+      internalID: -599577526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_107
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 351
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b2be98eb9a24fbbaa60d8b5377519c
+      internalID: -516095584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_108
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 351
+        width: 37
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05edc72f78ae9484990b4cb4e5f8ae96
+      internalID: -1746607788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_109
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 351
+        width: 42
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd20a129c38ea4b59b47254f7b290fdd
+      internalID: 1957927909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_110
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 348
+        width: 38
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e86b0a1d2895452aabfee59a0a1350e
+      internalID: -478352338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_111
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 348
+        width: 31
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a87a698373a4ba3b815db5d13eec23
+      internalID: -1762764439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_112
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 348
+        width: 28
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef20bd559e2c4dd7a4b2663c038ba7c
+      internalID: 2062532550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_113
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 349
+        width: 35
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79aab655786904be8a114e5a08800db9
+      internalID: -929595260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_114
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 348
+        width: 40
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efee5f362f9b14d77bc0411b055eb35e
+      internalID: 1104431047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_115
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 386
+        width: 32
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78f54a76f56d495d8ecee8366a960e2
+      internalID: 1137740821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_116
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 381
+        width: 55
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b6820d292c149e18ec643fd57db366
+      internalID: -1825359572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_117
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 383
+        width: 34
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d978a4d84220d44ff8186db3a6a00a69
+      internalID: 412723540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_118
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 386
+        width: 55
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159ad66ecfd644addb424b30d03009db
+      internalID: -168163171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_119
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 385
+        width: 33
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7577c52193c8e4d6ab277c3d097e0b31
+      internalID: 870355776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_120
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 378
+        width: 34
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d24b96bd4f294140a5bf0e3339bedea
+      internalID: 267459269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_121
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 348
+        width: 29
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e6d842193a04f2b96714beab43e0b6
+      internalID: -1639791231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_122
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 351
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de10aab5eac85453787ab9d60cdd2a4b
+      internalID: 1402996748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_123
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 247
+        width: 43
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3c89aabe70e402a96cd53208b84494
+      internalID: -1438937874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_124
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 248
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cc3037f1ee04fc0a1c35a7de5453b2
+      internalID: -1362887392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_125
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 248
+        width: 51
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86f1347251fd473ba20090545bcdbe5
+      internalID: -816332885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_126
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 248
+        width: 83
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafcb83d322b94dcd8848602c1a8cfc7
+      internalID: -1253130175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_127
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 248
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82cb608a2127f4b2e97f927745a2e8a2
+      internalID: -2003440376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_128
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 272
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0922a27f338f14e5d97d9d5d11352a0a
+      internalID: -1922951613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_129
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 282
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e917d169394c41499dc788546c868b2
+      internalID: -279165603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_130
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 292
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c096b27235b7b42cd92e0ce4816c4404
+      internalID: 247873054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_131
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 299
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7f479bb79d449e4ba209146298455c
+      internalID: 215708484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_132
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 297
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7897f84b8b186459ba92260ae724a2a7
+      internalID: -538433854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_133
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 292
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea53b17a2b6974b688c1ff199ccab8d2
+      internalID: 1079773221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_134
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 292
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6b548ec8caa4174bec7db392e2bd57
+      internalID: 255252545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_135
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 292
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae6db347749f48ab88ea72aaa129af7
+      internalID: 476752867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_136
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 291
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a4b417cc0a540ee8f1e66f0ba2cfaf
+      internalID: -1093032018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_137
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 283
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec81ab86687e045ab919c5d08a9ffeb3
+      internalID: -975756409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_138
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 281
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc81a4a7e421040c69ac462086a966bf
+      internalID: -1119650524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_139
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 271
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21435c6fb84f743d98da63c3456528ec
+      internalID: -473473088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_140
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 273
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e023ec236609d46af8e128be9654f8a1
+      internalID: 1539558010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_141
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 247
+        width: 47
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a64fcf8f12f242459b654e2bbfef3e2
+      internalID: -122471395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_142
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 247
+        width: 49
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0e52d1926274ef7a9dc5e8ab00fda0
+      internalID: 505345050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_143
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 247
+        width: 38
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5288d835edd604b5189bd2fedcbed9e1
+      internalID: 2036451015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_144
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 248
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f81863a999a462ca7526efa10677a4
+      internalID: -1352244965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_145
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 238
+        width: 44
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fb2a67e0082436a940b248ca8bf915
+      internalID: 1965830276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_146
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 247
+        width: 47
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df778313cfcb24e96b9cbe5658bb36aa
+      internalID: 2134576750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_147
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 247
+        width: 46
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d477ed1ef9c6f458eb510b6573ffd215
+      internalID: -831813385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_148
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 248
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2297c0e14f02e48058b75dec01e7f2a1
+      internalID: -1461707193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_149
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 247
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8803a4d51b196403b8da129e08857bcb
+      internalID: -1195114314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_150
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 255
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a232c0fd541134e9cacd24960d69de9c
+      internalID: 1104375163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_151
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 254
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263d0a3c654f245899b56ceec85c47d9
+      internalID: 2074669549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_152
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 255
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280d5514bc8be4df7bc42690e57f8a31
+      internalID: -1689462660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_153
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 258
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548b5725d19e44b969802eff5bcffe20
+      internalID: 1932949511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_154
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 255
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddf14374732f4a97ab43e50ba349828
+      internalID: 558903360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_155
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 262
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47dd2dc8f3642475c83bd5c45bc089f4
+      internalID: -1165023294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_156
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 247
+        width: 68
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc20fb258e504b7794200236de80cdb
+      internalID: 1454698203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_157
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 248
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c604a79f09514bdfaafb2bc07bc7762
+      internalID: 1152454858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_158
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 247
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6fcd23d7f464230a37899c34417419
+      internalID: -1231163856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_159
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 130
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1adb58249f91f472888b21ba769dfdab
+      internalID: -560986053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_160
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 131
+        width: 41
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35e865f0ab1844a3bdfa2a52097bd5d
+      internalID: -950004517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_161
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 130
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3706ead9a797f4163847f6f67e77fdaf
+      internalID: -925743835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_162
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 130
+        width: 39
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8990403618f2d44a697ed9980a053ae8
+      internalID: 1967740023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_163
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 129
+        width: 39
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0a01ce018984216a18aebd4d211042
+      internalID: 1041405511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_164
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 129
+        width: 42
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ddf7dfeb83e142cc94ad7869110f310
+      internalID: -1698788866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_165
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 129
+        width: 47
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe48f14a309b14121b1d5400170335f4
+      internalID: -555400532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_166
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 130
+        width: 39
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ebb01e234314c35af95498bc87ec31
+      internalID: -1215047403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_167
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 127
+        width: 39
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f38eda80d8d44d629ad71ac53f7c716
+      internalID: 733230859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_168
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 131
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c9f46d6235a447799b9c48f4354add
+      internalID: 103535898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_169
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 131
+        width: 43
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3375683db5a7a4f3f9a8adcd8d687cdb
+      internalID: 1926863935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_170
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 137
+        width: 72
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66da137c7967a4601af15bddbfa729dc
+      internalID: 1202227087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_171
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 130
+        width: 74
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4300cf642c443f9b714fca9b15600a
+      internalID: -1770227250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_172
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 129
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f142951cbe7ba4b1ba73a3b94c4bdeb1
+      internalID: 973364179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_173
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 126
+        width: 28
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e372ea0e139444a529089b081dab4ed3
+      internalID: 433929140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_174
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 136
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29639480b754f4a118cdac0723ce4dcc
+      internalID: 1588755486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_175
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 153
+        width: 31
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ebc5164d5114782ae8ef32ff018b00
+      internalID: -82249311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_176
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 130
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1155df88d9e84271a4613e708804469
+      internalID: -81329130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_177
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 131
+        width: 38
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5427140bf88b943f3af5b72964e16939
+      internalID: 2082334551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_178
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 130
+        width: 39
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff115102a88c404fb55b0bd0f4498ed
+      internalID: -1733004206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_179
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 122
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84dd64a958924fe18b6b7e2b5072f2a
+      internalID: -1892571128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_180
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 131
+        width: 72
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf42d24beed484cc0a61559eee00cfa1
+      internalID: 500948412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_181
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 130
+        width: 74
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea3fe470b1664ef2ad2bb62e3aca657
+      internalID: -10163345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_182
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 131
+        width: 72
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84de38dc840fa4023ba040b3628d52d1
+      internalID: -2047597551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_183
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 130
+        width: 74
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110b6b6b281d34324a96cbff302a0260
+      internalID: -291686520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_184
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958092170b02a400f951f63bd839e7ca
+      internalID: 2032214491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_185
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 3
+        width: 32
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2001880a27746a495b78abf4c072ac
+      internalID: -2099603973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_186
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 3
+        width: 33
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549b01463add54ce9b8ae8bfb81629c6
+      internalID: 578291372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_187
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 3
+        width: 32
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1395a642fdf245de928005643cdafea
+      internalID: 622366214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_188
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 3
+        width: 31
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cff10c61d414496b70564896b65359
+      internalID: -277366908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_189
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 3
+        width: 31
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0bdf719c44e4b43bc189f715f4795c
+      internalID: -549954197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_190
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 3
+        width: 31
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa32c23212cd4469a29aaecb87751ed
+      internalID: 628678507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_191
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 3
+        width: 31
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10ada502289842e4b87fb434c08e559
+      internalID: 1305149681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_192
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 3
+        width: 31
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857aa7acbf0344655b172b8b7bedb6cc
+      internalID: 1465944029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_193
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 3
+        width: 31
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce21b5f9a31734beda4d7221e8437d2f
+      internalID: 691263817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_194
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 3
+        width: 32
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a76307c04a774df9b3dfe9d37cdac83
+      internalID: 1838186614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_195
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 4
+        width: 34
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762530d1e427345b28efbac34da9f853
+      internalID: 159382659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_196
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 4
+        width: 34
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67535c63bee6640f3a2250533072e2c8
+      internalID: -749584503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_197
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 3
+        width: 34
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7d9bd2896cf4ad59a3fd6e1e85511c
+      internalID: 1400389303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_198
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 3
+        width: 34
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6959cc99a744ccf9e9451d8b6f2815
+      internalID: 439397512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_199
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 3
+        width: 34
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e2ac829f7d84212b3ec8d9ed2b8047
+      internalID: 249839578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_200
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 3
+        width: 34
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59430ced05efb4608b9bca9fde5dc00a
+      internalID: 1679549596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_201
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 3
+        width: 34
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574db9ffdfad84b44bb7caf699413d57
+      internalID: -222120175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_202
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 0
+        width: 71
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b83671b7e03941089048bba1efdb0c8
+      internalID: -816674926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_203
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 0
+        width: 71
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea678ede599549a6bcc33dc4c34cba3
+      internalID: 1326161129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_204
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 0
+        width: 71
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21e2627cc6384e41af0650d252e58e1
+      internalID: 290577074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryu asset_205
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 25
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04136c0d715044b0bc518ea89ef3563
+      internalID: 337647612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ryu asset_0: 884533123
+      Ryu asset_1: -1792174294
+      Ryu asset_10: -1433513590
+      Ryu asset_100: -636336285
+      Ryu asset_101: 667556568
+      Ryu asset_102: 1760123080
+      Ryu asset_103: 614957729
+      Ryu asset_104: 24888462
+      Ryu asset_105: -1296037860
+      Ryu asset_106: -599577526
+      Ryu asset_107: -516095584
+      Ryu asset_108: -1746607788
+      Ryu asset_109: 1957927909
+      Ryu asset_11: 1884649965
+      Ryu asset_110: -478352338
+      Ryu asset_111: -1762764439
+      Ryu asset_112: 2062532550
+      Ryu asset_113: -929595260
+      Ryu asset_114: 1104431047
+      Ryu asset_115: 1137740821
+      Ryu asset_116: -1825359572
+      Ryu asset_117: 412723540
+      Ryu asset_118: -168163171
+      Ryu asset_119: 870355776
+      Ryu asset_12: 1764533187
+      Ryu asset_120: 267459269
+      Ryu asset_121: -1639791231
+      Ryu asset_122: 1402996748
+      Ryu asset_123: -1438937874
+      Ryu asset_124: -1362887392
+      Ryu asset_125: -816332885
+      Ryu asset_126: -1253130175
+      Ryu asset_127: -2003440376
+      Ryu asset_128: -1922951613
+      Ryu asset_129: -279165603
+      Ryu asset_13: -426078976
+      Ryu asset_130: 247873054
+      Ryu asset_131: 215708484
+      Ryu asset_132: -538433854
+      Ryu asset_133: 1079773221
+      Ryu asset_134: 255252545
+      Ryu asset_135: 476752867
+      Ryu asset_136: -1093032018
+      Ryu asset_137: -975756409
+      Ryu asset_138: -1119650524
+      Ryu asset_139: -473473088
+      Ryu asset_14: -219610404
+      Ryu asset_140: 1539558010
+      Ryu asset_141: -122471395
+      Ryu asset_142: 505345050
+      Ryu asset_143: 2036451015
+      Ryu asset_144: -1352244965
+      Ryu asset_145: 1965830276
+      Ryu asset_146: 2134576750
+      Ryu asset_147: -831813385
+      Ryu asset_148: -1461707193
+      Ryu asset_149: -1195114314
+      Ryu asset_15: -1713173137
+      Ryu asset_150: 1104375163
+      Ryu asset_151: 2074669549
+      Ryu asset_152: -1689462660
+      Ryu asset_153: 1932949511
+      Ryu asset_154: 558903360
+      Ryu asset_155: -1165023294
+      Ryu asset_156: 1454698203
+      Ryu asset_157: 1152454858
+      Ryu asset_158: -1231163856
+      Ryu asset_159: -560986053
+      Ryu asset_16: -1930797463
+      Ryu asset_160: -950004517
+      Ryu asset_161: -925743835
+      Ryu asset_162: 1967740023
+      Ryu asset_163: 1041405511
+      Ryu asset_164: -1698788866
+      Ryu asset_165: -555400532
+      Ryu asset_166: -1215047403
+      Ryu asset_167: 733230859
+      Ryu asset_168: 103535898
+      Ryu asset_169: 1926863935
+      Ryu asset_17: -1682497000
+      Ryu asset_170: 1202227087
+      Ryu asset_171: -1770227250
+      Ryu asset_172: 973364179
+      Ryu asset_173: 433929140
+      Ryu asset_174: 1588755486
+      Ryu asset_175: -82249311
+      Ryu asset_176: -81329130
+      Ryu asset_177: 2082334551
+      Ryu asset_178: -1733004206
+      Ryu asset_179: -1892571128
+      Ryu asset_18: -1456338539
+      Ryu asset_180: 500948412
+      Ryu asset_181: -10163345
+      Ryu asset_182: -2047597551
+      Ryu asset_183: -291686520
+      Ryu asset_184: 2032214491
+      Ryu asset_185: -2099603973
+      Ryu asset_186: 578291372
+      Ryu asset_187: 622366214
+      Ryu asset_188: -277366908
+      Ryu asset_189: -549954197
+      Ryu asset_19: -1909048494
+      Ryu asset_190: 628678507
+      Ryu asset_191: 1305149681
+      Ryu asset_192: 1465944029
+      Ryu asset_193: 691263817
+      Ryu asset_194: 1838186614
+      Ryu asset_195: 159382659
+      Ryu asset_196: -749584503
+      Ryu asset_197: 1400389303
+      Ryu asset_198: 439397512
+      Ryu asset_199: 249839578
+      Ryu asset_2: 775787229
+      Ryu asset_20: -422134227
+      Ryu asset_200: 1679549596
+      Ryu asset_201: -222120175
+      Ryu asset_202: -816674926
+      Ryu asset_203: 1326161129
+      Ryu asset_204: 290577074
+      Ryu asset_205: 337647612
+      Ryu asset_21: -516431124
+      Ryu asset_22: -1539385359
+      Ryu asset_23: -868117590
+      Ryu asset_24: 1248585618
+      Ryu asset_25: 1293197343
+      Ryu asset_26: 1973444240
+      Ryu asset_27: 8475075
+      Ryu asset_28: 466835474
+      Ryu asset_29: 1782127562
+      Ryu asset_3: 100409187
+      Ryu asset_30: -1663084751
+      Ryu asset_31: -1058433775
+      Ryu asset_32: 1262393529
+      Ryu asset_33: 1795323487
+      Ryu asset_34: -1786704639
+      Ryu asset_35: 225399192
+      Ryu asset_36: -1930711433
+      Ryu asset_37: 624188423
+      Ryu asset_38: -802372212
+      Ryu asset_39: -495294056
+      Ryu asset_4: 832644184
+      Ryu asset_40: 267684996
+      Ryu asset_41: -258212197
+      Ryu asset_42: -1772842973
+      Ryu asset_43: 872889678
+      Ryu asset_44: -1086184717
+      Ryu asset_45: -36396609
+      Ryu asset_46: 749921855
+      Ryu asset_47: 1881826357
+      Ryu asset_48: -739706231
+      Ryu asset_49: 1871087804
+      Ryu asset_5: 1932263429
+      Ryu asset_50: -10477756
+      Ryu asset_51: 979625406
+      Ryu asset_52: -1046826463
+      Ryu asset_53: -558058941
+      Ryu asset_54: 457133439
+      Ryu asset_55: 458816860
+      Ryu asset_56: 1432150211
+      Ryu asset_57: -2053661419
+      Ryu asset_58: -1388211175
+      Ryu asset_59: 1151218353
+      Ryu asset_6: -826480917
+      Ryu asset_60: -136329422
+      Ryu asset_61: -1488755271
+      Ryu asset_62: -1081857750
+      Ryu asset_63: 1199389775
+      Ryu asset_64: -1457142251
+      Ryu asset_65: 1674263517
+      Ryu asset_66: -1236764230
+      Ryu asset_67: -1273295924
+      Ryu asset_68: 494499695
+      Ryu asset_69: 676211803
+      Ryu asset_7: -433184081
+      Ryu asset_70: -811659632
+      Ryu asset_71: -1467640999
+      Ryu asset_72: -328834485
+      Ryu asset_73: -1579365880
+      Ryu asset_74: -303379271
+      Ryu asset_75: 1533758060
+      Ryu asset_76: -1315331006
+      Ryu asset_77: 1120121490
+      Ryu asset_78: 351959993
+      Ryu asset_79: -559394457
+      Ryu asset_8: 835075470
+      Ryu asset_80: -1357223412
+      Ryu asset_81: -1993496022
+      Ryu asset_82: 811898650
+      Ryu asset_83: -1449450369
+      Ryu asset_84: 1148400616
+      Ryu asset_85: 2003090060
+      Ryu asset_86: 842518905
+      Ryu asset_87: -1491852944
+      Ryu asset_88: 292974930
+      Ryu asset_89: -1029930355
+      Ryu asset_9: 1682218205
+      Ryu asset_90: 784988543
+      Ryu asset_91: 1273119813
+      Ryu asset_92: -1914877058
+      Ryu asset_93: -687545293
+      Ryu asset_94: -352276026
+      Ryu asset_95: -2104683817
+      Ryu asset_96: -1317902410
+      Ryu asset_97: -1461858147
+      Ryu asset_98: -668823123
+      Ryu asset_99: -838916384
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
