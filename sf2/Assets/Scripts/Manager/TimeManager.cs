@@ -9,8 +9,8 @@ public class TimeManager : MonoBehaviour
     public static bool TimeType = true; //?
     [SerializeField]
     float MaxTime = 60;
-    int first_time = 0;
-    int last_time = 0;
+    public static int first_time = 0;
+    public static int last_time = 0;
     int CurrentTime = 0;
     
     
