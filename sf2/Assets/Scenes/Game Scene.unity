@@ -288,6 +288,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 118648620}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
 --- !u!1 &134543791
 GameObject:
   m_ObjectHideFlags: 0
@@ -433,6 +434,8 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+=======
+>>>>>>> parent of c324d47 (FEAT : RYU Sprite)
 --- !u!1 &249742690
 GameObject:
   m_ObjectHideFlags: 0
@@ -532,7 +535,6 @@ RectTransform:
   - {fileID: 1864763821}
   - {fileID: 38052615}
   - {fileID: 1214478552}
-  - {fileID: 134543792}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
