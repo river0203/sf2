@@ -6,26 +6,91 @@ using System;
 //player에 필요한 요소 관리, 통로 같은 역할
 public class PlayerControll : MonoBehaviour
 {
-    /*static float offensePower = 10;
-    public float get_offensePower {get {return offensePower;}}*/
+    public enum Key
+    {
+        none,
+        db, // 사진의 1~9까지
+        d,
+        fd, 
+        b, 
+        f,
+        ub,
+        u,
+        uf, 
+        A = 5, //약손
+        B = 6, //약발
+        C = 8, //강손
+        D = 10, //강발
+        
+    }
+    public enum status
+    {
+        None,
+        Move,
+        Attack,
+        Jump,
+        Guard,
+        _isSitting,
+        //아도겐은 펀치의 강,중,약에 따라 날아가는 속도가 달라짐
+        strongadogen = 15, //강파동권
+        middleadogen = 11, //중파동권
+        strongpiggybacking, //강 업어치기
+        middlepiggybacking, //중 업어치기
+        strongbackandflipping, //강 배대뒤치기
+        middlebackandflipping, //중 배대뒤치기
+        breakingthecollarbone = 14, //쇄골깨기
+        pitofthestomach = 16, //명치부수기
+        oryugen = 24, //승룡권
+        //용권선풍각은 킥의 강,중 에 따라 거리가 달라짐
+        strongaddaddaddugen = 35, //강용권선풍각
+        middleaddaddaddugen = 28, //중용권선풍각
+        airaddaddaddugen = 24, //공중 용권선풍각
+    }
+    public Key [] Move = {Key.b, Key.none, Key.db, Key.d, Key.fd, Key.f, Key.ub, Key.u, Key.uf};
+    public Key [] _isSitting = {Key.d};
+    public Key [] Jump = {Key.u};
+    public Key [] strongadogen = {Key.d,Key.fd,Key.f,Key.C};
+    public Key [] middleadogen = {Key.d,Key.fd,Key.f,Key.A};
+    public Key [] strongaddaddaddugen = {Key.d,Key.db,Key.b,Key.D};        
+    public Key [] middleaddaddaddugen = {Key.d,Key.db,Key.b,Key.B};
+    public Key [] strongpiggybacking = {Key.b,Key.C};
+    public Key [] middlepiggybacking = {Key.b,Key.A};
+    public Key [] strongbackandflipping = {Key.b,Key.D};
+    public Key [] middlebackandflipping = {Key.b,Key.B};
+    public Key [] breakingthecollarbone = {Key.f,Key.A};
+    public Key [] pitofthestomach = {Key.f,Key.C};
+    public Key [] oryugen = {Key.f,Key.d,Key.fd,Key.C};        
+    public Key [] weak_oryugen = {Key.f,Key.d,Key.fd,Key.A};
+    public Key [] sinkuadogen = {Key.d,Key.fd,Key.f,Key.d,Key.fd,Key.f,Key.C};
+    public Key [] weak_sinkuadogen = {Key.d,Key.fd,Key.f,Key.d,Key.fd,Key.f,Key.A};
 
     [SerializeField]
     float maxSpeed = 5f;
-    float moveX, moveY;
+    float moveX, moveUp;
+    bool Player_guardType = false;
     
+    status state = status.None;
+
     private void Update() 
     {
         player_move();
         player_Nmove();
         player_attack();
-        player_guard();
+        player_guard(Player_guardType);
     }
     private void player_move() //다시
     {
         moveX = Input.GetAxis("Horizontal") * maxSpeed * Time.deltaTime;
-        moveY = Input.GetAxis("Vertical") * maxSpeed * Time.deltaTime;
+        if(Input.GetKey(KeyCode.W))
+        {
+            moveUp += (maxSpeed * Time.deltaTime);
+        }
+        transform.position = new Vector2(transform.position.x + moveX, transform.position.y + moveUp);
 
-        transform.position = new Vector2(transform.position.x + moveX, transform.position.y + moveY);
+        if(Input.GetKeyDown(Move[(int)Key.b]))
+        {
+            state  = status.Move;
+        }
     }
 
     private void player_Nmove()
@@ -47,19 +112,19 @@ public class PlayerControll : MonoBehaviour
     private void player_attack()
     {
         //var a = Enum.GetNames(typeof(status))
+
     }
 
-    void player_guard()
-    {
+    public bool player_guard(bool guardType)
+    { 
         if(Input.GetKey(KeyCode.A))
         {
-            //애니메이션 불러오기
-            
+            if(key == SystemState._isSitting)
+                guardType = true;
         }
-        if(!Input.GetKey(KeyCode.A))
-        {
-            
-        }
+
+        return guardType;
     }
 
 }
+
