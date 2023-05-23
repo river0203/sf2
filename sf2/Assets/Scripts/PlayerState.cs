@@ -7,9 +7,9 @@ using System;
 public class PlayerState
 {
     public static bool HpType;
-    public static float i_hp = 170.0f; //읽기 전용
-    public float stunPower {get; private set;}
-
+    public static bool _isGuarding = false;
+    private static float i_hp = 170.0f;
+    SystemState.status player_State;
     private void Update() 
     {
         player_hp(HpType);
@@ -29,15 +29,15 @@ public class PlayerState
 
         return B_Hp;
     }
-
-    void player_stun()
-    {
-        
-    }
-
+    
     private void player_hit()
     {
         // hitbox에 애니메이션 감지시 
+        if()
+        {
+            i_hp -= 0;
+        }
     }
+
 
 }
