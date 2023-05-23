@@ -22,7 +22,7 @@ public class System_State : MonoBehaviour
         D, //강발
         
     }
-    enum status
+    enum State
     {
         Move,
         Attack,
@@ -39,6 +39,7 @@ public class System_State : MonoBehaviour
         weak_addaddaddugen, //약 용권선풍각
         air_addaddaddugen, //공중 용권선풍각
     }
+    
 
     Key [] strong_adogen = {Key.d,Key.fd,Key.f,Key.C};
     Key [] weak_adogen = {Key.d,Key.fd,Key.f,Key.A};
@@ -49,4 +50,5 @@ public class System_State : MonoBehaviour
     Key [] oryugen = {Key.f,Key.d,Key.fd,Key.C};
     Key [] strong_sinkuadogen = {Key.d,Key.fd,Key.f,Key.d,Key.fd,Key.f,Key.C};
     Key [] weaks_sinkuadogen = {Key.d,Key.fd,Key.f,Key.d,Key.fd,Key.f,Key.A};
+
 }
