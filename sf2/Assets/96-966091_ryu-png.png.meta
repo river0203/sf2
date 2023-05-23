@@ -1,0 +1,4655 @@
+fileFormatVersion: 2
+guid: 761ed6aec0968814599fac2a2dd7e685
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 866
+        width: 34
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d391a0aa0f02740b3bbd2290915fb9
+      internalID: 141267210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 866
+        width: 35
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d92d71a684bfc94c9d973e249c07072
+      internalID: -1931580437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 866
+        width: 34
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8247e28e99a484d9d328d146281773
+      internalID: -738007248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 866
+        width: 34
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c12d440d7d42f49b9304c83536e3e6
+      internalID: 160546617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 866
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ecd35b3c5a5c6844af71a1a6039a452
+      internalID: 679287573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 865
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4316f079da587fa40ab0c4e87096d84e
+      internalID: 1834807510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_6
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 866
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9dee2b9a4b1254e90153cd16a1dc00
+      internalID: -1494806451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_7
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 866
+        width: 32
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7def2c105d884e941a023bfee2baa2bf
+      internalID: 1812226293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_8
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 865
+        width: 31
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46222e55a6124f64ea4cbef0cc5f3c66
+      internalID: 112281828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_9
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 866
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b171ad1a2975dcf439935ce1e84544b3
+      internalID: 506866236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_10
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 863
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868cad0d4ca04f842870cbcd6d904377
+      internalID: -1182918192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_11
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 867
+        width: 29
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3cfc3a61cf16d4ab65f9e9677ecdcf
+      internalID: 626677718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_12
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 876
+        width: 31
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9bddac2988a26641a089d8dafdab886
+      internalID: 1142145280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_13
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 867
+        width: 29
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9d1e7dae3509b4aa580692d3173f8c
+      internalID: -951792496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_14
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 863
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aefd9fcfac193749857bb1b9d0ea81c
+      internalID: 1015847571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_15
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 866
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe89951132e4c9741adff08446cb2567
+      internalID: -248507831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_16
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 866
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3296bf2848d59469eaff590cecfafc
+      internalID: 537446093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_17
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 863
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961cba8c1d885a34c9c5b9a14c243cc2
+      internalID: 548028236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_18
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 885
+        width: 61
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7bfb88c889b8d40874df3903e8facb
+      internalID: 5595578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_19
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 871
+        width: 31
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31316d65303b13a47ba8deebfa9a0e4e
+      internalID: 763919640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_20
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 887
+        width: 72
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd16a1e47b9337f4d8f29f92ee2ca3b4
+      internalID: 110397252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_21
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 863
+        width: 43
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1749576aebdaaac458cd6f55ee7ab1bd
+      internalID: 175539156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_22
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 863
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91962592510587d4fbb3ae73c0e78405
+      internalID: 36664559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_23
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 866
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4dbfb37d2342e41a82ff5316b744a9
+      internalID: -1055005528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_24
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 866
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e407dee67be41694086da631936926b7
+      internalID: -1285194416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_25
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 866
+        width: 37
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47557b7230ed3e44a647d9d020c966a
+      internalID: -1585285980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_26
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 865
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d67493d41008d418beede43d1f853c
+      internalID: 1133460201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_27
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 750
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1f2100fb84cc849ac38de72f6e743b
+      internalID: 710651982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_28
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 750
+        width: 53
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d56a0633e2502c41b13bf071d1a2891
+      internalID: 2036993236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_29
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 750
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919ed2c12b9fea24dbb7386b152a3b83
+      internalID: 801327855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_30
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 750
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a563b11b20c8f8a45bb67b211994c24f
+      internalID: -1255457872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_31
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 751
+        width: 44
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1658b078f9b21c4388947ee95f261e2
+      internalID: 2109993080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_32
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 751
+        width: 62
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1880a6b2c8281ce408334b86e7f4ffa8
+      internalID: 1021085911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_33
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 751
+        width: 44
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786d5ffde05fe204d80e9df7dfa583da
+      internalID: -1649007279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_34
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 750
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3b558f29d167b4eaa0e0fe35ffbe37
+      internalID: 1281628165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_35
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 750
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde48cb8a8b6b52449050c795188b9b8
+      internalID: 998277588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_36
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 750
+        width: 40
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f37e18090db5346a395909fbf17747
+      internalID: 1445323860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_37
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 750
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9aa2d48bc6b6143b0cbde6ae17febf
+      internalID: -2061903963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_38
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 750
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96cf1ed799de7d14096ac21e696d9329
+      internalID: -348540598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_39
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 751
+        width: 44
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e91e20055d9344b8f341e21038b605
+      internalID: 686494642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_40
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 751
+        width: 52
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52385917360a0143b8848aac0e17d97
+      internalID: -1692840464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_41
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 751
+        width: 37
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e704192714e3e419818ce09f0986ae
+      internalID: 1613662968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_42
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 751
+        width: 52
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e60c11423fd84d43b311520a4a20e8d
+      internalID: -1629635853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_43
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 751
+        width: 44
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc03fe7a7898b704b84017979d6b75b9
+      internalID: 1206531946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_44
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 750
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57419b6cf4791c8438392c1a1888b0ba
+      internalID: -843585440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_45
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 751
+        width: 35
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4364145e8af64224bae28c08bac83174
+      internalID: 779259616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_46
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 751
+        width: 52
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a2f0683507ba1438e2ec438e2fe347
+      internalID: 1919287776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_47
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 751
+        width: 48
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9684dd3fac3eff040b500c2dda67ed15
+      internalID: -102348182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_48
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 751
+        width: 52
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81612df97d914f340929886afe671959
+      internalID: -706700296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_49
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 750
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac5287f493892a4c8ef6842d1cf1169
+      internalID: -1302521274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_50
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 621
+        width: 39
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268d42713ff7fc84c8afaa8eb9ed4be0
+      internalID: -1259108290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_51
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 621
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b94839173905d43beeef0446d8b673
+      internalID: -730461207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_52
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 621
+        width: 39
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d2098c921ac1e4ea1d4932b4e00096
+      internalID: 1298826698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_53
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 619
+        width: 35
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08d59e8121142244ac220b10b76b8f2
+      internalID: -1989522950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_54
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 619
+        width: 55
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278c783907402e04b90e7b776e2d32e5
+      internalID: 578680755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_55
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 619
+        width: 69
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a2e33324fd6f4438c0e6294339fdaf
+      internalID: 1907351568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_56
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 619
+        width: 58
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20b2d39cd0c3bd459adff828feaf200
+      internalID: 918276051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_57
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 619
+        width: 38
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98cc453f9539554385703aa408bb5c0
+      internalID: -1519645942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_58
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 619
+        width: 29
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5875511d849453846b0ff220ca1b3798
+      internalID: -1319378613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_59
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 619
+        width: 48
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293b89c9804b02141b916bc8c38e5f2b
+      internalID: 1821528435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_60
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 619
+        width: 29
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc09ba45431a63b458abcda7568f43ac
+      internalID: -1963313780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_61
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 619
+        width: 47
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525e2acd344b54846b67c81b5c16a7b9
+      internalID: -352026791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_62
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 619
+        width: 37
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a766f9435fc334d82a0da09a349833
+      internalID: 1478705726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_63
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 619
+        width: 31
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddc4f5a3f5341b46b7be038bb95a331
+      internalID: -1617418341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_64
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 619
+        width: 37
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dcb7ce18bfa6a341a9eee8265a0e0f9
+      internalID: -2015754098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_65
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 619
+        width: 47
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c68f022095fc044ae21ea1e4522252
+      internalID: -80129172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_66
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 619
+        width: 29
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec7ddfcdaa6b2249a7840fb53bf609e
+      internalID: -594468768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_67
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 619
+        width: 55
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874d971dbf2755e479a75255033fe22a
+      internalID: 741695072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_68
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 619
+        width: 30
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a69bd7d22b1514ebac90ba795cee50
+      internalID: 648132509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_69
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 619
+        width: 55
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7cf3a7bab37107488b58a1bc1d8aa28
+      internalID: 699343202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_70
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 619
+        width: 29
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9aff0109acf0e48a0c3e868176e5f1
+      internalID: -680118205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_71
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 491
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08ff0d5f171cbf4b8ee62a1ff429aae
+      internalID: 1533247620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_72
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 490
+        width: 55
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5acf2cca30ed04db1ce0052defc741
+      internalID: -156476934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_73
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 491
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4e9c13ed4e0a34ca9aea3a253f19c1
+      internalID: -1438702689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_74
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 491
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8ade548a996304e8931c1464ec5f30
+      internalID: 479486602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_75
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 491
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52bf9ab4a6fdc984185a02ca0571bdce
+      internalID: 1352197734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_76
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 491
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07ea6bbc397f3245894107e76a3fc6f
+      internalID: 657173773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_77
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 491
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b905fc1b305bd5e4f8216f0d4b01fd09
+      internalID: -1278808077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_78
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 491
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113dca098b872be4591d13b417275f8b
+      internalID: 480894549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_79
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 491
+        width: 42
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c9f678a09ff4b439db00e250c64197
+      internalID: 140693557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_80
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 491
+        width: 33
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557574f9a26c0ba40b110f91dd0d812d
+      internalID: 406100254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_81
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 491
+        width: 42
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a5a8333573ed9468cfa1108c802522
+      internalID: 1384274999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_82
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 491
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065ccb42d79cc994db8049250e236c34
+      internalID: -98637804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_83
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 489
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e284028ef72d44aa0e3197e71ef813
+      internalID: 1628398756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_84
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 488
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64393abbc8f0c1e45be0251a11d269f2
+      internalID: -1564057230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_85
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 489
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec4a8b6aba58484b9bdac6a51f28ef5
+      internalID: -1508976764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_86
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 489
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94db13efa306844daabf7b33e3b92fe
+      internalID: -616377337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_87
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 491
+        width: 82
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53f0b57c410212499310778d5d14f2c
+      internalID: 277140344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_88
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 489
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2648ecee182874c9e70df28bce91d9
+      internalID: 1066917466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_89
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 491
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732c28ab60f9d624f91e1899a6e868a5
+      internalID: 64865556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_90
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 491
+        width: 69
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d37d88813c6eef4097fad9eeef07724
+      internalID: -1778946567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_91
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 491
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914b830efb1bbfc4ea0c386f14dbea4c
+      internalID: -529448787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_92
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 491
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52f87f4a1efad64d8177a12344605a9
+      internalID: -1156653356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_93
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 491
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280e0f9e208ebe245b049e55e23aeacc
+      internalID: 64917255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_94
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 348
+        width: 40
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923847c1ceb0bd8468f8f94ec1e5c5fc
+      internalID: -1694311589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_95
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 355
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0346ce7bf7571f479d9dd18aedb6283
+      internalID: -333833751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_96
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 348
+        width: 31
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d09a22d3c6eb04e87788c7641a7214
+      internalID: -617729858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_97
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 348
+        width: 45
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ec8f45479f2584eb18f4c7114c235c
+      internalID: 878086046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_98
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 355
+        width: 31
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beceaa6749e375942865a6f4ded696cd
+      internalID: -602489868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_99
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 348
+        width: 32
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a45a806c3378074581345dc16028fbd
+      internalID: 1290949351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_100
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 348
+        width: 53
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da0b076fff03ce4c80d426b13257e4c
+      internalID: 924563023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_101
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 348
+        width: 34
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7622339d6315f74dad4a92eba70f138
+      internalID: 1683641387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_102
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 348
+        width: 31
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f045ee9be2c5f4ab078f0db06f73f1
+      internalID: -1746169445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_103
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 355
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6090696ae9622c44fbeeaff811a9faa5
+      internalID: -1296853262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_104
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 348
+        width: 37
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae57ed0caebac764b917b0ebd602f7cb
+      internalID: -279821894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_105
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 354
+        width: 63
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b197eb84d5be78b4a9de3ef9aa2e75a9
+      internalID: -149653078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_106
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 348
+        width: 37
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ad7e66ef54be746a6dac75be342abc
+      internalID: -124072748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_107
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 351
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7449a7591d8f45429457f0357b60273
+      internalID: 578051013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_108
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 351
+        width: 37
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1104f71cbf08794bad4aef2981867ba
+      internalID: 334486197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_109
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 351
+        width: 42
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af032fe61061d65448f3582e421c22ed
+      internalID: 1418842963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_110
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 348
+        width: 38
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252eb26dd458333469bf4a103d83f4ba
+      internalID: 1765551386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_111
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 348
+        width: 31
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5591cb806b1ebf94eac30c0b9cb2a585
+      internalID: 87237464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_112
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 348
+        width: 28
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a812854a41ca54699f1457892909f0
+      internalID: 915465281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_113
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 349
+        width: 35
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0bf606e7d742c4c83c63c28ebf1bb0
+      internalID: 1036951933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_114
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 348
+        width: 40
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b925b9980d4554dac98c727a2b68de
+      internalID: 1433188001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_115
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 386
+        width: 32
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4bd7fb508d31148aa57a8e1fec6b67
+      internalID: -2084592953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_116
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 381
+        width: 55
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf9f06c62162d7428a41c6c0ad82f35
+      internalID: -704029435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_117
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 383
+        width: 34
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b12825aaae5754981279d8f81ae2d0
+      internalID: 2012446778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_118
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 386
+        width: 55
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ecee9c1b7cf874297b2f7c9bd715f0
+      internalID: 1148274217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_119
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 385
+        width: 33
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb8d9600e2a5584588392f0aa0d15ad
+      internalID: 704308190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_120
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 378
+        width: 34
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb871a44e08d5c4ba1883c9fc0eb211
+      internalID: -2012168369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_121
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 348
+        width: 29
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9206f7b80234aff4a9a0ae4f7f0b1177
+      internalID: 1573324888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_122
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 351
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc096cb079c96a4980f95fd247564b9
+      internalID: -85205548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_123
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 247
+        width: 43
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b57eed8628440b47a8e14800d046a50
+      internalID: 1213066444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_124
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 248
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8e20f4e78b07a409ba80cc66db9639
+      internalID: 2102012218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_125
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 248
+        width: 51
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189e9d571ab2d59488c0b2aa238e6740
+      internalID: -1344820074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_126
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 248
+        width: 83
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ce6829b0655bc4d9406f613adea476
+      internalID: 2002342884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_127
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 248
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979263d837d36b545a261654397179b8
+      internalID: -1795396820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_128
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 272
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057627c73fb798d478e95735248d3a19
+      internalID: 682154178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_129
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 282
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cef9469e9c6d5469a6cc43ee37e686
+      internalID: 672858429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_130
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 292
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df38dad6347c5f542ad9bff4d36d4daf
+      internalID: -873059571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_131
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 299
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1b4a8bb48b3164fb0240cbdf40097a
+      internalID: -1443021088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_132
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 297
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922b15a454c4da54d83be86b0eccc589
+      internalID: -2146643943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_133
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 292
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc13ebbc110bd641a871c16338917c5
+      internalID: 299968580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_134
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 292
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318c3ef9ffab6a7479e2d6f8c42fe2ba
+      internalID: 5915071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_135
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 292
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c45a1470efb9d4f8de3cafec4a7948
+      internalID: -1590437156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_136
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 291
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4db800e2e343848a025a1ac223abab
+      internalID: 1164421234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_137
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 283
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605adc9fb4e905647a578ca79db5c547
+      internalID: -2080309257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_138
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 281
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbdcf5d3ae9540843997763650ca5e39
+      internalID: -2108197601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_139
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 271
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29edccac7de19fc42971c10d1770c84e
+      internalID: -1707393794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_140
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 273
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7413ed86886aa442b5a586d943947ec
+      internalID: -1027401863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_141
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 247
+        width: 47
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1daea3a5110f54f9f2d027ca689e27
+      internalID: -970190347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_142
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 247
+        width: 49
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dcaf63ce3cd20d41a95221eb6e4be6d
+      internalID: 1196758957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_143
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 247
+        width: 38
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74b32b7cd9455e45813ad5772f2e2d7
+      internalID: 991436918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_144
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 248
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88eb9a075fa87248a9ab53dfc85ab93
+      internalID: -1751345842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_145
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 238
+        width: 44
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c660769f50e73d64c911028bb3c69d5e
+      internalID: -1366484130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_146
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 247
+        width: 47
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee3dfc19f3819c4ca9201b3e949350e
+      internalID: 1383230812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_147
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 247
+        width: 46
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32d419979b5684428976925e318bf52
+      internalID: -685735782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_148
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 248
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a036c2c23682f9d45a8ae0d318fc8356
+      internalID: -1432035799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_149
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 247
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7682335b7947f4742974f5aa09523e66
+      internalID: 797916230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_150
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 255
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf8df6f6eab45c4e8753c33016488e5
+      internalID: 835857138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_151
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 254
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33028c62109da414a975aa3d8c8e1bb7
+      internalID: -447905924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_152
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 255
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c395838787c3d9a41871f51e9734af14
+      internalID: 1774678488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_153
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 258
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f5747d3b92f8a4eaacc26fd9917587
+      internalID: 2088003246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_154
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 255
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2763e4ec3630a6347a27edf7728a5b78
+      internalID: 1156793645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_155
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 262
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2700d1c33c5db646a6cdccec054abc2
+      internalID: 1919235123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_156
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 247
+        width: 68
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a084d589e9d4a0d4cb4b1c77c26d3bc1
+      internalID: 507756988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_157
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 248
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0bab1af342203478b57f2641049232
+      internalID: -1002879225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_158
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 247
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c138e38d47ce0b54d87af566ec3cb824
+      internalID: -1578150017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_159
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 130
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6506838c41333c47bf8286fd2c70975
+      internalID: -590043373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_160
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 131
+        width: 41
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2008c0a683ba066498dcb98cffde61aa
+      internalID: 1942741480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_161
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 130
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec974e2a1aa9ed4f900bb9a71381fb6
+      internalID: 58484172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_162
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 130
+        width: 39
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768174c621ab77a46a17399e62f057d3
+      internalID: -1215859535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_163
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 129
+        width: 39
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ecd053b787903e43a9f01f0e02f4bae
+      internalID: -952839357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_164
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 129
+        width: 42
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa28b1f3e34a8334986ac4177b6aed61
+      internalID: 669648406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_165
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 129
+        width: 47
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a758819cb793245bdc7e3e2312d346
+      internalID: 707419190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_166
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 130
+        width: 39
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cc52ee86586d7419238a4cfcf144ff
+      internalID: 1546494672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_167
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 127
+        width: 39
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8306f421ba3273148a4913fbd88dd864
+      internalID: -873320706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_168
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 131
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5859173cc06465a44a84e3a6e9f3f0d1
+      internalID: 1224711799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_169
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 131
+        width: 43
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbccf91d14bca854c954373fed36107f
+      internalID: -1653021396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_170
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 137
+        width: 72
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f35030a0bde69b42acff1319b204e37
+      internalID: -1147108201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_171
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 130
+        width: 74
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488cf6ebf1fb9c9438b5a8cee8642360
+      internalID: 901445426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_172
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 129
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12cb1f2d0f7de4c41ac0af0d46d825d2
+      internalID: 1898840668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_173
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 126
+        width: 28
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66281f76821a68145969a63e00df8fca
+      internalID: 467187359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_174
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 136
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde6438728c338d4fb4c9be086dc0b96
+      internalID: 645251496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_175
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 153
+        width: 31
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5207900db438c04f8093aaa89981b4b
+      internalID: -406315288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_176
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 130
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5105f937c4c5240849e1c2b13f3c82
+      internalID: -930185515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_177
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 131
+        width: 38
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4618d97c952d7c4478c2aa021be9861e
+      internalID: -2020332377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_178
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 130
+        width: 39
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d53374e8a50c644ae2f3967dc46a3b
+      internalID: -1216674137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_179
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 122
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc976b7c0f83ac40aa114b37545fd53
+      internalID: 575685889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_180
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 131
+        width: 72
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3c8aaf57853eb4f879e38149d5d1ac
+      internalID: 930829279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_181
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 130
+        width: 74
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168cf8183f10fda4e86ba1c7fd301974
+      internalID: 1636817719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_182
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 131
+        width: 72
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60a5f1011a10d248860b8aa00cd25f2
+      internalID: 1075569619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_183
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 130
+        width: 74
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79344a7d266e2874ca2ce626846d5b99
+      internalID: 2095088909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_184
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e506764fd8c6d24991404896906764e
+      internalID: 1781241416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_185
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 3
+        width: 32
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f70654441f44a488bec67fffd215fc
+      internalID: 1079310157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_186
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 3
+        width: 33
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5254a25c28388428e016bdfb85a9ae
+      internalID: -393625484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_187
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 3
+        width: 32
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1cbf24e6916a840bd560dbf9cb5e28
+      internalID: 815173932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_188
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 3
+        width: 31
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664ba37f03413fb448c4ba5e1dedcf83
+      internalID: 885562827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_189
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 3
+        width: 31
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69a108b60d24e54991ac3bf41dab37f
+      internalID: -1974228596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_190
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 3
+        width: 31
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61bf3069f1d6bd48852b68cc6063195
+      internalID: 36599026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_191
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 3
+        width: 31
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64df474f662daaa4ab0bd3a43f8825f3
+      internalID: 165896761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_192
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 3
+        width: 31
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cf6b554bf62db428e19e393d7c1322
+      internalID: 350555488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_193
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 3
+        width: 31
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c6f98859c02c745b951c51b05237ac
+      internalID: 1913432588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_194
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 3
+        width: 32
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a2a817226b4a448a84084d19f5520c
+      internalID: -1312956259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_195
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 4
+        width: 34
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62a30b384133f24fa69fb519b8d949e
+      internalID: 552107024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_196
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 4
+        width: 34
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12854758f5d7f97418bd53a5ce29ff8e
+      internalID: -2141333597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_197
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 3
+        width: 34
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef81268ed466a0c48abaf8c38fe6f233
+      internalID: 1376410275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_198
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 3
+        width: 34
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768e73707077fb14284695573499466d
+      internalID: -276637195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_199
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 3
+        width: 34
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb43b4f93491be1478ff3f40661660fe
+      internalID: -1905696663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_200
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 3
+        width: 34
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae20be99ce4ae62438b153eaf97170a8
+      internalID: 1495678894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_201
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 3
+        width: 34
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246f119f533e6464db518128c7437ba2
+      internalID: -1506710662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_202
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 0
+        width: 71
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d90768af06d3047a155f54b5683f5c
+      internalID: -600364551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_203
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 0
+        width: 71
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d3e190d7f2f6e40938748864147e75
+      internalID: 1563566777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_204
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 0
+        width: 71
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c370527c4acd2349b7096e859b6f3dd
+      internalID: 737461625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96-966091_ryu-png_205
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 25
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638e26edfddd6a445a9e1ed9d850b7ee
+      internalID: -1292002651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      96-966091_ryu-png_0: 141267210
+      96-966091_ryu-png_1: -1931580437
+      96-966091_ryu-png_10: -1182918192
+      96-966091_ryu-png_100: 924563023
+      96-966091_ryu-png_101: 1683641387
+      96-966091_ryu-png_102: -1746169445
+      96-966091_ryu-png_103: -1296853262
+      96-966091_ryu-png_104: -279821894
+      96-966091_ryu-png_105: -149653078
+      96-966091_ryu-png_106: -124072748
+      96-966091_ryu-png_107: 578051013
+      96-966091_ryu-png_108: 334486197
+      96-966091_ryu-png_109: 1418842963
+      96-966091_ryu-png_11: 626677718
+      96-966091_ryu-png_110: 1765551386
+      96-966091_ryu-png_111: 87237464
+      96-966091_ryu-png_112: 915465281
+      96-966091_ryu-png_113: 1036951933
+      96-966091_ryu-png_114: 1433188001
+      96-966091_ryu-png_115: -2084592953
+      96-966091_ryu-png_116: -704029435
+      96-966091_ryu-png_117: 2012446778
+      96-966091_ryu-png_118: 1148274217
+      96-966091_ryu-png_119: 704308190
+      96-966091_ryu-png_12: 1142145280
+      96-966091_ryu-png_120: -2012168369
+      96-966091_ryu-png_121: 1573324888
+      96-966091_ryu-png_122: -85205548
+      96-966091_ryu-png_123: 1213066444
+      96-966091_ryu-png_124: 2102012218
+      96-966091_ryu-png_125: -1344820074
+      96-966091_ryu-png_126: 2002342884
+      96-966091_ryu-png_127: -1795396820
+      96-966091_ryu-png_128: 682154178
+      96-966091_ryu-png_129: 672858429
+      96-966091_ryu-png_13: -951792496
+      96-966091_ryu-png_130: -873059571
+      96-966091_ryu-png_131: -1443021088
+      96-966091_ryu-png_132: -2146643943
+      96-966091_ryu-png_133: 299968580
+      96-966091_ryu-png_134: 5915071
+      96-966091_ryu-png_135: -1590437156
+      96-966091_ryu-png_136: 1164421234
+      96-966091_ryu-png_137: -2080309257
+      96-966091_ryu-png_138: -2108197601
+      96-966091_ryu-png_139: -1707393794
+      96-966091_ryu-png_14: 1015847571
+      96-966091_ryu-png_140: -1027401863
+      96-966091_ryu-png_141: -970190347
+      96-966091_ryu-png_142: 1196758957
+      96-966091_ryu-png_143: 991436918
+      96-966091_ryu-png_144: -1751345842
+      96-966091_ryu-png_145: -1366484130
+      96-966091_ryu-png_146: 1383230812
+      96-966091_ryu-png_147: -685735782
+      96-966091_ryu-png_148: -1432035799
+      96-966091_ryu-png_149: 797916230
+      96-966091_ryu-png_15: -248507831
+      96-966091_ryu-png_150: 835857138
+      96-966091_ryu-png_151: -447905924
+      96-966091_ryu-png_152: 1774678488
+      96-966091_ryu-png_153: 2088003246
+      96-966091_ryu-png_154: 1156793645
+      96-966091_ryu-png_155: 1919235123
+      96-966091_ryu-png_156: 507756988
+      96-966091_ryu-png_157: -1002879225
+      96-966091_ryu-png_158: -1578150017
+      96-966091_ryu-png_159: -590043373
+      96-966091_ryu-png_16: 537446093
+      96-966091_ryu-png_160: 1942741480
+      96-966091_ryu-png_161: 58484172
+      96-966091_ryu-png_162: -1215859535
+      96-966091_ryu-png_163: -952839357
+      96-966091_ryu-png_164: 669648406
+      96-966091_ryu-png_165: 707419190
+      96-966091_ryu-png_166: 1546494672
+      96-966091_ryu-png_167: -873320706
+      96-966091_ryu-png_168: 1224711799
+      96-966091_ryu-png_169: -1653021396
+      96-966091_ryu-png_17: 548028236
+      96-966091_ryu-png_170: -1147108201
+      96-966091_ryu-png_171: 901445426
+      96-966091_ryu-png_172: 1898840668
+      96-966091_ryu-png_173: 467187359
+      96-966091_ryu-png_174: 645251496
+      96-966091_ryu-png_175: -406315288
+      96-966091_ryu-png_176: -930185515
+      96-966091_ryu-png_177: -2020332377
+      96-966091_ryu-png_178: -1216674137
+      96-966091_ryu-png_179: 575685889
+      96-966091_ryu-png_18: 5595578
+      96-966091_ryu-png_180: 930829279
+      96-966091_ryu-png_181: 1636817719
+      96-966091_ryu-png_182: 1075569619
+      96-966091_ryu-png_183: 2095088909
+      96-966091_ryu-png_184: 1781241416
+      96-966091_ryu-png_185: 1079310157
+      96-966091_ryu-png_186: -393625484
+      96-966091_ryu-png_187: 815173932
+      96-966091_ryu-png_188: 885562827
+      96-966091_ryu-png_189: -1974228596
+      96-966091_ryu-png_19: 763919640
+      96-966091_ryu-png_190: 36599026
+      96-966091_ryu-png_191: 165896761
+      96-966091_ryu-png_192: 350555488
+      96-966091_ryu-png_193: 1913432588
+      96-966091_ryu-png_194: -1312956259
+      96-966091_ryu-png_195: 552107024
+      96-966091_ryu-png_196: -2141333597
+      96-966091_ryu-png_197: 1376410275
+      96-966091_ryu-png_198: -276637195
+      96-966091_ryu-png_199: -1905696663
+      96-966091_ryu-png_2: -738007248
+      96-966091_ryu-png_20: 110397252
+      96-966091_ryu-png_200: 1495678894
+      96-966091_ryu-png_201: -1506710662
+      96-966091_ryu-png_202: -600364551
+      96-966091_ryu-png_203: 1563566777
+      96-966091_ryu-png_204: 737461625
+      96-966091_ryu-png_205: -1292002651
+      96-966091_ryu-png_21: 175539156
+      96-966091_ryu-png_22: 36664559
+      96-966091_ryu-png_23: -1055005528
+      96-966091_ryu-png_24: -1285194416
+      96-966091_ryu-png_25: -1585285980
+      96-966091_ryu-png_26: 1133460201
+      96-966091_ryu-png_27: 710651982
+      96-966091_ryu-png_28: 2036993236
+      96-966091_ryu-png_29: 801327855
+      96-966091_ryu-png_3: 160546617
+      96-966091_ryu-png_30: -1255457872
+      96-966091_ryu-png_31: 2109993080
+      96-966091_ryu-png_32: 1021085911
+      96-966091_ryu-png_33: -1649007279
+      96-966091_ryu-png_34: 1281628165
+      96-966091_ryu-png_35: 998277588
+      96-966091_ryu-png_36: 1445323860
+      96-966091_ryu-png_37: -2061903963
+      96-966091_ryu-png_38: -348540598
+      96-966091_ryu-png_39: 686494642
+      96-966091_ryu-png_4: 679287573
+      96-966091_ryu-png_40: -1692840464
+      96-966091_ryu-png_41: 1613662968
+      96-966091_ryu-png_42: -1629635853
+      96-966091_ryu-png_43: 1206531946
+      96-966091_ryu-png_44: -843585440
+      96-966091_ryu-png_45: 779259616
+      96-966091_ryu-png_46: 1919287776
+      96-966091_ryu-png_47: -102348182
+      96-966091_ryu-png_48: -706700296
+      96-966091_ryu-png_49: -1302521274
+      96-966091_ryu-png_5: 1834807510
+      96-966091_ryu-png_50: -1259108290
+      96-966091_ryu-png_51: -730461207
+      96-966091_ryu-png_52: 1298826698
+      96-966091_ryu-png_53: -1989522950
+      96-966091_ryu-png_54: 578680755
+      96-966091_ryu-png_55: 1907351568
+      96-966091_ryu-png_56: 918276051
+      96-966091_ryu-png_57: -1519645942
+      96-966091_ryu-png_58: -1319378613
+      96-966091_ryu-png_59: 1821528435
+      96-966091_ryu-png_6: -1494806451
+      96-966091_ryu-png_60: -1963313780
+      96-966091_ryu-png_61: -352026791
+      96-966091_ryu-png_62: 1478705726
+      96-966091_ryu-png_63: -1617418341
+      96-966091_ryu-png_64: -2015754098
+      96-966091_ryu-png_65: -80129172
+      96-966091_ryu-png_66: -594468768
+      96-966091_ryu-png_67: 741695072
+      96-966091_ryu-png_68: 648132509
+      96-966091_ryu-png_69: 699343202
+      96-966091_ryu-png_7: 1812226293
+      96-966091_ryu-png_70: -680118205
+      96-966091_ryu-png_71: 1533247620
+      96-966091_ryu-png_72: -156476934
+      96-966091_ryu-png_73: -1438702689
+      96-966091_ryu-png_74: 479486602
+      96-966091_ryu-png_75: 1352197734
+      96-966091_ryu-png_76: 657173773
+      96-966091_ryu-png_77: -1278808077
+      96-966091_ryu-png_78: 480894549
+      96-966091_ryu-png_79: 140693557
+      96-966091_ryu-png_8: 112281828
+      96-966091_ryu-png_80: 406100254
+      96-966091_ryu-png_81: 1384274999
+      96-966091_ryu-png_82: -98637804
+      96-966091_ryu-png_83: 1628398756
+      96-966091_ryu-png_84: -1564057230
+      96-966091_ryu-png_85: -1508976764
+      96-966091_ryu-png_86: -616377337
+      96-966091_ryu-png_87: 277140344
+      96-966091_ryu-png_88: 1066917466
+      96-966091_ryu-png_89: 64865556
+      96-966091_ryu-png_9: 506866236
+      96-966091_ryu-png_90: -1778946567
+      96-966091_ryu-png_91: -529448787
+      96-966091_ryu-png_92: -1156653356
+      96-966091_ryu-png_93: 64917255
+      96-966091_ryu-png_94: -1694311589
+      96-966091_ryu-png_95: -333833751
+      96-966091_ryu-png_96: -617729858
+      96-966091_ryu-png_97: 878086046
+      96-966091_ryu-png_98: -602489868
+      96-966091_ryu-png_99: 1290949351
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
