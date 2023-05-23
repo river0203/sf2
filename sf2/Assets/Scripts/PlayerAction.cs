@@ -8,11 +8,13 @@ public class PlayerAction : MonoBehaviour
 {
     Rigidbody2D rigid;
 
+    [SerializeField]
     GameObject[] AttackHitBox;
     GameObject Idle_Jump_HitBox;
     GameObject SitDown_HitBox;
     GameObject Adogen;
 
+    [SerializeField]
     public float Speed;
     public float JumpPower;
 
@@ -44,7 +46,7 @@ public class PlayerAction : MonoBehaviour
 
     void PlayerPositionState()
     {
-        if((isJump || isSitDown) == false) 
+        if ((isJump || isSitDown) == false)
         {
             isIdle = true;
             Idle_Jump_HitBox.SetActive(true);
@@ -74,7 +76,7 @@ public class PlayerAction : MonoBehaviour
         }
 
         //¾É±â
-        if(SystemState.status == "d" || SystemState.status == "bd" || SystemState.status == "fd")
+        if (SystemState.status == "d" || SystemState.status == "bd" || SystemState.status == "fd")
         {
             isSitDown = true;
             isIdle = false;
@@ -89,9 +91,9 @@ public class PlayerAction : MonoBehaviour
     {
         if (isIdle == true)
         {
-            if(SystemState.Key == "A")
+            if (SystemState.Key == "A")
             {
-                StartCoroutine(Active_HitBox());   
+                StartCoroutine(Active_HitBox());
             }
             else if (SystemState.status == "adogen")
             {
@@ -100,12 +102,12 @@ public class PlayerAction : MonoBehaviour
         }
     }
     void JumpAction()
-    { 
-        if(isJump == true) { }
+    {
+        if (isJump == true) { }
     }
     void SitDownAction()
     {
-        if(isSitDown == true) { }
+        if (isSitDown == true) { }
     }
 
     IEnumerator Active_HitBox(GameObject HitBox, float WaitTime)
@@ -118,6 +120,6 @@ public class PlayerAction : MonoBehaviour
     IEnumerator CreateAdogen()
     {
         yield return new WaitForSeconds(1f);
-        Instantiate(Adogen, new Vector3(rigid.position.x, rigid.position.y, 0), Quaternion.identity);
+        Instantiate(Adogen, new Vector3(rigid.position.x + 1.7f, rigid.position.y + 0.77f, 0), Quaternion.identity);
     }
 }
