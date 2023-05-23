@@ -67,3 +67,5 @@ public class Command : SystemState
     Key [] sinkuadogen = {Key.d,Key.fd,Key.f,Key.d,Key.fd,Key.f,Key.A};
     
 }
+
+public Command _command {get;}

@@ -38,7 +38,6 @@ public class PlayerState
     private void player_hit()
     {
         // hitbox에 애니메이션 감지시 
-        i_hp -= PlayerControll.Instance.get_offensePower;
     }
 
 }
