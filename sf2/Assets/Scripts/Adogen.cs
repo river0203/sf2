@@ -29,7 +29,7 @@ class Adogen : MonoBehaviour
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Player"))
         {
-            StartCoroutine("DestroyAdogen");
+            StartCoroutine(DestroyAdogen());
         }
     }
     void Blink()
