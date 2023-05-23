@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SystemState
+public static class SystemState
 {
-    enum Key
+    public static enum Key
     {
         none,
         db, // 사진의 1~9까지
@@ -23,15 +23,14 @@ public class SystemState
         D, //강발
         
     }
-    enum status
+    public static enum status
     {
         Move,
         Attack,
+        Jump,
         //아도겐은 펀치의 강,중,약에 따라 날아가는 속도가 달라짐
         strongadogen, //강파동권
         middleadogen, //중파동권
-        weakadogen, //약파동권
-
         strongpiggybacking, //강 업어치기
         middlepiggybacking, //중 업어치기
         strongbackandflipping, //강 배대뒤치기
@@ -45,25 +44,27 @@ public class SystemState
         weakaddaddaddugen, //약용권선풍각
         airaddaddaddugen, //공중 용권선풍각
     }
+}
 
-    Key [] strongadogen = {Key.down,Key.downright,Key.right,Key.strongpunch};
-    Key [] middleadogen = {Key.down,Key.downright,Key.right,Key.middlepunch};
-    Key [] strongaddaddaddugen = {Key.down,Key.downleft,Key.left,Key.strongkick};
-    Key [] middleaddaddaddugen = {Key.down,Key.downleft,Key.left,Key.middlekick};
-    Key [] strongpiggybacking = {Key.left,Key.strongpunch};
-    Key [] strongpiggybacking = {Key.right,Key.strongpunch};
-    Key [] middlepiggybacking = {Key.left,Key.middlepunch};
-    Key [] middlepiggybacking = {Key.right,Key.middlepunch};
-    Key [] strongbackandflipping = {Key.left,Key.strongkick};
-    Key [] strongbackandflipping = {Key.right,Key.strongkick};
-    Key [] middlebackandflipping = {Key.left,Key.middlekick};
-    Key [] middlebackandflipping = {Key.right,Key.middlekick};
-    Key [] breakingthecollarbone = {Key.right,Key.middlepunch};
-    Key [] pitofthestomach = {Key.right,Key.strongpunch};
-    Key [] oryugen = {Key.right,Key.down,Key.downright,Key.strongpunch};
-    Key [] oryugen = {Key.right,Key.down,Key.downright,Key.middlepunch};
-    Key [] sinkuadogen = {Key.down,Key.downright,Key.right,Key.down,Key.downright,Key.right,Key.strongpunch};
-    Key [] sinkuadogen = {Key.down,Key.downright,Key.right,Key.down,Key.downright,Key.right,Key.middlepunch};
-
-
+public class Command : SystemState
+{
+    Key [] strongadogen = {Key.d,Key.fd,Key.f,Key.C};
+    Key [] middleadogen = {Key.d,Key.fd,Key.f,Key.A};
+    Key [] strongaddaddaddugen = {Key.d,Key.db,Key.b,Key.D};        
+    Key [] middleaddaddaddugen = {Key.d,Key.db,Key.b,Key.B};
+    Key [] strongpiggybacking = {Key.b,Key.C};
+    Key [] strongpiggybacking = {Key.f,Key.C};
+    Key [] middlepiggybacking = {Key.b,Key.A};
+    Key [] middlepiggybacking = {Key.f,Key.A};
+    Key [] strongbackandflipping = {Key.b,Key.D};
+    Key [] strongbackandflipping = {Key.f,Key.D};
+    Key [] middlebackandflipping = {Key.b,Key.B};
+    Key [] middlebackandflipping = {Key.f,Key.B};
+    Key [] breakingthecollarbone = {Key.f,Key.A};
+    Key [] pitofthestomach = {Key.f,Key.C};
+    Key [] oryugen = {Key.f,Key.d,Key.fd,Key.C};        
+    Key [] oryugen = {Key.f,Key.d,Key.fd,Key.A};
+    Key [] sinkuadogen = {Key.d,Key.fd,Key.f,Key.d,Key.fd,Key.f,Key.C};
+    Key [] sinkuadogen = {Key.d,Key.fd,Key.f,Key.d,Key.fd,Key.f,Key.A};
+    
 }
