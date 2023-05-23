@@ -43,29 +43,29 @@ public static class SystemState
         middleaddaddaddugen = 28, //중용권선풍각
         airaddaddaddugen = 24, //공중 용권선풍각
     }
-}
 
-public class Command : SystemState
-{
-    Key [] strongadogen = {Key.d,Key.fd,Key.f,Key.C};
-    Key [] middleadogen = {Key.d,Key.fd,Key.f,Key.A};
-    Key [] strongaddaddaddugen = {Key.d,Key.db,Key.b,Key.D};        
-    Key [] middleaddaddaddugen = {Key.d,Key.db,Key.b,Key.B};
-    Key [] strongpiggybacking = {Key.b,Key.C};
-    Key [] strongpiggybacking = {Key.f,Key.C};
-    Key [] middlepiggybacking = {Key.b,Key.A};
-    Key [] middlepiggybacking = {Key.f,Key.A};
-    Key [] strongbackandflipping = {Key.b,Key.D};
-    Key [] strongbackandflipping = {Key.f,Key.D};
-    Key [] middlebackandflipping = {Key.b,Key.B};
-    Key [] middlebackandflipping = {Key.f,Key.B};
-    Key [] breakingthecollarbone = {Key.f,Key.A};
-    Key [] pitofthestomach = {Key.f,Key.C};
-    Key [] oryugen = {Key.f,Key.d,Key.fd,Key.C};        
-    Key [] oryugen = {Key.f,Key.d,Key.fd,Key.A};
-    Key [] sinkuadogen = {Key.d,Key.fd,Key.f,Key.d,Key.fd,Key.f,Key.C};
-    Key [] sinkuadogen = {Key.d,Key.fd,Key.f,Key.d,Key.fd,Key.f,Key.A};
+    public void Commandlist()
+    {
+        Key [] strongadogen = {Key.d,Key.fd,Key.f,Key.C};
+        Key [] middleadogen = {Key.d,Key.fd,Key.f,Key.A};
+        Key [] strongaddaddaddugen = {Key.d,Key.db,Key.b,Key.D};        
+        Key [] middleaddaddaddugen = {Key.d,Key.db,Key.b,Key.B};
+        Key [] strongpiggybacking = {Key.b,Key.C};
+        Key [] strongpiggybacking = {Key.f,Key.C};
+        Key [] middlepiggybacking = {Key.b,Key.A};
+        Key [] middlepiggybacking = {Key.f,Key.A};
+        Key [] strongbackandflipping = {Key.b,Key.D};
+        Key [] strongbackandflipping = {Key.f,Key.D};
+        Key [] middlebackandflipping = {Key.b,Key.B};
+        Key [] middlebackandflipping = {Key.f,Key.B};
+        Key [] breakingthecollarbone = {Key.f,Key.A};
+        Key [] pitofthestomach = {Key.f,Key.C};
+        Key [] oryugen = {Key.f,Key.d,Key.fd,Key.C};        
+        Key [] oryugen = {Key.f,Key.d,Key.fd,Key.A};
+        Key [] sinkuadogen = {Key.d,Key.fd,Key.f,Key.d,Key.fd,Key.f,Key.C};
+        Key [] sinkuadogen = {Key.d,Key.fd,Key.f,Key.d,Key.fd,Key.f,Key.A};
+    }
     
+    public SystemState _Commandlist {get;}
+    public SystemState _getKey {get;}
 }
-
-public Command _command {get;}
