@@ -17,10 +17,10 @@ public static class SystemState
         ub,
         u,
         uf, 
-        A, //약손
-        B, //약발
-        C, //강손
-        D, //강발
+        A = 5, //약손
+        B = 6, //약발
+        C = 8, //강손
+        D = 10, //강발
         
     }
     public static enum status
@@ -29,20 +29,19 @@ public static class SystemState
         Attack,
         Jump,
         //아도겐은 펀치의 강,중,약에 따라 날아가는 속도가 달라짐
-        strongadogen, //강파동권
-        middleadogen, //중파동권
+        strongadogen = 15, //강파동권
+        middleadogen = 11, //중파동권
         strongpiggybacking, //강 업어치기
         middlepiggybacking, //중 업어치기
         strongbackandflipping, //강 배대뒤치기
         middlebackandflipping, //중 배대뒤치기
-        breakingthecollarbone, //쇄골깨기
-        pitofthestomach, //명치부수기
-        oryugen, //승룡권
+        breakingthecollarbone = 14, //쇄골깨기
+        pitofthestomach = 16, //명치부수기
+        oryugen = 24, //승룡권
         //용권선풍각은 킥의 강,중 에 따라 거리가 달라짐
-        strongaddaddaddugen, //강용권선풍각
-        middleaddaddaddugen, //중용권선풍각
-        weakaddaddaddugen, //약용권선풍각
-        airaddaddaddugen, //공중 용권선풍각
+        strongaddaddaddugen = 35, //강용권선풍각
+        middleaddaddaddugen = 28, //중용권선풍각
+        airaddaddaddugen = 24, //공중 용권선풍각
     }
 }
 

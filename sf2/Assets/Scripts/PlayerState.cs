@@ -7,7 +7,7 @@ using System;
 public class PlayerState
 {
     public static bool HpType;
-    public static float i_hp = 100; //읽기 전용
+    public static float i_hp = 170.0f; //읽기 전용
     public float stunPower {get; private set;}
 
     private void Update() 
