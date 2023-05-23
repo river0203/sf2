@@ -6,10 +6,8 @@ using System;
 //player에 필요한 요소 관리, 통로 같은 역할
 public class PlayerControll : MonoBehaviour
 {
-    static float offensePower = 10;
-    public float get_offensePower {get {return offensePower;}}
-
-    public static PlayerControll Instance;
+    /*static float offensePower = 10;
+    public float get_offensePower {get {return offensePower;}}*/
 
     [SerializeField]
     float maxSpeed = 5f;
@@ -22,7 +20,7 @@ public class PlayerControll : MonoBehaviour
         player_attack();
         player_guard();
     }
-    private void player_move()
+    private void player_move() //다시
     {
         moveX = Input.GetAxis("Horizontal") * maxSpeed * Time.deltaTime;
         moveY = Input.GetAxis("Vertical") * maxSpeed * Time.deltaTime;
@@ -48,10 +46,7 @@ public class PlayerControll : MonoBehaviour
 
     private void player_attack()
     {
-        if(Input.GetAxisRaw(/*"attackCommand"*/))
-        {
-            // 특수 공격, 일반 공격 구분, 공격력 결정 
-        }
+        //var a = Enum.GetNames(typeof(status))
     }
 
     void player_guard()
@@ -59,11 +54,11 @@ public class PlayerControll : MonoBehaviour
         if(Input.GetKey(KeyCode.A))
         {
             //애니메이션 불러오기
-            offensePower = 0;
+            
         }
-        else
+        if(!Input.GetKey(KeyCode.A))
         {
-            offensePower = 1;
+            
         }
     }
 
