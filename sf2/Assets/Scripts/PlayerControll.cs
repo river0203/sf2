@@ -178,6 +178,8 @@ public class PlayerControll : MonoBehaviour
         {
             anim.Play("RYU Idle");
         }
+        
+        
     }
 
     private void player_guard()
