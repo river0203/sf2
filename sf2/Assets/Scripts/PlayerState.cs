@@ -32,23 +32,23 @@ public class PlayerState
     {
         if (collision.tag == "Player2_Attack")
         {
-            if(state == PlayerControll.status.middleaddaddaddugen)
+            if(state == PlayerControll.status.middle_addaddaddugen)
             {
                 i_hp -= 28;
             }
-            if(state == PlayerControll.status.middleadogen)
+            if(state == PlayerControll.status.middle_adogen)
             {
                 i_hp -= 11;
             }
-            if(state == PlayerControll.status.strongadogen)
+            if(state == PlayerControll.status.strong_adogen)
             {
                 i_hp -= 15;
             }
-            if(state == PlayerControll.status.breakingthecollarbone)
+            if(state == PlayerControll.status.breaking_the_collarbone)
             {
                 i_hp -= 14;
             }
-            if(state == PlayerControll.status.pitofthestomach)
+            if(state == PlayerControll.status.pit_of_the_stomach)
             {
                 i_hp -= 16;
             }
@@ -56,15 +56,15 @@ public class PlayerState
             {
                 i_hp -= 24;
             }
-            if(state == PlayerControll.status.strongaddaddaddugen)
+            if(state == PlayerControll.status.strong_addaddaddugen)
             {
                 i_hp -= 35;
             }
-            if(state == PlayerControll.status.middleaddaddaddugen)
+            if(state == PlayerControll.status.middle_addaddaddugen)
             {
                 i_hp -= 28;
             }
-            if(state == PlayerControll.status.middleadogen)
+            if(state == PlayerControll.status.middle_adogen)
             {
                 i_hp -= 11;
             }
