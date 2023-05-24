@@ -69,9 +69,9 @@ public class PlayerControll : MonoBehaviour
 
     [SerializeField]
     float maxSpeed = 5f;
-    float JumpForce = 2f;
+    public float JumpForce = 2f;
     float moveX, moveUp;
-    bool isJump;    
+    public bool isJump;    
     public status state = status.None;
 
     Rigidbody2D rigid;
@@ -92,11 +92,10 @@ public class PlayerControll : MonoBehaviour
         moveX = Input.GetAxis("Horizontal") * maxSpeed * Time.deltaTime;
         if (Input.GetKeyDown(KeyCode.W) && isJump == false)
         { 
-            moveUp += (JumpForce * Time.deltaTime);
             isJump = true;
             rigid.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
         }
-        transform.position = new Vector2(transform.position.x + moveX, transform.position.y + moveUp);
+        transform.position = new Vector2(transform.position.x + moveX, transform.position.y);
 
         //if(Input.GetKeyDown(Move[(int)Key.b]))
         {
