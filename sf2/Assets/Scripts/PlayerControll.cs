@@ -73,15 +73,17 @@ public class PlayerControll : MonoBehaviour
     public status state = status.None;
 
     Rigidbody2D rigid;
+    Animator anim;
 
     private void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
+        anim=GetComponent<Animator>();
     }
     private void Update() 
     {
         player_move();
-        player_Nmove();
+        //player_Nmove();
         player_attack();
         player_guard();
     }
@@ -101,7 +103,7 @@ public class PlayerControll : MonoBehaviour
         }
     }
 
-    private void player_Nmove()
+    /*private void player_Nmove()
     {
         // if bool 값을 time에서 불러옴
         if (TimeManager.TimeType == false)
@@ -115,7 +117,7 @@ public class PlayerControll : MonoBehaviour
             maxSpeed = 0.0f;
             Debug.Log("player stop");
         }
-    }
+    }*/
     void Set_Status_None()
     {
         state= status.None;
@@ -138,7 +140,18 @@ public class PlayerControll : MonoBehaviour
         {
             state = status._isMoving;
         }
-
+        if(state==status._isMoving)
+        {
+            anim.Play("RYU Walk");
+        }
+        if(state==status._isJumping)
+        {
+            anim.Play("RYU Jump");
+        }
+        if(state==status._isSitting)
+        {
+            anim.Play("RYU Sit");
+        }
     }
 
     private void player_guard()
