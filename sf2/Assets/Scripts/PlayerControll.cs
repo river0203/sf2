@@ -94,25 +94,16 @@ public class PlayerControll : MonoBehaviour
     }
     private void Update() 
     {
-        if(isJump || isIdle)
-        {
-            boxCollider2D.offset = new Vector2 (0, 0);
-            boxCollider2D.size = new Vector2(0.34f, 0.78f);  
-        }
-        else if(isSitDown)
-        {
-            boxCollider2D.offset = new Vector2(0, -0.12f);
-            boxCollider2D.size = new Vector2(0.43f, 0.56f);
-        }
-
-        if(isJump == false && isSitDown == false) 
+        if (isJump == false && isSitDown == false)
         {
             isIdle = true;
         }
+
         player_move();
         //player_Nmove();
         player_attack();
         player_guard();
+        player_HitBox();
     }
     private void player_move() //다시
     {
@@ -240,6 +231,29 @@ public class PlayerControll : MonoBehaviour
             isIdle = true;
             isJump = false;
             isSitDown = false;
+        }
+    }
+
+    void player_HitBox()
+    {
+        if (Input.GetKeyDown(KeyCode.S) && isSitDown)
+        {
+            transform.position = new Vector2(transform.position.x, transform.position.y - 0.12f);
+        }
+        else if (Input.GetKeyUp(KeyCode.S) && !isSitDown)
+        {
+            transform.position = new Vector2(transform.position.x, transform.position.y + 0.12f);
+        }
+
+        if (isJump || isIdle)
+        {
+            boxCollider2D.offset = new Vector2(0, 0);
+            boxCollider2D.size = new Vector2(0.34f, 0.78f);
+        }
+        else if (isSitDown)
+        {
+            boxCollider2D.offset = new Vector2(0, -0.12f);
+            boxCollider2D.size = new Vector2(0.43f, 0.56f);
         }
     }
 }
