@@ -17,17 +17,20 @@ public class PlayerControll : MonoBehaviour
         ub,
         u,
         uf, 
-        A = 5, //약손
-        B = 6, //약발
-        C = 8, //강손
-        D = 10, //강발
+        A, //약손
+        B, //약발
+        C, //강손
+        D, //강발
         
     }
     public enum status
     {
+        A = 5, //약손
+        B = 6, //약발
+        C = 8, //강손
+        D = 10, //강발
         None,
         Move,
-        Attack,
         Jump,
         Guard,
         _isSitting,
@@ -66,6 +69,7 @@ public class PlayerControll : MonoBehaviour
 
     [SerializeField]
     float maxSpeed = 5f;
+    float JumpForce = 2f;
     float moveX, moveUp;
     bool Player_guardType = false;
     
@@ -83,7 +87,7 @@ public class PlayerControll : MonoBehaviour
         moveX = Input.GetAxis("Horizontal") * maxSpeed * Time.deltaTime;
         if(Input.GetKey(KeyCode.W))
         {
-            moveUp += (maxSpeed * Time.deltaTime);
+            moveUp += (JumpForce * Time.deltaTime);
         }
         transform.position = new Vector2(transform.position.x + moveX, transform.position.y + moveUp);
 
@@ -99,7 +103,7 @@ public class PlayerControll : MonoBehaviour
         if (TimeManager.TimeType == false)
         {
             maxSpeed = 0.0f; //다음 라운드에서는 true로 전환되어 움직일 수 있는 코드 필요
-            Debug.Log("player stop");
+            Debug.Log("player stop");//true 가 되면 hp 회복 
         }
 
         else if(PlayerState.player_hp(PlayerState.HpType) == false)
