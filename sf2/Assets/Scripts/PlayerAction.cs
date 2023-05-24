@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
+using UnityEditor.Build;
 using UnityEngine;
 using UnityEngine.Scripting.APIUpdating;
 
@@ -35,6 +36,8 @@ public class PlayerAction : MonoBehaviour
     [SerializeField]
     public float Speed;
     public float JumpPower;
+
+    bool isAdogen;
     void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
@@ -55,10 +58,14 @@ public class PlayerAction : MonoBehaviour
             {
                 strong_addaddaddugen.SetActive(true);
             }
-            else if(Command.Skill_set == PlayerControll.status.strong_adogen /*|| Command.Skill_set == PlayerControll.status.middle_adogen*/)
+            else if(Command.Skill_set == PlayerControll.status.strong_adogen)
             {
                 StartCoroutine(CreateAdogen());
             }
+            /*else if (Command.Skill_set == PlayerControll.status.middle_adogen)
+            {
+                StartCoroutine(CreateAdogen());
+            }*/
             else if (Command.Skill_set == PlayerControll.status.middle_addaddaddugen)
             {
                 middle_addaddaddugen.SetActive(true);
@@ -115,7 +122,7 @@ public class PlayerAction : MonoBehaviour
 
     IEnumerator CreateAdogen()
     {
-        yield return new WaitForSeconds(0.7f);
-        Instantiate(Adogen, new Vector3(rigid.position.x + 1.7f, rigid.position.y + 0.77f, 0), Quaternion.identity);
+            yield return new WaitForSeconds(0.7f);
+            Instantiate(Adogen, new Vector3(rigid.position.x + 1.7f, rigid.position.y + 0.77f, 0), Quaternion.identity);
     }
 }
