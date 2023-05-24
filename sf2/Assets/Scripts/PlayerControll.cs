@@ -133,6 +133,7 @@ public class PlayerControll : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.W))
         {
             state = status._isJumping;
+            return;
         }
         if(Input.GetKey(KeyCode.S))
         {
