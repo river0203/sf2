@@ -27,7 +27,6 @@ public class PlayerAction : MonoBehaviour
     public GameObject RightPunch;
     public GameObject SitLeftKick;
 
-
     public GameObject Idle_Jump_HitBox;
     public GameObject SitDown_HitBox;
     
@@ -56,7 +55,7 @@ public class PlayerAction : MonoBehaviour
             {
                 strong_addaddaddugen.SetActive(true);
             }
-            else if(Command.Skill_set == PlayerControll.status.strong_adogen || Command.Skill_set == PlayerControll.status.middle_adogen)
+            else if(Command.Skill_set == PlayerControll.status.strong_adogen /*|| Command.Skill_set == PlayerControll.status.middle_adogen*/)
             {
                 StartCoroutine(CreateAdogen());
             }
