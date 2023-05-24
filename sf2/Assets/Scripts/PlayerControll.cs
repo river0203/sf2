@@ -78,6 +78,9 @@ public class PlayerControll : MonoBehaviour
     public static bool isJump;
     public static bool isIdle;
     public static bool isSitDown;
+
+    GameObject IdleHitBox;
+    GameObject SitDownHitbox;
     
     public status state = status.None;
 
@@ -94,6 +97,11 @@ public class PlayerControll : MonoBehaviour
         if(isJump == false && isSitDown == false) 
         {
             isIdle = true;
+        }
+        if(isSitDown == false)
+        {
+            IdleHitBox.SetActive(true);
+            SitDownHitbox.SetActive(false);
         }
         player_move();
         //player_Nmove();
@@ -143,7 +151,7 @@ public class PlayerControll : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.W))
         {
             state = status._isJumping;
-            
+            return;
         }
         if(Input.GetKey(KeyCode.S))
         {
@@ -152,6 +160,8 @@ public class PlayerControll : MonoBehaviour
                 isSitDown = true;
                 isIdle = false;
             }
+            SitDownHitbox.SetActive(true);
+            IdleHitBox.SetActive(false);
             state = status._isSitting;
         }
         if(Input.GetKey(KeyCode.D))
@@ -173,10 +183,6 @@ public class PlayerControll : MonoBehaviour
         if(state==status._isSitting)
         {
             anim.Play("RYU Sit");
-        }
-        if(state==status.None)
-        {
-            anim.Play("RYU Idle");
         }
     }
 
