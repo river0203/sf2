@@ -79,6 +79,7 @@ public class PlayerControll : MonoBehaviour
     public static bool isIdle;
     public static bool isSitDown;
     
+    
     public status state = status.None;
 
     Rigidbody2D rigid;
@@ -109,6 +110,8 @@ public class PlayerControll : MonoBehaviour
             isIdle = false;
             isSitDown = false;
             rigid.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
+
+           
         }
         transform.position = new Vector2(transform.position.x + moveX, transform.position.y);
 
@@ -133,18 +136,16 @@ public class PlayerControll : MonoBehaviour
             Debug.Log("player stop");
         }
     }
+
     void Set_Status_None()
     {
-        state= status.None;
+        state = status.None;
     }
+
     private void player_attack()
     {
-        state = status.None;
-        if(Input.GetKeyDown(KeyCode.W))
-        {
-            state = status._isJumping;
-            
-        }
+        state=status.None;
+    
         if(Input.GetKey(KeyCode.S))
         {
             if (isIdle == true && isJump == false)
@@ -154,6 +155,7 @@ public class PlayerControll : MonoBehaviour
             }
             state = status._isSitting;
         }
+
         if(Input.GetKey(KeyCode.D))
         {
             state = status._isMoving;
@@ -162,13 +164,45 @@ public class PlayerControll : MonoBehaviour
         {
             state = status._isMoving;
         }
+        if(Input.GetKeyDown(KeyCode.W))
+        {
+            state=status._isJumping;
+        }
+        if(Input.GetKey(KeyCode.U))
+        {
+            state=status.A;
+            
+        }
+
+        if(state==status.A)
+        {
+            anim.Play("RYU LeftPunch");
+        }
+
+        
+        if(isJump==true)
+        {
+            anim.Play("RYU Jump");
+        }
+        else if(isJump==false)
+        {
+            if(state!=status._isMoving)
+            {
+                 anim.Play("RYU Idle");
+            }
+            
+        }
+        if(anim.GetCurrentAnimatorStateInfo(0).IsName("RYU Jump"))
+        {
+            return;
+        }
+        if(anim.GetCurrentAnimatorStateInfo(0).IsName("RYU LeftPunch"))
+        {
+            return;
+        }
         if(state==status._isMoving)
         {
             anim.Play("RYU Walk");
-        }
-        if(state==status._isJumping)
-        {
-            anim.Play("RYU Jump");
         }
         if(state==status._isSitting)
         {
