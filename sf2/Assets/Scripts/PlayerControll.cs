@@ -119,7 +119,10 @@ public class PlayerControll : MonoBehaviour
             Debug.Log("player stop");
         }
     }
-
+    void Set_Status_None()
+    {
+        state= status.None;
+    }
     private void player_attack()
     {
         if(Input.GetKey(KeyCode.W))
