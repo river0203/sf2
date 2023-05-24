@@ -129,7 +129,8 @@ public class PlayerControll : MonoBehaviour
     }
     private void player_attack()
     {
-        if(Input.GetKey(KeyCode.W))
+        state = status.None;
+        if(Input.GetKeyDown(KeyCode.W))
         {
             state = status._isJumping;
         }
