@@ -184,7 +184,10 @@ public class PlayerControll : MonoBehaviour
             Debug.Log("player stop");
         } */
     }
-
+    void Set_Status_None()
+    {
+        state= status.None;
+    }
     private void player_attack()
     {
         //var a = Enum.GetNames(typeof(status))
