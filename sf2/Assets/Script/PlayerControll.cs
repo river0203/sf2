@@ -95,38 +95,67 @@ public class PlayerControll : MonoBehaviour
     }
     private void player_move() //다시
     {
-        if(Input.GetKeyDown(KeyCode.S))
+        /*
+        if(앉은상태)
         {
-            anim.SetBool("isSitting", true);
+            anim.Play("RYU Sit");
         }
-        if(Input.GetKeyUp(KeyCode.S))
+        if(앉았다가 일어나는 상태)
         {
-            anim.SetBool("isSitting", false);
+            anim.Play("RYU Idle");
         }
-        if(moveX>0)
+        if(약발 공격)
         {
-            anim.SetBool("isWalking", true);
+            anim.Play("LeftKick");
         }
-        if(moveX<0)
+        if(강발 공격)
         {
-            anim.SetBool("isWalking", true);
+            anim.Play("RYU RightKick");
         }
-        if(moveX==0)
+        if(이동)
         {
-            anim.SetBool("isWalking", false);
+            anim.Play("RYU Walk");
         }
+        if(가만히 있을 때)
+        {
+            anim.Play("RYU Idle");
+        }
+        if(아따따뚜겐)
+        {
+            anim.Play("RYU Addaddaddugen");
+        }
+        if(아도겐)
+        {
+            anim.Play("RYU Adogen");
+        }
+        if(쇄골 깨기)
+        {
+            anim.Play("RYU BreakingTheCollarbone");
+        }
+        if(방어)
+        {
+            anim.Play("RYU Defense");
+        }
+        if(HP가 0이 되면)
+        {
+            anim.Play("RYU Down");
+        }
+        if()
+        
+        
+        */
+
         moveX = Input.GetAxis("Horizontal") * maxSpeed * Time.deltaTime;
         if (Input.GetKeyDown(KeyCode.W) && isJump == false)
         { 
             //moveUp += (JumpForce * Time.deltaTime);
             isJump = true;
             rigid.AddForce(new Vector2(0f, JumpPower), ForceMode2D.Impulse);
-            anim.SetBool("isJumping", true);
+            
         }
         if(isJump==false)
         {
             isJump=false;
-            anim.SetBool("isJumping", false);
         }
         //if(Input.GetKey(KeyCode.W))
         //{
