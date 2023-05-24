@@ -884,6 +884,7 @@ GameObject:
   - component: {fileID: 745501157}
   - component: {fileID: 745501162}
   - component: {fileID: 745501163}
+  - component: {fileID: 745501164}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1074,6 +1075,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b52b86717c7d5456f8e0e1e0c6d99b5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &745501164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745501156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0daa8898afddae44aff2a3a393ab1f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  breaking_the_collarbone: {fileID: 0}
+  pit_of_the_stomach: {fileID: 0}
+  oryugen: {fileID: 0}
+  strong_addaddaddugen: {fileID: 0}
+  middle_addaddaddugen: {fileID: 0}
+  DownKick: {fileID: 0}
+  SitRightpunch: {fileID: 0}
+  SitLeftPunch: {fileID: 0}
+  LeftKick: {fileID: 0}
+  LeftPunch: {fileID: 0}
+  SitRightKick: {fileID: 0}
+  LeftUpperCut: {fileID: 0}
+  RightKneeKick: {fileID: 0}
+  RightPunch: {fileID: 0}
+  SitLeftKick: {fileID: 0}
+  Idle_Jump_HitBox: {fileID: 0}
+  SitDown_HitBox: {fileID: 0}
+  Adogen: {fileID: 0}
+  Speed: 0
+  JumpPower: 0
 --- !u!1 &781625509
 GameObject:
   m_ObjectHideFlags: 0

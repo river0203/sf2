@@ -8,6 +8,7 @@ using UnityEngine.Scripting.APIUpdating;
 public class PlayerAction : MonoBehaviour
 {
     Rigidbody2D rigid;
+    Animator anim;
 
     [Tooltip("HitBox")]
     [SerializeField]
@@ -40,6 +41,7 @@ public class PlayerAction : MonoBehaviour
     void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
+        anim=GetComponent<Animator>();
     }
 
     void Update()
@@ -51,7 +53,7 @@ public class PlayerAction : MonoBehaviour
     {
         if (PlayerControll.isIdle == true)
         {   
-            //Ŀ�ǵ�
+            //Ŀ�ǵ�
             if (Command.Skill_set == PlayerControll.status.strong_addaddaddugen)
             {
                 strong_addaddaddugen.SetActive(true);

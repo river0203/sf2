@@ -106,6 +106,7 @@ public class Command : MonoBehaviour
                 Skill_set = PlayerControll.status.middle_adogen;
                 Debug.Log("middle_Adogen");
                 inputQueue.Clear();
+                return;
             }
     
             else if (commandSequence.Contains("26C"))
