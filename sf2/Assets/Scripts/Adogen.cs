@@ -8,6 +8,7 @@ class Adogen : MonoBehaviour
     SpriteRenderer spriteRenderer;
     Animator anim;
 
+    bool isActive = true;
     private bool isObjectActive = true;
     public float Speed;
     float blinkInterval = 0.1f;
@@ -21,15 +22,20 @@ class Adogen : MonoBehaviour
 
     void Update()
     {
-        rigid.velocity = new Vector2(Speed, 0);
-        Blink();
+        if (isActive == true)
+        {
+            rigid.velocity = new Vector2(Speed, 0);
+            Blink();
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Player"))
         {
-            StartCoroutine("DestroyAdogen");
+            isActive = false;
+            rigid.velocity = new Vector2(0, 0);
+            StartCoroutine(DestroyAdogen());
         }
     }
     void Blink()
@@ -47,7 +53,7 @@ class Adogen : MonoBehaviour
 
     IEnumerator DestroyAdogen()
     {
-        anim.Play("AAA");
+        //anim.Play("AAA");
         yield return new WaitForSeconds(0.3f);
         Destroy(gameObject);
     }
