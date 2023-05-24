@@ -30,9 +30,9 @@ public class PlayerControll : MonoBehaviour
         C = 8, //강손
         D = 10, //강발
         None,
-        Move,
-        Jump,
-        Guard,
+        _isMoving,
+        _isJumping,
+        _isGuarding,
         _isSitting,
         //아도겐은 펀치의 강,중,약에 따라 날아가는 속도가 달라짐
         strongadogen = 15, //강파동권
@@ -71,101 +71,36 @@ public class PlayerControll : MonoBehaviour
     float maxSpeed = 5f;
     float JumpForce = 2f;
     float moveX, moveUp;
-    bool Player_guardType = false;
-    
-    public float JumpPower;
-    public bool isJump;
-        
+    bool isJump;    
     public status state = status.None;
 
-    Animator anim;
     Rigidbody2D rigid;
 
     private void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
-        anim=GetComponent<Animator>();
     }
     private void Update() 
     {
         player_move();
         player_Nmove();
         player_attack();
-        player_guard(Player_guardType);
+        player_guard();
     }
     private void player_move() //다시
     {
-        /*
-        if(앉은상태)
-        {
-            anim.Play("RYU Sit");
-        }
-        if(앉았다가 일어나는 상태)
-        {
-            anim.Play("RYU Idle");
-        }
-        if(약발 공격)
-        {
-            anim.Play("LeftKick");
-        }
-        if(강발 공격)
-        {
-            anim.Play("RYU RightKick");
-        }
-        if(이동)
-        {
-            anim.Play("RYU Walk");
-        }
-        if(가만히 있을 때)
-        {
-            anim.Play("RYU Idle");
-        }
-        if(아따따뚜겐)
-        {
-            anim.Play("RYU Addaddaddugen");
-        }
-        if(아도겐)
-        {
-            anim.Play("RYU Adogen");
-        }
-        if(쇄골 깨기)
-        {
-            anim.Play("RYU BreakingTheCollarbone");
-        }
-        if(방어)
-        {
-            anim.Play("RYU Defense");
-        }
-        if(HP가 0이 되면)
-        {
-            anim.Play("RYU Down");
-        }
-        if()
-        
-        
-        */
-
         moveX = Input.GetAxis("Horizontal") * maxSpeed * Time.deltaTime;
         if (Input.GetKeyDown(KeyCode.W) && isJump == false)
         { 
-            //moveUp += (JumpForce * Time.deltaTime);
+            moveUp += (JumpForce * Time.deltaTime);
             isJump = true;
-            rigid.AddForce(new Vector2(0f, JumpPower), ForceMode2D.Impulse);
-            
+            rigid.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
         }
-        if(isJump==false)
-        {
-            isJump=false;
-        }
-        //if(Input.GetKey(KeyCode.W))
-        //{
-        //    moveUp += (maxSpeed * Time.deltaTime);
-        //}
-        transform.position = new Vector2(transform.position.x + moveX, transform.position.y);
+        transform.position = new Vector2(transform.position.x + moveX, transform.position.y + moveUp);
 
         //if(Input.GetKeyDown(Move[(int)Key.b]))
         {
-            state  = status.Move;
+            state  = status._isMoving;
         }
     }
 
@@ -178,11 +113,11 @@ public class PlayerControll : MonoBehaviour
             Debug.Log("player stop");//true 가 되면 hp 회복 
         }
 
-        /*else if(PlayerState.player_hp(PlayerState.HpType) == false)
+        else if(PlayerState.player_hp(PlayerState.HpType) == false)
         {
             maxSpeed = 0.0f;
             Debug.Log("player stop");
-        } */
+        }
     }
     void Set_Status_None()
     {
@@ -194,15 +129,12 @@ public class PlayerControll : MonoBehaviour
 
     }
 
-    public bool player_guard(bool guardType)
-    { 
-        if(Input.GetKeyDown(KeyCode.A))
+    private void player_guard()
+    {
+        if(Input.GetKey(KeyCode.A))
         {
-            //if(key == SystemState._isSitting)
-                guardType = true;
+            state = status._isMoving;
         }
-
-        return guardType;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -213,4 +145,4 @@ public class PlayerControll : MonoBehaviour
         }
     }
 }
-    
+

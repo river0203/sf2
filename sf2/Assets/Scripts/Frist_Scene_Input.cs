@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class First_Scene_Input : MonoBehaviour
 {
-   
     void Update()
     {
 
