@@ -30,9 +30,9 @@ public class PlayerControll : MonoBehaviour
         C = 8, //강손
         D = 10, //강발
         None,
-        Move,
-        Jump,
-        Guard,
+        _isMoving,
+        _isJumping,
+        _isGuarding,
         _isSitting,
         //아도겐은 펀치의 강,중,약에 따라 날아가는 속도가 달라짐
         strongadogen = 15, //강파동권
@@ -71,9 +71,6 @@ public class PlayerControll : MonoBehaviour
     float maxSpeed = 5f;
     float JumpForce = 2f;
     float moveX, moveUp;
-    bool Player_guardType = false;
-    float JumpPower;
-
     bool isJump;    
     public status state = status.None;
 
@@ -88,7 +85,7 @@ public class PlayerControll : MonoBehaviour
         player_move();
         player_Nmove();
         player_attack();
-        player_guard(Player_guardType);
+        player_guard();
     }
     private void player_move() //다시
     {
@@ -97,17 +94,13 @@ public class PlayerControll : MonoBehaviour
         { 
             moveUp += (JumpForce * Time.deltaTime);
             isJump = true;
-            rigid.AddForce(new Vector2(0f, JumpPower), ForceMode2D.Impulse);
+            rigid.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
         }
-        //if(Input.GetKey(KeyCode.W))
-        //{
-        //    moveUp += (maxSpeed * Time.deltaTime);
-        //}
         transform.position = new Vector2(transform.position.x + moveX, transform.position.y + moveUp);
 
         //if(Input.GetKeyDown(Move[(int)Key.b]))
         {
-            state  = status.Move;
+            state  = status._isMoving;
         }
     }
 
@@ -133,15 +126,12 @@ public class PlayerControll : MonoBehaviour
 
     }
 
-    public bool player_guard(bool guardType)
-    { 
+    private void player_guard()
+    {
         if(Input.GetKey(KeyCode.A))
         {
-            //if(key == SystemState._isSitting)
-                guardType = true;
+            state = status._isMoving;
         }
-
-        return guardType;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

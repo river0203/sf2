@@ -7,7 +7,6 @@ using System;
 public class PlayerState
 {
     public static bool HpType;
-    public static bool _isGuarding = false;
     private static float i_hp = 170.0f;
     public PlayerControll.status state = PlayerControll.status.None;
     private void Update() 
@@ -84,6 +83,10 @@ public class PlayerState
             if(state == PlayerControll.status.D)
             {
                 i_hp -= 10;
+            }
+            if(state == PlayerControll.status._isGuarding)
+            {
+                return;
             }
         }
 
