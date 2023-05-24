@@ -5,7 +5,6 @@ using System;
 
 //player에 필요한 요소 관리, 통로 같은 역할
 public class PlayerControll : MonoBehaviour
-<<<<<<< Updated upstream
 { /*static float offensePower = 10;
     public float get_offensePower {get {return offensePower;}}*/
 
@@ -17,7 +16,6 @@ public class PlayerControll : MonoBehaviour
     void Start()
     {
         animator=GetComponent<Animator>();
-=======
 {
     public enum Key
     {
@@ -95,14 +93,12 @@ public class PlayerControll : MonoBehaviour
     private void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
->>>>>>> Stashed changes
     }
     private void Update() 
     {
         player_move();
         player_Nmove();
         player_attack();
-<<<<<<< Updated upstream
         player_guard();
     }private void player_move() //다시
     {
