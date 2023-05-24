@@ -45,9 +45,13 @@ public class PlayerControll : MonoBehaviour
         {
             animator.Play("RYU Sit");
         }
-        if(Input.GetKeyDown(KeyCode.W))
+        if(Input.GetKey(KeyCode.W))
         {
             animator.Play("RYU Jump");
+        }
+        if(Input.GetKey(KeyCode.U))
+        {
+            animator.Play("RYU LeftPunch");
         }
         
        

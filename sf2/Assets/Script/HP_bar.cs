@@ -3,33 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerController : MonoBehaviour
-{
-    public Health playerHealth;
-    public float kickDamage = 20f; // 킥 데미지
-    public float punchDamage = 10f; // 펀치 데미지
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("EnemyAttack")) // 충돌한 객체의 태그가 "EnemyAttack"인 경우
-        {
-            if (other.CompareTag("Kick")) // 충돌한 객체의 태그가 "Kick"인 경우
-            {
-                playerHealth.TakeDamage(kickDamage);
-            }
-            else if (other.CompareTag("Punch")) // 충돌한 객체의 태그가 "Punch"인 경우
-            {
-                playerHealth.TakeDamage(punchDamage);
-            }
-        }
-    }
-}
-
-public class Health : MonoBehaviour
+public class HP_bar : MonoBehaviour
 {
     public float maxHealth = 100f; // 최대 체력
     public float currentHealth = 100f; // 현재 체력
-    public Image hpBarImage; // HP 바의 이미지
+    public Image ImhpBarImage; // HP 바의 이미지
 
     public void TakeDamage(float damageAmount)
     {
@@ -55,6 +33,9 @@ public class Health : MonoBehaviour
     private void UpdateHPBar()
     {
         float fillAmount = currentHealth / maxHealth; // fillAmount 계산
-        hpBarImage.fillAmount = fillAmount; // HP 바 이미지의 fillAmount 업데이트
+        ImhpBarImage.fillAmount = fillAmount; // HP 바 이미지의 fillAmount 업데이트
     }
 }
+
+
+

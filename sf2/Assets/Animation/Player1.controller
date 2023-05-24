@@ -32,8 +32,7 @@ AnimatorState:
   m_Name: RYU SitRightPunch
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: -5631516505183431226}
+  m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -125,8 +124,7 @@ AnimatorState:
   m_Name: RYU Win
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: 7289637094198120219}
+  m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -152,8 +150,7 @@ AnimatorState:
   m_Name: RYU AdogenEffect
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: 5639064499697125021}
+  m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -179,8 +176,7 @@ AnimatorState:
   m_Name: RYU DownKick
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: 8245700084939435695}
+  m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -233,8 +229,7 @@ AnimatorState:
   m_Name: RYU LeftUpperCut
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: -747190796306457065}
+  m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -304,8 +299,7 @@ AnimatorState:
   m_Name: RYU Punched
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: 4029584085430938949}
+  m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -358,8 +352,7 @@ AnimatorState:
   m_Name: RYU Oryugen
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: 4474971875788712206}
+  m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -385,8 +378,7 @@ AnimatorState:
   m_Name: RYU Kicked
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: 2985717165637971415}
+  m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -500,8 +492,7 @@ AnimatorState:
   m_Name: RYU SitLeftPunch
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: 8534978136471408530}
+  m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -681,8 +672,7 @@ AnimatorState:
   m_Name: RYU RightKneeKick
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: -7305541093274680866}
+  m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -731,25 +721,28 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -601694073406726293}
-    m_Position: {x: -20, y: 1380, z: 0}
+    m_Position: {x: -50, y: 370, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1043632698591323094}
     m_Position: {x: 300, y: 150, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 4456965027497956225}
-    m_Position: {x: 350, y: 220, z: 0}
+    m_Position: {x: 340, y: 220, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -5975697974330674848}
     m_Position: {x: 370, y: 280, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4831191908459390848}
-    m_Position: {x: 400, y: 340, z: 0}
+    m_Position: {x: 405, y: 345, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -9187020807775524698}
     m_Position: {x: 440, y: 410, z: 0}
   - serializedVersion: 1
+    m_State: {fileID: 7179477604826859961}
+    m_Position: {x: 100, y: 490, z: 0}
+  - serializedVersion: 1
     m_State: {fileID: 1668785770278615765}
-    m_Position: {x: -140, y: 640, z: 0}
+    m_Position: {x: 510, y: 540, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 4305183748562362534}
     m_Position: {x: 545, y: 605, z: 0}
@@ -758,7 +751,7 @@ AnimatorStateMachine:
     m_Position: {x: 580, y: 670, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5304665706079377840}
-    m_Position: {x: 620, y: 740, z: 0}
+    m_Position: {x: 615, y: 735, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5678188409906655896}
     m_Position: {x: 650, y: 800, z: 0}
@@ -776,7 +769,7 @@ AnimatorStateMachine:
     m_Position: {x: 790, y: 1060, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -2036402139911439501}
-    m_Position: {x: 820, y: 1120, z: 0}
+    m_Position: {x: 825, y: 1125, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6424311591670638882}
     m_Position: {x: 860, y: 1190, z: 0}
@@ -798,12 +791,6 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: -8185213961171181312}
     m_Position: {x: 1070, y: 1580, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: -7422701102820496769}
-    m_Position: {x: -20, y: 550, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: -6161500008606607664}
-    m_Position: {x: 200, y: 490, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -811,7 +798,7 @@ AnimatorStateMachine:
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 50, y: 20, z: 0}
   m_EntryPosition: {x: 50, y: 120, z: 0}
-  m_ExitPosition: {x: 450, y: -350, z: 0}
+  m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: -601694073406726293}
 --- !u!1102 &-2036402139911439501
@@ -824,8 +811,7 @@ AnimatorState:
   m_Name: RYU SitLeftKick
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: 5921070016514389141}
+  m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -939,31 +925,7 @@ AnimatorState:
   m_Name: RYU Idle
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: -8959959008665257741}
-  - {fileID: 1017256691662337666}
-  - {fileID: 432147135600337491}
-  - {fileID: 3713366164655354963}
-  - {fileID: 3453222450334419106}
-  - {fileID: 7710663232629336099}
-  - {fileID: -578090966118260054}
-  - {fileID: -9202661260477071899}
-  - {fileID: 1006925969304217265}
-  - {fileID: -5736108489054320088}
-  - {fileID: -2844836147521973097}
-  - {fileID: 8697281911516172992}
-  - {fileID: -3847588340124854136}
-  - {fileID: 2031427222202918718}
-  - {fileID: -5903515414984932785}
-  - {fileID: 7497052064913081005}
-  - {fileID: 610558342895420352}
-  - {fileID: -921517707077104152}
-  - {fileID: -8580086959112182503}
-  - {fileID: -5950378767287192448}
-  - {fileID: -2239448765632985610}
-  - {fileID: 8002218904173382811}
-  - {fileID: -3773050463590674671}
-  - {fileID: 1116321613357237650}
+  m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -1143,8 +1105,7 @@ AnimatorState:
   m_Name: RYU Walk
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: -4137785290474526707}
+  m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -1192,8 +1153,7 @@ AnimatorState:
   m_Name: RYU LeftKick
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: -4655394878917444386}
+  m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -1219,8 +1179,7 @@ AnimatorState:
   m_Name: RYU Defense
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: -1188293443662630390}
+  m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -1246,8 +1205,7 @@ AnimatorState:
   m_Name: RYU LeftPunch
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: 4772409394640952001}
+  m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -1317,8 +1275,7 @@ AnimatorState:
   m_Name: RYU Down
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: -7292889327496888141}
+  m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -1476,8 +1433,7 @@ AnimatorState:
   m_Name: RYU SitDefense
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: -8283291126413827175}
+  m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -1503,8 +1459,7 @@ AnimatorState:
   m_Name: RYU Adogen
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: 1893050263177153758}
+  m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -1552,8 +1507,7 @@ AnimatorState:
   m_Name: RYU Addaddaddugen
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: 3188063535993630582}
+  m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -1601,8 +1555,7 @@ AnimatorState:
   m_Name: RYU RightPunch
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: 290724500065235785}
+  m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -1650,8 +1603,7 @@ AnimatorState:
   m_Name: RYU BreakingTheCollarbone
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: 4097015928658794407}
+  m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -1699,8 +1651,7 @@ AnimatorState:
   m_Name: RYU SitRightKick
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: -1703939206249645693}
+  m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -1711,6 +1662,32 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 434c2738c1196404d95159d8ea62ad80, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &7179477604826859961
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RYU Jump
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 0b306fe32214241f282e96a76354870e, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
