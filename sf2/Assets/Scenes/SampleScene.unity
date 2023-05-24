@@ -237,6 +237,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MaxTime: 60
+  first_time: 0
+  last_time: 0
+  CurrentTime: 0
 --- !u!4 &1552462864
 Transform:
   m_ObjectHideFlags: 0
