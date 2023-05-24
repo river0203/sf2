@@ -9,11 +9,10 @@ public class PlayerState
     public static bool HpType;
     public static bool _isGuarding = false;
     private static float i_hp = 170.0f;
-    SystemState.status player_State;
+    public PlayerControll.status state = PlayerControll.status.None;
     private void Update() 
     {
         player_hp(HpType);
-        player_hit();
     }
     
     public static bool player_hp(bool B_Hp)
@@ -30,13 +29,64 @@ public class PlayerState
         return B_Hp;
     }
     
-    private void player_hit()
+    private void OnTriggerEnter2D(Collider2D collision) 
     {
-        // hitbox에 애니메이션 감지시 
-        if()
+        if (collision.tag == "Player2_Attack")
         {
-            i_hp -= 0;
+            if(state == PlayerControll.status.middleaddaddaddugen)
+            {
+                i_hp -= 28;
+            }
+            if(state == PlayerControll.status.middleadogen)
+            {
+                i_hp -= 11;
+            }
+            if(state == PlayerControll.status.strongadogen)
+            {
+                i_hp -= 15;
+            }
+            if(state == PlayerControll.status.breakingthecollarbone)
+            {
+                i_hp -= 14;
+            }
+            if(state == PlayerControll.status.pitofthestomach)
+            {
+                i_hp -= 16;
+            }
+            if(state == PlayerControll.status.oryugen)
+            {
+                i_hp -= 24;
+            }
+            if(state == PlayerControll.status.strongaddaddaddugen)
+            {
+                i_hp -= 35;
+            }
+            if(state == PlayerControll.status.middleaddaddaddugen)
+            {
+                i_hp -= 28;
+            }
+            if(state == PlayerControll.status.middleadogen)
+            {
+                i_hp -= 11;
+            }
+            if(state == PlayerControll.status.A)
+            {
+                i_hp -= 5;
+            }
+            if(state == PlayerControll.status.B)
+            {
+                i_hp -= 6;
+            }
+            if(state == PlayerControll.status.C)
+            {
+                i_hp -= 8;
+            }
+            if(state == PlayerControll.status.D)
+            {
+                i_hp -= 10;
+            }
         }
+
     }
 
 
