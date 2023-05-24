@@ -17,7 +17,7 @@ public class Command : MonoBehaviour
 
         if(CommandTime <= 0)
         {
-            inputQueue.Dequeue();
+            inputQueue.Clear();
         }
 
         if(Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.B) || Input.GetKeyDown(KeyCode.C) || Input.GetKeyDown(KeyCode.D)
