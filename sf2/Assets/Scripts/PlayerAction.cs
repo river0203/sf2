@@ -8,7 +8,6 @@ using UnityEngine.Scripting.APIUpdating;
 public class PlayerAction : MonoBehaviour
 {
     Rigidbody2D rigid;
-    Animator anim;
 
     [Tooltip("HitBox")]
     [SerializeField]
@@ -41,7 +40,6 @@ public class PlayerAction : MonoBehaviour
     void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
-        anim=GetComponent<Animator>();
     }
 
     void Update()
@@ -53,12 +51,16 @@ public class PlayerAction : MonoBehaviour
     {
         if (PlayerControll.isIdle == true)
         {   
-            //Ŀ�ǵ�
+            //커맨드
             if (Command.Skill_set == PlayerControll.status.strong_addaddaddugen)
             {
                 strong_addaddaddugen.SetActive(true);
             }
-            else if(Command.Skill_set == PlayerControll.status.strong_adogen)
+            if (Command.Skill_set != PlayerControll.status.strong_addaddaddugen)
+            {
+                strong_addaddaddugen.SetActive(false);
+            }
+            else if((Command.Skill_set == PlayerControll.status.strong_adogen) && !isAdogen)
             {
                 StartCoroutine(CreateAdogen());
             }
@@ -66,24 +68,40 @@ public class PlayerAction : MonoBehaviour
             {
                 StartCoroutine(CreateAdogen());
             }*/
-            else if (Command.Skill_set == PlayerControll.status.middle_addaddaddugen)
+            if (Command.Skill_set == PlayerControll.status.middle_addaddaddugen)
             {
                 middle_addaddaddugen.SetActive(true);
             }
-            else if (Command.Skill_set == PlayerControll.status.breaking_the_collarbone)
+            else if (Command.Skill_set == PlayerControll.status.middle_addaddaddugen)
+            {
+                middle_addaddaddugen.SetActive(false);
+            }
+            if (Command.Skill_set == PlayerControll.status.breaking_the_collarbone)
             {
                 breaking_the_collarbone.SetActive(true);
             }
-            else if (Command.Skill_set == PlayerControll.status.pit_of_the_stomach)
+            else if (Command.Skill_set == PlayerControll.status.breaking_the_collarbone)
+            {
+                breaking_the_collarbone.SetActive(false);
+            }
+            if (Command.Skill_set == PlayerControll.status.pit_of_the_stomach)
             {
                 pit_of_the_stomach.SetActive(true);
             }
-            else if (Command.Skill_set == PlayerControll.status.oryugen)
+            else if (Command.Skill_set == PlayerControll.status.pit_of_the_stomach)
+            {
+                pit_of_the_stomach.SetActive(false);
+            }
+            if (Command.Skill_set == PlayerControll.status.oryugen)
             {
                 oryugen.SetActive(true);
             }
-            else if(Input.GetKeyDown(KeyCode.U))
-            { 
+            else if (Command.Skill_set == PlayerControll.status.oryugen)
+            {
+                oryugen.SetActive(false);
+            }
+            if (Input.GetKeyDown(KeyCode.U))
+            {
                 LeftPunch.SetActive(true);
             }
             else if (Input.GetKeyDown(KeyCode.I))
@@ -122,7 +140,9 @@ public class PlayerAction : MonoBehaviour
 
     IEnumerator CreateAdogen()
     {
+            isAdogen = true;
             yield return new WaitForSeconds(0.7f);
+            isAdogen = false;
             Instantiate(Adogen, new Vector3(rigid.position.x + 1.7f, rigid.position.y + 0.77f, 0), Quaternion.identity);
     }
 }
