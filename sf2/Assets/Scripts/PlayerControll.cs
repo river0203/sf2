@@ -124,7 +124,22 @@ public class PlayerControll : MonoBehaviour
     }
     private void player_attack()
     {
-        //var a = Enum.GetNames(typeof(status))
+        if(Input.GetKey(KeyCode.W))
+        {
+            state = status._isJumping;
+        }
+        if(Input.GetKey(KeyCode.S))
+        {
+            state = status._isSitting;
+        }
+        if(Input.GetKey(KeyCode.D))
+        {
+            state = status._isMoving;
+        }
+        if(Input.GetKey(KeyCode.A))
+        {
+            state = status._isMoving;
+        }
 
     }
 
@@ -132,7 +147,7 @@ public class PlayerControll : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.A))
         {
-            state = status._isMoving;
+            state = status._isGuarding;
         }
     }
 

@@ -6,6 +6,7 @@ public class Command : MonoBehaviour
 {
     float CommandTime = 1f;
     private Queue<string> inputQueue = new Queue<string>();
+    PlayerControll.status SkillState;
     void Start()
     {
         
@@ -34,22 +35,22 @@ public class Command : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            string input = "¡ç";
+            string input = "ï¿½ï¿½";
             CheckQueue(input);
         }
         else if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            string input = "¡æ";
+            string input = "ï¿½ï¿½";
             CheckQueue(input);
         }
         else if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            string input = "¡è";
+            string input = "ï¿½ï¿½";
             CheckQueue(input);
         }
         else if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-            string input = "¡é";
+            string input = "ï¿½ï¿½";
             CheckQueue(input);
         }
     }
@@ -81,12 +82,12 @@ public class Command : MonoBehaviour
         string commandSequence = string.Join("", inputQueue.ToArray());
         if (inputQueue.Count >= 5)
         {
-            if (commandSequence.Contains("¡é¡æ¡é¡æC"))
+            if (commandSequence.Contains("ï¿½ï¿½ï¿½ï¿½ï¿½C"))
             {
                 Debug.Log("Sinkuadogen");
                 inputQueue.Clear();
             }
-            else if (commandSequence.Contains("¡é¡æ¡é¡æA"))
+            else if (commandSequence.Contains("ï¿½ï¿½ï¿½ï¿½ï¿½A"))
             {
                 Debug.Log("Weak_Sinkuadogen");
                 inputQueue.Clear();
@@ -98,12 +99,12 @@ public class Command : MonoBehaviour
         }
         else if (inputQueue.Count >= 4)
         {
-            if (commandSequence.Contains("¡æ¡ç¡æA"))
+            if (commandSequence.Contains("ï¿½ï¿½ï¿½ï¿½A"))
             {
                 Debug.Log("Weak_Oryugen");
                 inputQueue.Clear();
             }
-            else if (commandSequence.Contains("¡æ¡ç¡æC"))
+            else if (commandSequence.Contains("ï¿½ï¿½ï¿½ï¿½C"))
             {
                 Debug.Log("Oryugen");
                 inputQueue.Clear();
@@ -112,32 +113,32 @@ public class Command : MonoBehaviour
         else if (inputQueue.Count >= 3)
         {
 
-            if (commandSequence.Contains("¡é¡æA"))
+            if (commandSequence.Contains("ï¿½ï¿½ï¿½A"))
             {
                 Debug.Log("middle_Adogen");
                 inputQueue.Clear();
             }
-            else if (commandSequence.Contains("¡é¡æC"))
+            else if (commandSequence.Contains("ï¿½ï¿½ï¿½C"))
             {
                 Debug.Log("strong_Adogen");
                 inputQueue.Clear();
             }
-            else if (commandSequence.Contains("¡é¡çD"))
+            else if (commandSequence.Contains("ï¿½ï¿½ï¿½D"))
             {
                 Debug.Log("strong_Adogen");
                 inputQueue.Clear();
             }
-            else if (commandSequence.Contains("¡é¡çB"))
+            else if (commandSequence.Contains("ï¿½ï¿½ï¿½B"))
             {
                 Debug.Log("strong_Adogen");
                 inputQueue.Clear();
             }
-            else if (commandSequence.Contains("¡æ¡ç¡æC"))
+            else if (commandSequence.Contains("ï¿½ï¿½ï¿½ï¿½C"))
             {
                 Debug.Log("Oryugen");
                 inputQueue.Clear();
             }
-            else if (commandSequence.Contains("¡æ¡ç¡æA"))
+            else if (commandSequence.Contains("ï¿½ï¿½ï¿½ï¿½A"))
             {
                 Debug.Log("Weak_Oryugen");
                 inputQueue.Clear();
@@ -149,12 +150,12 @@ public class Command : MonoBehaviour
         }
         else if (inputQueue.Count >= 2)
         {
-            if (commandSequence.Contains("¡æA"))
+            if (commandSequence.Contains("ï¿½ï¿½A"))
             {
                 Debug.Log("breaking_the_collarbone");
                 inputQueue.Clear();
             }
-            else if (commandSequence.Contains("¡æC"))
+            else if (commandSequence.Contains("ï¿½ï¿½C"))
             {
                 Debug.Log("pit_of_the_stomach");
                 inputQueue.Clear();
