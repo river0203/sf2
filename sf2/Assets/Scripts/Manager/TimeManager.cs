@@ -24,8 +24,7 @@ public class TimeManager : MonoBehaviour
         CurrentTime = (int)MaxTime;
         first_time = CurrentTime / 10;
         last_time = CurrentTime % 10;
-        Debug.Log(first_time);
-        Debug.Log(last_time);
+    
 
         check_timeOut();
     }    

@@ -11,7 +11,10 @@ public class Command : MonoBehaviour
     void Start()
     {
         Skill_set = GetComponent<PlayerControll>().state;
+        anim=GetComponent<Animator>();
     }
+
+    Animator anim;
 
     void Update()
     {
@@ -54,6 +57,7 @@ public class Command : MonoBehaviour
             string input = "2";
             CheckQueue(input);
         }
+        
     }
     private string GetValidCommandKey(string input)
     {
@@ -103,6 +107,7 @@ public class Command : MonoBehaviour
                 Debug.Log("middle_Adogen");
                 inputQueue.Clear();
             }
+    
             else if (commandSequence.Contains("26C"))
             {
                 Skill_set = PlayerControll.status.strong_adogen;
