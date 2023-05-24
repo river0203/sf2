@@ -79,8 +79,9 @@ public class PlayerControll : MonoBehaviour
     public static bool isIdle;
     public static bool isSitDown;
     
-    
     public status state = status.None;
+
+    BoxCollider2D boxCollider2D;
 
     Rigidbody2D rigid;
     Animator anim;
@@ -89,9 +90,21 @@ public class PlayerControll : MonoBehaviour
     {
         rigid = GetComponent<Rigidbody2D>();
         anim=GetComponent<Animator>();
+        boxCollider2D = GetComponent<BoxCollider2D>();
     }
     private void Update() 
     {
+        if(isJump || isIdle)
+        {
+            boxCollider2D.offset = new Vector2 (0, 0);
+            boxCollider2D.size = new Vector2(0.34f, 0.78f);  
+        }
+        else if(isSitDown)
+        {
+            boxCollider2D.offset = new Vector2(0, -0.12f);
+            boxCollider2D.size = new Vector2(0.43f, 0.56f);
+        }
+
         if(isJump == false && isSitDown == false) 
         {
             isIdle = true;
@@ -110,8 +123,6 @@ public class PlayerControll : MonoBehaviour
             isIdle = false;
             isSitDown = false;
             rigid.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
-
-           
         }
         transform.position = new Vector2(transform.position.x + moveX, transform.position.y);
 
@@ -212,7 +223,6 @@ public class PlayerControll : MonoBehaviour
         {
             anim.Play("RYU Idle");
         }
-        
     }
 
     private void player_guard()
