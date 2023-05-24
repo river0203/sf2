@@ -6,12 +6,14 @@ using System;
 //가드, 스턴 , -hp값 추가, 일반 공격 특수 공격 구분
 public class PlayerState : MonoBehaviour
 {
+    BoxCollider2D boxCollider;
     public static bool HpType;
     private static float i_hp = 170.0f;
     public PlayerControll.status state;
     void Start()
     {
         state = GetComponent<PlayerControll>().state;
+        boxCollider = GetComponent<BoxCollider2D>();
     }
     private void Update() 
     {
