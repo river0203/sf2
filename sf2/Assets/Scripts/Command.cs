@@ -57,19 +57,19 @@ public class Command : MonoBehaviour
     }
     private string GetValidCommandKey(string input)
     {
-        if (input == "a")
+        if (input == "u")
         {
             return "A";
         }
-        else if (input == "b")
+        else if (input == "i")
         {
             return "B";
         }
-        else if (input == "c")
+        else if (input == "j")
         {
             return "C";
         }
-        else if (input == "d")
+        else if (input == "k")
         {
             return "D";
         }
