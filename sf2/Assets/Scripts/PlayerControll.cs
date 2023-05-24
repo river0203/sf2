@@ -126,7 +126,7 @@ public class PlayerControll : MonoBehaviour
         }
     }
 
-    /*private void player_Nmove()
+    private void player_Nmove()
     {
         // if bool 값을 time에서 불러옴
         if (TimeManager.TimeType == false)
@@ -140,7 +140,7 @@ public class PlayerControll : MonoBehaviour
             maxSpeed = 0.0f;
             Debug.Log("player stop");
         }
-    }*/
+    }
     void Set_Status_None()
     {
         state= status.None;
