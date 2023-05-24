@@ -47,6 +47,11 @@ public class PlayerControll : MonoBehaviour
         middle_addaddaddugen = 28, //중용권선풍각
         
     }
+
+    public Key [] A = {Key.A};
+    public Key [] B = {Key.B};
+    public Key [] C = {Key.C};
+    public Key [] D = {Key.D};
     public Key [] Move = {Key.b, Key.none, Key.db, Key.d, Key.fd, Key.f, Key.ub, Key.u, Key.uf};
     public Key [] _isSitting = {Key.d};
     public Key [] Jump = {Key.u};
