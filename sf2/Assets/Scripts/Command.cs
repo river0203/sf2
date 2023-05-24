@@ -6,6 +6,7 @@ public class Command : MonoBehaviour
 {
     float CommandTime = 1f;
     private Queue<string> inputQueue = new Queue<string>();
+    PlayerControll.status Skill_set;
     void Start()
     {
         
@@ -83,11 +84,13 @@ public class Command : MonoBehaviour
         {
             if (commandSequence.Contains("2626C"))
             {
+                Skill_set = PlayerControll.status.sinkuadogen;
                 Debug.Log("Sinkuadogen");
                 inputQueue.Clear();
             }
             else if (commandSequence.Contains("2626A"))
             {
+                Skill_set = PlayerControll.status.weak_sinkuadogen;
                 Debug.Log("Weak_Sinkuadogen");
                 inputQueue.Clear();
             }
@@ -100,11 +103,13 @@ public class Command : MonoBehaviour
         {
             if (commandSequence.Contains("646A"))
             {
+                Skill_set = PlayerControll.status.weak_oryugen;
                 Debug.Log("Weak_Oryugen");
                 inputQueue.Clear();
             }
             else if (commandSequence.Contains("646C"))
             {
+                Skill_set = PlayerControll.status.oryugen;
                 Debug.Log("Oryugen");
                 inputQueue.Clear();
             }
@@ -114,32 +119,26 @@ public class Command : MonoBehaviour
 
             if (commandSequence.Contains("26A"))
             {
+                Skill_set = PlayerControll.status.middleadogen;
                 Debug.Log("middle_Adogen");
                 inputQueue.Clear();
             }
             else if (commandSequence.Contains("26C"))
             {
+                Skill_set = PlayerControll.status.strongadogen;
                 Debug.Log("strong_Adogen");
                 inputQueue.Clear();
             }
             else if (commandSequence.Contains("24D"))
             {
+                Skill_set = PlayerControll.status.strongaddaddaddugen;
                 Debug.Log("strong_Adogen");
                 inputQueue.Clear();
             }
             else if (commandSequence.Contains("24B"))
             {
+                Skill_set = PlayerControll.status.middleaddaddaddugen;
                 Debug.Log("strong_Adogen");
-                inputQueue.Clear();
-            }
-            else if (commandSequence.Contains("646C"))
-            {
-                Debug.Log("Oryugen");
-                inputQueue.Clear();
-            }
-            else if (commandSequence.Contains("646A"))
-            {
-                Debug.Log("Weak_Oryugen");
                 inputQueue.Clear();
             }
             else
@@ -151,11 +150,13 @@ public class Command : MonoBehaviour
         {
             if (commandSequence.Contains("6A"))
             {
+                Skill_set = PlayerControll.status.breakingthecollarbone;
                 Debug.Log("breaking_the_collarbone");
                 inputQueue.Clear();
             }
             else if (commandSequence.Contains("6C"))
             {
+                Skill_set = PlayerControll.status.pitofthestomach;
                 Debug.Log("pit_of_the_stomach");
                 inputQueue.Clear();
             }
