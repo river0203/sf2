@@ -157,6 +157,10 @@ public class PlayerControll : MonoBehaviour
         {
             anim.Play("RYU Sit");
         }
+        if(state==status.None)
+        {
+            anim.Play("RYU Idle");
+        }
     }
 
     private void player_guard()

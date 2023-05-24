@@ -10,7 +10,7 @@ public class First_Scene_Input : MonoBehaviour
 
         if(Input.GetKey(KeyCode.Space))
         {
-             SceneManager.LoadScene("Character Select");
+             SceneManager.LoadScene("Character_Select");
         }
     
     }
