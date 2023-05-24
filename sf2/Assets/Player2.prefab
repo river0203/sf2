@@ -404,6 +404,12 @@ GameObject:
   - component: {fileID: 2805581596024667768}
   - component: {fileID: 2805581596024667771}
   - component: {fileID: 713681275160671589}
+  - component: {fileID: 7997106517617826598}
+  - component: {fileID: -6304382581364669748}
+  - component: {fileID: -7491420325573802872}
+  - component: {fileID: -5516962045939412493}
+  - component: {fileID: -7513501467477887423}
+  - component: {fileID: 2048789684538286491}
   m_Layer: 0
   m_Name: Player2
   m_TagString: Untagged
@@ -535,6 +541,126 @@ MonoBehaviour:
   Adogen: {fileID: 1646578211166315365, guid: eefdc1953f3548949af9cd041818faad, type: 3}
   Speed: 0
   JumpPower: 0
+--- !u!61 &7997106517617826598
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2805581596024667751}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.41, y: 0.55}
+    newSize: {x: 0.34, y: 0.78}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.41, y: 0.55}
+  m_EdgeRadius: 0
+--- !u!50 &-6304382581364669748
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2805581596024667751}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &-7491420325573802872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2805581596024667751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc96e1a5e07244598bd58c0f39383a1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  A: 09000000
+  B: 0a000000
+  C: 0b000000
+  D: 0c000000
+  Move: 040000000000000001000000020000000300000005000000060000000700000008000000
+  _isSitting: 02000000
+  Jump: 07000000
+  strongadogen: 0200000003000000050000000b000000
+  middleadogen: 02000000030000000500000009000000
+  strongaddaddaddugen: 0200000001000000040000000c000000
+  middleaddaddaddugen: 0200000001000000040000000a000000
+  strongpiggybacking: 040000000b000000
+  middlepiggybacking: 0400000009000000
+  strongbackandflipping: 040000000c000000
+  middlebackandflipping: 040000000a000000
+  breakingthecollarbone: 0500000009000000
+  pitofthestomach: 050000000b000000
+  oryugen: 0500000002000000030000000b000000
+  weak_oryugen: 05000000020000000300000009000000
+  sinkuadogen: 0200000003000000050000000200000003000000050000000b000000
+  weak_sinkuadogen: 02000000030000000500000002000000030000000500000009000000
+  maxSpeed: 5
+  JumpForce: 2
+  state: 11
+--- !u!114 &-5516962045939412493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2805581596024667751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6841735f0509b4e1db55b8b867cfed19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: 0
+--- !u!114 &-7513501467477887423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2805581596024667751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f4081e3ae9614818a292ca2bc81f5dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2048789684538286491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2805581596024667751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a97fe7feb4c1f54699cf74260be9fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2995303671029975834
 GameObject:
   m_ObjectHideFlags: 0
