@@ -94,13 +94,10 @@ public class PlayerControll : MonoBehaviour
     {
         moveX = Input.GetAxis("Horizontal") * maxSpeed * Time.deltaTime;
         if (Input.GetKeyDown(KeyCode.W) && isJump == false)
-        {
-<<<<<<< HEAD
+        { 
             moveUp += (JumpForce * Time.deltaTime);
-=======
             isJump = true;
             rigid.AddForce(new Vector2(0f, JumpPower), ForceMode2D.Impulse);
->>>>>>> a607ee16a9db410532f4fc9afe8a942f31dcef90
         }
         //if(Input.GetKey(KeyCode.W))
         //{
