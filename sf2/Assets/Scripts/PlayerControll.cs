@@ -87,10 +87,10 @@ public class PlayerControll : MonoBehaviour
         }
         transform.position = new Vector2(transform.position.x + moveX, transform.position.y + moveUp);
 
-        if(Input.GetKeyDown(Move[(int)Key.b]))
-        {
-            state  = status.Move;
-        }
+        //if(Input.GetKeyDown(Move[(int)Key.b]))
+        //{
+            //state  = status.Move;
+        //}
     }
 
     private void player_Nmove()
@@ -119,7 +119,6 @@ public class PlayerControll : MonoBehaviour
     { 
         if(Input.GetKey(KeyCode.A))
         {
-            if(key == SystemState._isSitting)
                 guardType = true;
         }
 
