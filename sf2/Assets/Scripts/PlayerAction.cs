@@ -49,29 +49,43 @@ public class PlayerAction : MonoBehaviour
     void Update()
     {
         IdleAction();
+        JumpAction();
+        SitDownAction();
     }
     void IdleAction()
     {
-        if(Command.Skill_set == PlayerControll.status.strong_addaddaddugen)
-        {
-            strong_addaddaddugen.SetActive(true);
+        if (PlayerControll.isIdle == true)
+        {   
+            //Ä¿¸Çµå
+            if (Command.Skill_set == PlayerControll.status.strong_addaddaddugen)
+            {
+                strong_addaddaddugen.SetActive(true);
+            }
+            else if (Command.Skill_set == PlayerControll.status.middle_addaddaddugen)
+            {
+                middle_addaddaddugen.SetActive(true);
+            }
+            else if (Command.Skill_set == PlayerControll.status.breaking_the_collarbone)
+            {
+                breaking_the_collarbone.SetActive(true);
+            }
+            else if (Command.Skill_set == PlayerControll.status.pit_of_the_stomach)
+            {
+                pit_of_the_stomach.SetActive(true);
+            }
+            else if (Command.Skill_set == PlayerControll.status.oryugen)
+            {
+                oryugen.SetActive(true);
+            }
         }
-        else if (Command.Skill_set == PlayerControll.status.middle_addaddaddugen)
-        {
-            middle_addaddaddugen.SetActive(true);
-        }
-        else if (Command.Skill_set == PlayerControll.status.breaking_the_collarbone)
-        {
-            breaking_the_collarbone.SetActive(true);
-        }
-        else if (Command.Skill_set == PlayerControll.status.pit_of_the_stomach)
-        {
-            pit_of_the_stomach.SetActive(true);
-        }
-        else if (Command.Skill_set == PlayerControll.status.oryugen)
-        {
-            oryugen.SetActive(true);
-        }
+    }
+    void JumpAction()
+    {
+
+    }
+    void SitDownAction()
+    {
+
     }
 
     IEnumerator CreateAdogen()
