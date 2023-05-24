@@ -77,6 +77,9 @@ public class PlayerAction : MonoBehaviour
             {
                 oryugen.SetActive(true);
             }
+            else if(Input.GetKeyDown(KeyCode.U))
+            { 
+            }
         }
     }
     void JumpAction()
