@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Command : MonoBehaviour
 {
+    float CommandTime = 1f;
     private Queue<string> inputQueue = new Queue<string>();
     void Start()
     {
@@ -12,6 +13,19 @@ public class Command : MonoBehaviour
 
     void Update()
     {
+        CommandTime -= Time.deltaTime;
+
+        if(CommandTime <= 0)
+        {
+            inputQueue.Dequeue();
+        }
+
+        if(Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.B) || Input.GetKeyDown(KeyCode.C) || Input.GetKeyDown(KeyCode.D)
+        || Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            CommandTime = 1f;
+        }
+
         if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.B) || Input.GetKeyDown(KeyCode.C) || Input.GetKeyDown(KeyCode.D))
         {
             string input = GetValidCommandKey(Input.inputString);
