@@ -133,6 +133,7 @@ public class PlayerControll : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.W))
         {
             state = status._isJumping;
+            
         }
         if(Input.GetKey(KeyCode.S))
         {
@@ -157,6 +158,10 @@ public class PlayerControll : MonoBehaviour
         if(state==status._isSitting)
         {
             anim.Play("RYU Sit");
+        }
+        if(state==status.None)
+        {
+            anim.Play("RYU Idle");
         }
     }
 
