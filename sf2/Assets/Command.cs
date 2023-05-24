@@ -41,19 +41,19 @@ public class Command : MonoBehaviour
     }
     private string GetValidCommandKey(string input)
     {
-        if (input == "u")
+        if (input == "a")
         {
             return "A";
         }
-        else if (input == "j")
+        else if (input == "b")
         {
             return "B";
         }
-        else if (input == "i")
+        else if (input == "c")
         {
             return "C";
         }
-        else if (input == "k")
+        else if (input == "d")
         {
             return "D";
         }
@@ -64,13 +64,58 @@ public class Command : MonoBehaviour
     }
     private void CheckCommand()
     {
+        //if (inputQueue.Count >= 2)
+        //{
+        //    string commandsequence = string.Join("", inputQueue.ToArray());
+
+        //    if (commandsequence.Contains("°Êa"))
+        //    {
+        //        Debug.Log("breaking_the_collarbone");
+        //        inputQueue.Clear();
+        //    }
+        //    else if (commandsequence.Contains("°Êc"))
+        //    {
+        //        Debug.Log("pit_of_the_stomach");
+        //        inputQueue.Clear();
+        //    }
+        //    else
+        //    {
+        //        inputQueue.Dequeue();
+        //    }
+        //}
+
         if (inputQueue.Count >= 3)
         {
             string commandSequence = string.Join("", inputQueue.ToArray());
-
+            
             if (commandSequence.Contains("°È°ÊA"))
             {
-                Debug.Log("Adogen");
+                Debug.Log("middle_Adogen");
+                inputQueue.Clear();
+            }
+            if (commandSequence.Contains("°È°ÊC"))
+            {
+                Debug.Log("strong_Adogen");
+                inputQueue.Clear();
+            }
+            if (commandSequence.Contains("°È°ÁD"))
+            {
+                Debug.Log("strong_Adogen");
+                inputQueue.Clear();
+            }
+            if (commandSequence.Contains("°È°ÁB"))
+            {
+                Debug.Log("strong_Adogen");
+                inputQueue.Clear();
+            }
+            if (commandSequence.Contains("°Ê°Á°ÊC"))
+            {
+                Debug.Log("Oryugen");
+                inputQueue.Clear();
+            }
+            if (commandSequence.Contains("°Ê°Á°ÊA"))
+            {
+                Debug.Log("Weak_Oryugen");
                 inputQueue.Clear();
             }
             else
@@ -78,6 +123,41 @@ public class Command : MonoBehaviour
                 inputQueue.Dequeue();
             }
         }
+
+        //else if (inputQueue.Count >= 4)
+        //{
+        //    string commandSequence = string.Join("", inputQueue.ToArray());
+        //    if (commandSequence.Contains("°Ê°Á°ÊA"))
+        //    {
+        //        Debug.Log("Weak_Oryugen");
+        //        inputQueue.Clear();
+        //    }
+        //    if (commandSequence.Contains("°Ê°Á°ÊC"))
+        //    {
+        //        Debug.Log("Oryugen");
+        //        inputQueue.Clear();
+        //    }
+        //}
+
+        //else if (inputQueue.Count >= 5)
+        //{
+        //    string commandSequence = string.Join("", inputQueue.ToArray());
+
+        //    if (commandSequence.Contains("°È°Ê°È°ÊC"))
+        //    {
+        //        Debug.Log("Sinkuadogen");
+        //        inputQueue.Clear();
+        //    }
+        //    else if (commandSequence.Contains("°È°Ê°È°ÊA"))
+        //    {
+        //        Debug.Log("Weak_Sinkuadogen");
+        //        inputQueue.Clear();
+        //    }
+        //    else
+        //    {
+        //        inputQueue.Dequeue();
+        //    }
+        //}
     }
     void CheckQueue(string input)
     {
