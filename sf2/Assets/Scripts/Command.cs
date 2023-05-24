@@ -6,7 +6,7 @@ public class Command : MonoBehaviour
 {
     float CommandTime = 1f;
     private Queue<string> inputQueue = new Queue<string>();
-    PlayerControll.status Skill_set;
+    public PlayerControll.status Skill_set;
     void Start()
     {
         
