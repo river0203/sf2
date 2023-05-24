@@ -8,39 +8,33 @@ public class PlayerAction : MonoBehaviour
 {
     Rigidbody2D rigid;
 
-    [SerializeField]
     [Tooltip("HitBox")]
-    GameObject strong_adogen;
-    GameObject middle_adogen;
-    GameObject breaking_the_collarbone;
-    GameObject pit_of_the_stomach;
-    GameObject oryugen;
-    GameObject strong_addaddaddugen;
-    GameObject middle_addaddaddugen;
-    GameObject DownKick;
-    GameObject SitRightpunch;
-    GameObject SitLeftPunch;
-    GameObject LeftKick;
-    GameObject LeftPunch;
-    GameObject SitRightKick;
-    GameObject LeftUpperCut;
-    GameObject RightKneeKick;
-    GameObject RightPunch;
-    GameObject SitLeftKick;
+    [SerializeField]
+    public GameObject breaking_the_collarbone;
+    public GameObject pit_of_the_stomach;
+    public GameObject oryugen;
+    public GameObject strong_addaddaddugen;
+    public GameObject middle_addaddaddugen;
+    public GameObject DownKick;
+    public GameObject SitRightpunch;
+    public GameObject SitLeftPunch;
+    public GameObject LeftKick;
+    public GameObject LeftPunch;
+    public GameObject SitRightKick;
+    public GameObject LeftUpperCut;
+    public GameObject RightKneeKick;
+    public GameObject RightPunch;
+    public GameObject SitLeftKick;
 
 
-    GameObject Idle_Jump_HitBox;
-    GameObject SitDown_HitBox;
+    public GameObject Idle_Jump_HitBox;
+    public GameObject SitDown_HitBox;
     
-    GameObject Adogen;
+    public GameObject Adogen;
 
     [SerializeField]
     public float Speed;
     public float JumpPower;
-
-    bool isIdle;
-    bool isJump;
-    bool isSitDown;
     void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
@@ -49,7 +43,6 @@ public class PlayerAction : MonoBehaviour
     void Update()
     {
         IdleAction();
-        JumpAction();
         SitDownAction();
     }
     void IdleAction()
@@ -60,6 +53,10 @@ public class PlayerAction : MonoBehaviour
             if (Command.Skill_set == PlayerControll.status.strong_addaddaddugen)
             {
                 strong_addaddaddugen.SetActive(true);
+            }
+            else if(Command.Skill_set == PlayerControll.status.strong_adogen || Command.Skill_set == PlayerControll.status.middle_adogen)
+            {
+                StartCoroutine(CreateAdogen());
             }
             else if (Command.Skill_set == PlayerControll.status.middle_addaddaddugen)
             {
@@ -79,16 +76,40 @@ public class PlayerAction : MonoBehaviour
             }
             else if(Input.GetKeyDown(KeyCode.U))
             { 
+                LeftPunch.SetActive(true);
+            }
+            else if (Input.GetKeyDown(KeyCode.I))
+            {
+                RightPunch.SetActive(true);
+            }
+            else if (Input.GetKeyDown(KeyCode.J))
+            {
+                LeftKick.SetActive(true);
+            }
+            else if (Input.GetKeyDown(KeyCode.K))
+            {
+                RightKneeKick.SetActive(true);
             }
         }
     }
-    void JumpAction()
-    {
-
-    }
     void SitDownAction()
     {
-
+        if (Input.GetKeyDown(KeyCode.U))
+        {
+            LeftUpperCut.SetActive(true);
+        }
+        else if (Input.GetKeyDown(KeyCode.I))
+        {
+            SitRightpunch.SetActive(true);
+        }
+        else if (Input.GetKeyDown(KeyCode.J))
+        {
+            SitLeftKick.SetActive(true);
+        }
+        else if (Input.GetKeyDown(KeyCode.K))
+        {
+            SitRightKick.SetActive(true);
+        }
     }
 
     IEnumerator CreateAdogen()
