@@ -68,9 +68,17 @@ public class PlayerControll : MonoBehaviour
     float maxSpeed = 5f;
     float moveX, moveUp;
     bool Player_guardType = false;
-    
-    status state = status.None;
+    float JumpPower;
 
+    bool isJump;    
+    public status state = status.None;
+
+    Rigidbody2D rigid;
+
+    private void Start()
+    {
+        rigid = GetComponent<Rigidbody2D>();
+    }
     private void Update() 
     {
         player_move();
@@ -81,13 +89,18 @@ public class PlayerControll : MonoBehaviour
     private void player_move() //다시
     {
         moveX = Input.GetAxis("Horizontal") * maxSpeed * Time.deltaTime;
-        if(Input.GetKey(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.W) && isJump == false)
         {
-            moveUp += (maxSpeed * Time.deltaTime);
+            isJump = true;
+            rigid.AddForce(new Vector2(0f, JumpPower), ForceMode2D.Impulse);
         }
+        //if(Input.GetKey(KeyCode.W))
+        //{
+        //    moveUp += (maxSpeed * Time.deltaTime);
+        //}
         transform.position = new Vector2(transform.position.x + moveX, transform.position.y + moveUp);
 
-        if(Input.GetKeyDown(Move[(int)Key.b]))
+        //if(Input.GetKeyDown(Move[(int)Key.b]))
         {
             state  = status.Move;
         }
@@ -119,12 +132,19 @@ public class PlayerControll : MonoBehaviour
     { 
         if(Input.GetKey(KeyCode.A))
         {
-            if(key == SystemState._isSitting)
+            //if(key == SystemState._isSitting)
                 guardType = true;
         }
 
         return guardType;
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
+        {
+            isJump = false;
+        }
+    }
 }
 
