@@ -5,17 +5,6 @@ using System;
 
 //player에 필요한 요소 관리, 통로 같은 역할
 public class PlayerControll : MonoBehaviour
-{ /*static float offensePower = 10;
-    public float get_offensePower {get {return offensePower;}}*/
-
-    Animator animator;
-    [SerializeField]
-    float maxSpeed = 5f;
-    float moveX, moveY;
-    private bool isMoving;
-    void Start()
-    {
-        animator=GetComponent<Animator>();
 {
     public enum Key
     {
@@ -83,85 +72,67 @@ public class PlayerControll : MonoBehaviour
     float JumpForce = 2f;
     float moveX, moveUp;
     bool Player_guardType = false;
-    float JumpPower;
-
-    bool isJump;    
+    
+    public float JumpPower;
+    public bool isJump;
+        
     public status state = status.None;
 
+    Animator anim;
     Rigidbody2D rigid;
 
     private void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
+        anim=GetComponent<Animator>();
     }
     private void Update() 
     {
         player_move();
         player_Nmove();
         player_attack();
-        player_guard();
-    }private void player_move() //다시
-    {
-        moveX = Input.GetAxis("Horizontal") * maxSpeed * Time.deltaTime;
-        moveY = Input.GetAxis("Vertical") * maxSpeed * 2 *Time.deltaTime;
-
-        if(moveX>0)
-        {
-            animator.Play("RYU Walk");
-           
-        }
-        if(moveX==0)
-        {
-            animator.Play("RYU Idle");
-        }
-        if(moveX<0)
-        {
-            animator.Play("RYU Walk");
-        }
-        if(moveY<0)
-        {
-            animator.Play("RYU Sit");
-        }
-        if(Input.GetKey(KeyCode.W))
-        {
-            animator.Play("RYU Jump");
-        }
-        if(Input.GetKey(KeyCode.U))
-        {
-            animator.Play("RYU LeftPunch");
-        }
-        
-       
-
-        transform.position = new Vector2(transform.position.x + moveX, transform.position.y + moveY);
-    }
-
-
-    private void player_Nmove()
-    {
-        // if bool 값을 time에서 불러옴
-        if (TimeManager.TimeType == false)
-        {
-            maxSpeed = 0.0f; //다음 라운드에서는 true로 전환되어 움직일 수 있는 코드 필요
-            Debug.Log("player stop");
-        }
-        /*else if(PlayerState.player_hp(PlayerState.HpType) == false)
-=======
         player_guard(Player_guardType);
     }
     private void player_move() //다시
     {
+        if(Input.GetKeyDown(KeyCode.S))
+        {
+            anim.SetBool("isSitting", true);
+        }
+        if(Input.GetKeyUp(KeyCode.S))
+        {
+            anim.SetBool("isSitting", false);
+        }
+        if(moveX>0)
+        {
+            anim.SetBool("isWalking", true);
+        }
+        if(moveX<0)
+        {
+            anim.SetBool("isWalking", true);
+        }
+        if(moveX==0)
+        {
+            anim.SetBool("isWalking", false);
+        }
         moveX = Input.GetAxis("Horizontal") * maxSpeed * Time.deltaTime;
         if (Input.GetKeyDown(KeyCode.W) && isJump == false)
         { 
-            moveUp += (JumpForce * Time.deltaTime); isJump = true;
+            //moveUp += (JumpForce * Time.deltaTime);
+            isJump = true;
             rigid.AddForce(new Vector2(0f, JumpPower), ForceMode2D.Impulse);
-            }
+            anim.SetBool("isJumping", true);
+        }
+        if(isJump==false)
+        {
+            isJump=false;
+            anim.SetBool("isJumping", false);
+        }
         //if(Input.GetKey(KeyCode.W))
         //{
         //    moveUp += (maxSpeed * Time.deltaTime);
         //}
-        transform.position = new Vector2(transform.position.x + moveX, transform.position.y + moveUp);
+        transform.position = new Vector2(transform.position.x + moveX, transform.position.y);
 
         //if(Input.GetKeyDown(Move[(int)Key.b]))
         {
@@ -172,31 +143,20 @@ public class PlayerControll : MonoBehaviour
     private void player_Nmove()
     {
         // if bool 값을 time에서 불러옴
-        /*if (TimeManager.TimeType == false)
+        if (TimeManager.TimeType == false)
         {
             maxSpeed = 0.0f; //다음 라운드에서는 true로 전환되어 움직일 수 있는 코드 필요
             Debug.Log("player stop");//true 가 되면 hp 회복 
         }
 
-        else if(PlayerState.player_hp(PlayerState.HpType) == false)
->>>>>>> Stashed changes
+        /*else if(PlayerState.player_hp(PlayerState.HpType) == false)
         {
             maxSpeed = 0.0f;
             Debug.Log("player stop");
-        }*/
+        } */
     }
 
     private void player_attack()
-<<<<<<< Updated upstream
-    {   //var a = Enum.GetNames(typeof(status))
-    }
-
-    void player_guard()
-    {
-        if(Input.GetKey(KeyCode.A))
-        {
-            //애니메이션 불러오기 
-=======
     {
         //var a = Enum.GetNames(typeof(status))
 
@@ -204,7 +164,7 @@ public class PlayerControll : MonoBehaviour
 
     public bool player_guard(bool guardType)
     { 
-        if(Input.GetKey(KeyCode.A))
+        if(Input.GetKeyDown(KeyCode.A))
         {
             //if(key == SystemState._isSitting)
                 guardType = true;
@@ -218,7 +178,7 @@ public class PlayerControll : MonoBehaviour
         if (collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
         {
             isJump = false;
->>>>>>> Stashed changes
         }
     }
 }
+    
