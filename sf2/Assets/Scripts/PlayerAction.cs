@@ -1,126 +1,148 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
+using UnityEditor.Build;
 using UnityEngine;
 using UnityEngine.Scripting.APIUpdating;
 
-// public class PlayerAction : MonoBehaviour
-// {
-//     Rigidbody2D rigid;
+public class PlayerAction : MonoBehaviour
+{
+    Rigidbody2D rigid;
 
-//     [SerializeField]
-//     GameObject[] AttackHitBox;
-//     GameObject Idle_Jump_HitBox;
-//     GameObject SitDown_HitBox;
-//     GameObject Adogen;
+    [Tooltip("HitBox")]
+    [SerializeField]
+    public GameObject breaking_the_collarbone;
+    public GameObject pit_of_the_stomach;
+    public GameObject oryugen;
+    public GameObject strong_addaddaddugen;
+    public GameObject middle_addaddaddugen;
+    public GameObject DownKick;
+    public GameObject SitRightpunch;
+    public GameObject SitLeftPunch;
+    public GameObject LeftKick;
+    public GameObject LeftPunch;
+    public GameObject SitRightKick;
+    public GameObject LeftUpperCut;
+    public GameObject RightKneeKick;
+    public GameObject RightPunch;
+    public GameObject SitLeftKick;
 
-//     [SerializeField]
-//     public float Speed;
-//     public float JumpPower;
+    public GameObject Idle_Jump_HitBox;
+    public GameObject SitDown_HitBox;
+    
+    public GameObject Adogen;
 
-//     bool isIdle;
-//     bool isJump;
-//     bool isSitDown;
-//     bool isAction;
-//     void Start()
-//     {
-//         rigid = GetComponent<Rigidbody2D>();
-//     }
+    [SerializeField]
+    public float Speed;
+    public float JumpPower;
 
-//     void Update()
-//     {
-//         PlayerPositionState();
-//         Move_Jump_SitDown();
-//         IdleAction();
-//         JumpAction();
-//         SitDownAction();
-//     }
+    bool isAdogen;
+    void Start()
+    {
+        rigid = GetComponent<Rigidbody2D>();
+    }
 
-//     private void OnCollisionEnter2D(Collision2D collision)
-//     {
-//         if (collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
-//         {
-//             isJump = false;
-//         }
-//     }
+    void Update()
+    {
+        IdleAction();
+        SitDownAction();
+    }
+    void IdleAction()
+    {
+        if (PlayerControll.isIdle == true)
+        {   
+            //커맨드
+            if (Command.Skill_set == PlayerControll.status.strong_addaddaddugen)
+            {
+                strong_addaddaddugen.SetActive(true);
+            }
+            if (Command.Skill_set != PlayerControll.status.strong_addaddaddugen)
+            {
+                strong_addaddaddugen.SetActive(false);
+            }
+            else if((Command.Skill_set == PlayerControll.status.strong_adogen) && !isAdogen)
+            {
+                StartCoroutine(CreateAdogen());
+            }
+            /*else if (Command.Skill_set == PlayerControll.status.middle_adogen)
+            {
+                StartCoroutine(CreateAdogen());
+            }*/
+            if (Command.Skill_set == PlayerControll.status.middle_addaddaddugen)
+            {
+                middle_addaddaddugen.SetActive(true);
+            }
+            else if (Command.Skill_set == PlayerControll.status.middle_addaddaddugen)
+            {
+                middle_addaddaddugen.SetActive(false);
+            }
+            if (Command.Skill_set == PlayerControll.status.breaking_the_collarbone)
+            {
+                breaking_the_collarbone.SetActive(true);
+            }
+            else if (Command.Skill_set == PlayerControll.status.breaking_the_collarbone)
+            {
+                breaking_the_collarbone.SetActive(false);
+            }
+            if (Command.Skill_set == PlayerControll.status.pit_of_the_stomach)
+            {
+                pit_of_the_stomach.SetActive(true);
+            }
+            else if (Command.Skill_set == PlayerControll.status.pit_of_the_stomach)
+            {
+                pit_of_the_stomach.SetActive(false);
+            }
+            if (Command.Skill_set == PlayerControll.status.oryugen)
+            {
+                oryugen.SetActive(true);
+            }
+            else if (Command.Skill_set == PlayerControll.status.oryugen)
+            {
+                oryugen.SetActive(false);
+            }
+            if (Input.GetKeyDown(KeyCode.U))
+            {
+                LeftPunch.SetActive(true);
+            }
+            else if (Input.GetKeyDown(KeyCode.I))
+            {
+                RightPunch.SetActive(true);
+            }
+            else if (Input.GetKeyDown(KeyCode.J))
+            {
+                LeftKick.SetActive(true);
+            }
+            else if (Input.GetKeyDown(KeyCode.K))
+            {
+                RightKneeKick.SetActive(true);
+            }
+        }
+    }
+    void SitDownAction()
+    {
+        if (Input.GetKeyDown(KeyCode.U))
+        {
+            LeftUpperCut.SetActive(true);
+        }
+        else if (Input.GetKeyDown(KeyCode.I))
+        {
+            SitRightpunch.SetActive(true);
+        }
+        else if (Input.GetKeyDown(KeyCode.J))
+        {
+            SitLeftKick.SetActive(true);
+        }
+        else if (Input.GetKeyDown(KeyCode.K))
+        {
+            SitRightKick.SetActive(true);
+        }
+    }
 
-//     void PlayerPositionState()
-//     {
-//         if ((isJump || isSitDown) == false)
-//         {
-//             isIdle = true;
-//             Idle_Jump_HitBox.SetActive(true);
-//         }
-//     }
-//     void Move_Jump_SitDown()
-//     {
-//         /*//�¿� �̵�
-//         if (SystemState.status == "b")
-//         {
-//             rigid.velocity = new Vector2(Speed * (-1), 0f);
-//         }
-//         else if (SystemState.status == "f")
-//         {
-//             rigid.velocity = new Vector2(Speed, 0f);
-//         }
-
-//         //����
-//         if ((SystemState.status == "u" || SystemState.status == "ub" || SystemState.status == "uf") && isJump == false)
-//         {
-//             isJump = true;
-//             isIdle = false;
-//             isSitDown = false;
-//             rigid.AddForce(new Vector2(0f, JumpPower), ForceMode2D.Impulse);
-
-//             Idle_Jump_HitBox.SetActive(true);
-//         }
-
-//         //�ɱ�
-//         if (SystemState.status == "d" || SystemState.status == "bd" || SystemState.status == "fd")
-//         {
-//             isSitDown = true;
-//             isIdle = false;
-//             isJump = false;
-//             rigid.velocity = new Vector2(0, 0);
-
-//             SitDown_HitBox.SetActive(true);
-//         }
-//     }
-
-//     void IdleAction()
-//     {
-//         if (isIdle == true)
-//         {
-//             if (SystemState.Key == "A")
-//             {
-//                 StartCoroutine(Active_HitBox());
-//             }
-//             else if (SystemState.status == "adogen")
-//             {
-//                 StartCoroutine(CreateAdogen());
-//             }
-//         }
-//     }
-//     void JumpAction()
-//     {
-//         if (isJump == true) { }
-//     }
-//     void SitDownAction()
-//     {
-//         if (isSitDown == true) { }
-//     }
-
-//     IEnumerator Active_HitBox(GameObject HitBox, float WaitTime)
-//     {
-//         HitBox.SetActive(true);
-//         yield return new WaitForSeconds(WaitTime);
-//         HitBox.SetActive(false);
-//     }
-
-//     IEnumerator CreateAdogen()
-//     {
-//         yield return new WaitForSeconds(1f);
-//         Instantiate(Adogen, new Vector3(rigid.position.x + 1.7f, rigid.position.y + 0.77f, 0), Quaternion.identity);
-//     }
-// }
-// */
+    IEnumerator CreateAdogen()
+    {
+            isAdogen = true;
+            yield return new WaitForSeconds(0.7f);
+            isAdogen = false;
+            Instantiate(Adogen, new Vector3(rigid.position.x + 1.7f, rigid.position.y + 0.77f, 0), Quaternion.identity);
+    }
+}
