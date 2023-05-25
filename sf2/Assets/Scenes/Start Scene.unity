@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 256383532}
   - component: {fileID: 256383531}
   - component: {fileID: 256383530}
+  - component: {fileID: 256383533}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -191,6 +192,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &256383533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256383529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e444465c1d2a4b81bc31fbc69e67a3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1343172048
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,7 +401,6 @@ GameObject:
   - component: {fileID: 1883332363}
   - component: {fileID: 1883332362}
   - component: {fileID: 1883332364}
-  - component: {fileID: 1883332365}
   m_Layer: 5
   m_Name: Press
   m_TagString: Untagged
@@ -472,19 +484,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1883332361}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc7bc5b0caaa54bb48614c21850373f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1883332365
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1883332361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46b0444d16a1e452ba378611b276fd28, type: 3}
+  m_Script: {fileID: 11500000, guid: 3aa81dc4a129c4242b8b900a98129ab0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1887337789
