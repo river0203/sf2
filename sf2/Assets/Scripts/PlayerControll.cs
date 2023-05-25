@@ -48,27 +48,7 @@ public class PlayerControll : MonoBehaviour
         
     }
 
-    public Key [] A = {Key.A};
-    public Key [] B = {Key.B};
-    public Key [] C = {Key.C};
-    public Key [] D = {Key.D};
-    public Key [] Move = {Key.b, Key.none, Key.db, Key.d, Key.fd, Key.f, Key.ub, Key.u, Key.uf};
-    public Key [] _isSitting = {Key.d};
-    public Key [] Jump = {Key.u};
-    public Key [] strongadogen = {Key.d,Key.fd,Key.f,Key.C};
-    public Key [] middleadogen = {Key.d,Key.fd,Key.f,Key.A};
-    public Key [] strongaddaddaddugen = {Key.d,Key.db,Key.b,Key.D};        
-    public Key [] middleaddaddaddugen = {Key.d,Key.db,Key.b,Key.B};
-    public Key [] strongpiggybacking = {Key.b,Key.C};
-    public Key [] middlepiggybacking = {Key.b,Key.A};
-    public Key [] strongbackandflipping = {Key.b,Key.D};
-    public Key [] middlebackandflipping = {Key.b,Key.B};
-    public Key [] breakingthecollarbone = {Key.f,Key.A};
-    public Key [] pitofthestomach = {Key.f,Key.C};
-    public Key [] oryugen = {Key.f,Key.d,Key.fd,Key.C};        
-    public Key [] weak_oryugen = {Key.f,Key.d,Key.fd,Key.A};
-    public Key [] sinkuadogen = {Key.d,Key.fd,Key.f,Key.d,Key.fd,Key.f,Key.C};
-    public Key [] weak_sinkuadogen = {Key.d,Key.fd,Key.f,Key.d,Key.fd,Key.f,Key.A};
+    
 
     [SerializeField]
     float maxSpeed = 5f;
@@ -140,6 +120,7 @@ public class PlayerControll : MonoBehaviour
     void Set_Status_None()
     {
         state = status.None;
+        Debug.Log(state);
     }
 
     private void player_attack()
@@ -156,6 +137,7 @@ public class PlayerControll : MonoBehaviour
             state = status._isSitting;
         }
 
+        
         if(Input.GetKey(KeyCode.D))
         {
             state = status._isMoving;
@@ -185,10 +167,7 @@ public class PlayerControll : MonoBehaviour
         {
             return;
         }
-        if(anim.GetCurrentAnimatorStateInfo(0).IsName("RYU LeftPunch"))
-        {
-            return;
-        }
+        
         if(state==status._isMoving)
         {
             anim.Play("RYU Walk");
