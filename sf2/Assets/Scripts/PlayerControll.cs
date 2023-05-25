@@ -168,17 +168,6 @@ public class PlayerControll : MonoBehaviour
         {
             state=status._isJumping;
         }
-        if(Input.GetKey(KeyCode.U))
-        {
-            state=status.A;
-            
-        }
-
-        if(state==status.A)
-        {
-            anim.Play("RYU LeftPunch");
-        }
-
         
         if(isJump==true)
         {
